@@ -32,8 +32,8 @@
 
 
 <p>
-Mononegavirales-EVE is an  open source virus sequence data resource focussed on endogenous
-mononegaviral elements (EMV).  
+Mononegavirales-EVE is an  open source virus sequence data resource focussed on <strong>endogenous
+mononegaviral elements</strong> (EMVs).
 It has been developed as part of the
 <strong><a href="http://giffordlabcvr.github.io/DIGS-for-EVEs/">DIGS-for-EVEs</a> </strong>project.
 </p>
@@ -48,17 +48,17 @@ specialised for the analysis of virus sequence data.
 </p>
 
 <p>
-We have created a core project - <a href="https://giffordlabcvr.github.io/Mononegavirales-GLUE/">Mononegavirales-GLUE</a> -
-for analysing mononegavirus (family <i>Mononegavirales</i>) sequence data generally,
-and Mononegavirales-EVE is an extension to this project.
+We have created a core project - <a href="https://giffordlabcvr.github.io/Mononegavirales-GLUE/"><strong>Mononegavirales-GLUE</strong></a> -
+for analysing circovirus (family <i>Mononegavirales</i>) sequence data generally,
+and <strong>Mononegavirales-EVE</strong> is an extension to this project.
 </p>
 
 <p>
-This GLUE project contains reference information for the EMVs, set within the broader context of mononegavirus diversity, including:
+This GLUE project contains reference information for the EMVs, including:
 
 <ol>
-<li><a href="https://github.com/giffordlabcvr/Mononegavirales-EVE/tree/master/sources">EMV sequences</a> linked to <a href="https://github.com/giffordlabcvr/Mononegavirales-EVE/blob/master/tabular/ebunve-side-data.tsv">auxiliary data</a>.</li>
-<li><a href="https://github.com/giffordlabcvr/Mononegavirales-EVE/tree/master/alignments">Alignments</a> of EMV and mononegavirus reference sequences arranged hierarchically by clade.</li>
+<li><a href="https://github.com/giffordlabcvr/Mononegavirales-EVE/tree/master/sources">EMV sequences</a> linked to <a href="https://github.com/giffordlabcvr/Mononegavirales-EVE/blob/master/tabular/ecv-side-data.tsv">auxiliary data</a>.</li>
+<li><a href="https://github.com/giffordlabcvr/Mononegavirales-EVE/tree/master/alignments">Alignments</a> of EMV and circovirus reference sequences arranged hierarchically by clade.</li>
 <li><a href="https://github.com/giffordlabcvr/Mononegavirales-EVE/tree/master/alignments/tips">Alignments</a> of EMV lineages (i.e. distinct orthologs and duplicates).</li>
 </ol>
 </p>
@@ -74,7 +74,7 @@ This GLUE project contains reference information for the EMVs, set within the br
 
 <p>
 This project applies a standard nomenclature to EMV loci, following the model 
-described for ERVs in paper cited below, except using the classifier 'EMV' rather 
+described for ERVs in the paper cited below, except using the classifier 'EMV' rather 
 than ERV.
 
                <br>
@@ -82,14 +82,49 @@ than ERV.
                <br>
 
 
+
                  Gifford RJ, Blomberg B, Coffin JM, Fan H, Heidmann T, Mayer J, Stoye J, Tristem M, and WE Johnson
-                 (2018)
-                 <b>Nomenclature for Endogenous Retrovirus (ERV) Loci</b>
- 				 <i>Retrovirology</i> (in press)
+                 <b>(2018)</b>
+                 <strong><a href="https://retrovirology.biomedcentral.com/articles/10.1186/s12977-018-0442-1" target="_blank">Nomenclature for Endogenous Retrovirus (ERV) Loci</a></strong>
+                 <i>Retrovirology</i>
                  <br>
 
 </p>
 
+
+
+
+<h3>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Installation</strong>
+</h3>
+
+
+<p>
+You can install Mononegavirales-EVE on computers running Windows, MacOSX or Linux, as follows: 
+
+<ol>
+<li>Install GLUE, based on the <a href="http://tools.glue.cvr.ac.uk/#/installation">GLUE installation instructions</a>.</li> 
+<li>Clone the <a href="https://github.com/giffordlabcvr/Mononegavirales-GLUE">Mononegavirales-GLUE</a> repository into your `gluetools/projects` directory.</li> 
+<li>Navigate to the `gluetools/projects/Mononegavirales-GLUE` directory on the command line, initiate GLUE, and build the project by issuing the following command in the GLUE shell:</li>
+</ol>
+
+<pre>
+<code>Mode path: /
+GLUE> run file mononegavirales.glue
+</code></pre>
+
+<ol>
+<li>Clone the <a href="https://github.com/giffordlabcvr/Mononegavirales-EVE">Mononegavirales-EVE</a> repository into your `gluetools/projects` directory.</li> 
+<li>Navigate to the `gluetools/projects/Mononegavirales-EVE` directory on the command line, initiate GLUE, and build the EVE project extension by issuing the following command in the GLUE shell:</li>
+</ol>
+
+<pre>
+<code>Mode path: /
+GLUE> run file mononegavirales-eve.glue
+</code></pre>
+
+
+</p>
 
 
 
@@ -102,10 +137,19 @@ than ERV.
 
 
 <p>
-Mononegavirales-EVE is a data repository accompanying the following published articles:
+Data collated in Mononegavirales-EVE has been described in the following published articles:
 
 <br>
 <br>
+
+
+				 Ng M, Ndungo E, Kaczmarek ME, Herbert AS, Binger T, Kuehne AI, Jangra RK, Hawkins JA, Gifford RJ, Biswas R, Demogines A, James RM, Yu M, Brummelkamp TR, Drosten C, Wang LF, Kuhn JH, Müller MA, Dye JM, Sawyer SL, Chandran K.
+				 <b>(2015)</b>      
+				 <br>
+				 <b>Filovirus receptor NPC1 contributes to species-specific patterns of ebolavirus susceptibility in bats.</b>
+                 <br>
+				 <i>Elife.</i> 4. pii: e11785.
+				 <a href="https://elifesciences.org/articles/11785" target="_blank">[view]</a>
 
 
 </p>
@@ -118,6 +162,10 @@ Mononegavirales-EVE is a data repository accompanying the following published ar
 <p>Robert J. Gifford (<a href="mailto:robert.gifford@glasgow.ac.uk">robert.gifford@glasgow.ac.uk</a>)</p>
 
 <p>Josh Singer (<a href="mailto:josh.singer@glasgow.ac.uk">josh.singer@glasgow.ac.uk</a>)</p>
+
+<p>Tristan Dennis</p>
+
+<p>William de Souza</p>
 
 
 
