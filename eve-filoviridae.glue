@@ -1,0 +1,42 @@
+project filoviridae
+  run file glue/efivDeleteModules.glue
+  delete source eve-fasta
+  #delete alignment AL_CONTEXT
+  
+  exit
+
+schema-project filoviridae
+  run file glue/efivDeleteSchemaExtensions.glue
+  exit
+
+schema-project filoviridae
+  run file glue/efivSchemaExtensions.glue
+  exit
+  
+project filoviridae
+
+  run file glue/efivModules.glue
+
+  # Import EFiV sequences and side data 
+  import source sources/bunyavirus-fasta/
+  
+  run script glue/loadEndogenousData1.js
+  run script glue/loadEndogenousData2.js
+  
+
+  # Import metadata for EFiV from tabular
+  module efivSideDataImporter 
+    populate -f tabular/efiv-side-data-all.tsv
+    exit
+
+  # Import alignments
+  run file glue/efivAlignments.glue
+
+  # Import alignment tree
+  #run file glue/efivAlignmentTree.glue
+
+  # Validate
+  validate
+
+  exit
+
