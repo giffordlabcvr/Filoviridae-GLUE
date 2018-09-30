@@ -1,0 +1,7 @@
+myotis-np.fna:
+- E. fustus (end of alignment) is in the alignment but not in the table
+
+
+vp35:
+
+- Mesocricetus_auratus_gi|472278400|gb|KB708193.1|_3324650, Spretus, and castanetus is in the alignment but sequences from the table don't match up
