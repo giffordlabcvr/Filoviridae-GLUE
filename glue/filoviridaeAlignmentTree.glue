@@ -1,0 +1,54 @@
+  ### Constrained alignment tree
+
+  create alignment AL_EBOLAVIRUS_MASTER -r EBOV_MASTER
+  alignment AL_EBOLAVIRUS_MASTER add member --allSequences
+  
+  alignment AL_EBOLAVIRUS_MASTER
+	extract child AL_EBOV    --refName EBOV_MASTER
+	demote member AL_EBOV    --whereClause "sequence.source = 'ncbi-curated-ebov' and sequence.gb_length >= 10000" 
+	#demote member AL_EBOV    --whereClause "sequence.source = 'outbreak-drc2019-ebov-fasta'" 
+	extract child AL_SUDV    --refName SUDV
+	demote member AL_SUDV    --whereClause "sequence.source = 'ncbi-curated-sudv'" 
+	extract child AL_BDBV    --refName BDBV
+	demote member AL_BDBV    --whereClause "sequence.source = 'ncbi-curated-bdbv'" 
+	extract child AL_TAFV    --refName TAFV
+	demote member AL_TAFV    --whereClause "sequence.source = 'ncbi-curated-tafv'" 
+	extract child AL_BOMV    --refName BOMV
+	demote member AL_BOMV    --whereClause "sequence.source = 'ncbi-curated-bomv'" 
+	extract child AL_RESTV   --refName RESTV
+	demote member AL_RESTV   --whereClause "sequence.source = 'ncbi-curated-restv'" 
+    exit
+    
+  ### Derive constrained alignment segments from unconstrained alignments
+
+  #alignment AL_EBOLAVIRUS_MASTER
+  #  derive segments AL_EBOLAVIRUS_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+  #  exit
+ 
+  alignment AL_EBOV
+    derive segments AL_EBOV_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_BDBV
+    derive segments AL_BDBV_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_TAFV
+    derive segments AL_TAFV_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_SUDV
+    derive segments AL_SUDV_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_BOMV
+    derive segments AL_BOMV_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    exit
+
+  ### Compute alignments
+  compute alignment AL_EBOV  -w "sequence.gb_length >= 10000" ebolavirusCompoundAligner 
+  #compute alignment AL_SUDV  -w "sequence.source = 'ncbi-curated-sudv'" ebolavirusCompoundAligner 
+  #compute alignment AL_BDBV  -w "sequence.source = 'ncbi-curated-bdbv'" ebolavirusCompoundAligner 
+  #compute alignment AL_TAFV  -w "sequence.source = 'ncbi-curated-tafv'" ebolavirusCompoundAligner 
+  #compute alignment AL_BOMV  -w "sequence.source = 'ncbi-curated-bomv'" ebolavirusCompoundAligner 
+  #compute alignment AL_RESTV -w "sequence.source = 'ncbi-curated-restv'" ebolavirusCompoundAligner 

@@ -1,0 +1,49 @@
+delete project filoviridae
+
+create project filoviridae "GLUE project for the filoviridae" --minVersion 0.1.50
+
+schema-project filoviridae
+
+  run file glue/filoviridaeSchemaExtensions.glue
+  exit
+
+project filoviridae
+
+  # load project settings
+  run file glue/projectSettings.glue
+
+  # create modules
+  run file glue/filoviridaeModules.glue
+
+  # Import sources 
+  run file glue/filoviridaeSources.glue
+
+  # Import data 
+  #run script glue/loadExogenousData.js
+  module genbankXmlPopulator populate
+
+  # Import metadata for exogenous reference sequences from tabular
+  module filoviridaeSideDataImporter 
+    populate -f tabular/ebola-ncbi-refseqs-side-data.tsv
+    exit
+
+  # Create reference sequences
+  run file glue/filoviridaeReferences.glue
+  
+  # Define genome features
+  run file glue/filoviridaeFeatures.glue
+  
+  # Add feature locations
+  run file glue/filoviridaeExplicitFeatureLocations.glue
+
+  # Import alignments
+  run file glue/filoviridaeAlignments.glue
+
+  # Import alignment tree
+  run file glue/filoviridaeAlignmentTree.glue
+
+
+  # Validate
+  validate
+
+  exit

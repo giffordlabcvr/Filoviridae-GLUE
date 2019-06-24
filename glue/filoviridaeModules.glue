@@ -1,0 +1,11 @@
+create module -f modules/ebolavirusGenbankXmlPopulator.xml genbankXmlPopulator
+create module -f modules/ebolavirusSideDataImporter.xml 
+create module -f modules/featureLocationTextToGlue.xml 
+create module -f modules/ebolavirusKuiken2006CodonLabeler.xml   
+create module -f modules/rootAlignmentImporter.xml 
+create module -f modules/unconstrainedAlignmentImporter.xml 
+create module -f modules/fastaExporter.xml fastaExporter
+create module -f modules/tabularUtilityCsv.xml
+create module -f modules/tabularUtilityTab.xml
+create module -f modules/blastFastaAlignmentImporter.xml
+create module -f modules/ebolavirusCompoundAligner.xml

@@ -1,0 +1,23 @@
+<!-- Filoviridae reference genome sequences from NCBI -->
+<ncbiImporter>
+
+  <giNumberFieldName>gb_gi_number</giNumberFieldName>
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sourceName>ncbi-refseqs</sourceName>
+  <specificPrimaryAccessions>
+
+	<primaryAccession>NC_014373</primaryAccession>
+	<primaryAccession>NC_002549</primaryAccession>
+	<primaryAccession>NC_001608</primaryAccession>
+	<primaryAccession>NC_004161</primaryAccession>
+	<primaryAccession>NC_006432</primaryAccession>
+	<primaryAccession>NC_006432</primaryAccession>
+	<primaryAccession>NC_039345</primaryAccession>
+	<primaryAccession>NC_014372</primaryAccession>
+	<primaryAccession>NC_016144</primaryAccession>
+
+  </specificPrimaryAccessions>  
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+  
+</ncbiImporter>
+

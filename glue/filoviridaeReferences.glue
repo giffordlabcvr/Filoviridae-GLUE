@@ -1,0 +1,15 @@
+  
+  # Ebolavirus
+  create reference EBOV_MASTER      ncbi-refseqs NC_002549
+  create reference SUDV             ncbi-refseqs NC_006432
+  create reference BDBV             ncbi-refseqs NC_014373
+  create reference TAFV             ncbi-refseqs NC_014372
+  create reference RESTV            ncbi-refseqs NC_004161
+  create reference BOMV             ncbi-refseqs NC_039345
+
+  # Cuevavirus
+  create reference LLOV             ncbi-refseqs NC_016144
+
+  # Marburgvirus
+  create reference MARV             ncbi-refseqs NC_001608
+

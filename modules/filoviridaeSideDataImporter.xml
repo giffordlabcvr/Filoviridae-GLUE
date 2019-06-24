@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<textFilePopulator>
+    <columnDelimiterRegex>\t</columnDelimiterRegex>
+    
+    <textFileColumn>
+        <identifier>true</identifier>
+        <header>sequenceID</header>
+        <fieldName>sequenceID</fieldName>
+    </textFileColumn>
+    <textFileColumn>
+        <header>name</header>
+        <fieldName>name</fieldName>
+    </textFileColumn>
+    <textFileColumn>
+        <header>genus</header>
+        <fieldName>genus</fieldName>
+    </textFileColumn>  
+    <skipMissing>true</skipMissing>
+</textFilePopulator>

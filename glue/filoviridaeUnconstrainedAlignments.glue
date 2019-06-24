@@ -1,0 +1,18 @@
+## Leaf node (tip) alignments
+
+# Endogenous borna-like nucleoproteins
+module unconstrainedAlignmentImporter import AL_EBLN1_UNCONSTRAINED -f alignments/tips/borna/NP/EBLN-1.fna
+module unconstrainedAlignmentImporter import AL_EBLN2_UNCONSTRAINED -f alignments/tips/borna/NP/EBLN-2.fna
+module unconstrainedAlignmentImporter import AL_EBLN3_UNCONSTRAINED -f alignments/tips/borna/NP/EBLN-3.fna
+module unconstrainedAlignmentImporter import AL_EBLN4_UNCONSTRAINED -f alignments/tips/borna/NP/EBLN-4.fna
+module unconstrainedAlignmentImporter import AL_EBLN1_Afrotheria_UNCONSTRAINED -f alignments/tips/borna/NP/EBLN-1-Afrotheria.fna
+
+# Endogenous borna-like glycoproteins
+module unconstrainedAlignmentImporter import AL_EBLG1_UNCONSTRAINED -f alignments/tips/borna/M/EBLG-1.fna
+
+#module unconstrainedAlignmentImporter import AL_NYA_L_UNCONSTRAINED  -f alignments/tips/nya/L/L-nyavirus-internal.fna
+#module unconstrainedAlignmentImporter import AL_NYA_NP_UNCONSTRAINED -f alignments/tips/nya/NP/NP-nyavirus-internal.fna
+
+## Internal node-level alignments
+
+module unconstrainedAlignmentImporter import AL_FILO_L_UNCONSTRAINED -f alignments/internal/filo/L/L-filo-exo.fna

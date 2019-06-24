@@ -1,0 +1,281 @@
+  # declare feature locations on the master reference
+  reference EBOV_MASTER
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 18959
+      exit
+
+    add feature-location NP
+    feature-location NP
+      add segment 470 2689
+      exit
+
+    add feature-location VP35
+    feature-location VP35
+      add segment 3129 4151
+      exit
+
+    add feature-location VP40
+    feature-location VP40
+      add segment 4479 5459
+      exit
+
+    add feature-location GP
+    feature-location GP
+      add segment 6039 6923
+      #add segment 6923 8068
+      exit
+
+    add feature-location VP30
+    feature-location VP30
+      add segment 8509 9375
+      exit
+
+    add feature-location VP24
+    feature-location VP24
+      add segment 10345 11100
+      exit
+
+    add feature-location L
+    feature-location L
+      add segment 11581 18219
+      exit
+
+    exit
+    
+
+  # declare feature locations on the Sudan virus reference
+  reference SUDV
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 18875
+      exit
+
+    add feature-location NP
+    feature-location NP
+      add segment 458 2674
+      exit
+
+    add feature-location VP35
+    feature-location VP35
+      add segment 3138 4127
+      exit
+
+    add feature-location VP40
+    feature-location VP40
+      add segment 4454 5434
+      exit
+
+    add feature-location GP
+    feature-location GP
+      add segment 5998 6882
+      #add segment 6882 8027
+     exit
+
+    add feature-location VP30
+    feature-location VP30
+      add segment 8441 9307
+      exit
+
+    add feature-location VP24
+    feature-location VP24
+      add segment 10299 11054
+      exit
+
+    add feature-location L
+    feature-location L
+      add segment 11535 18167
+      exit
+
+    exit
+    
+
+  # declare feature locations on the Bundibugyo virus reference
+  reference BDBV
+
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 18940
+      exit
+
+    add feature-location NP
+    feature-location NP
+      add segment 458 2677
+      exit
+
+    add feature-location VP35
+    feature-location VP35
+      add segment 3108 4133
+      exit
+
+    add feature-location VP40
+    feature-location VP40
+      add segment 4461 5441
+      exit
+
+    add feature-location GP
+    feature-location GP
+      add segment 5998 6882
+      #add segment 6882 8027
+     exit
+
+    add feature-location VP30
+    feature-location VP30
+      add segment 8441 9307
+      exit
+
+    add feature-location VP24
+    feature-location VP24
+      add segment 9826 9837
+      exit
+
+    add feature-location L
+    feature-location L
+      add segment 11535 18167
+      exit
+
+    exit
+    
+    
+   # declare feature locations on the Tai Forest virus reference
+  reference TAFV
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 18935
+      exit
+
+    add feature-location NP
+    feature-location NP
+      add segment 464 2683
+      exit
+
+    add feature-location VP35
+    feature-location VP35
+      add segment 3114 4139
+      exit
+
+    add feature-location VP40
+    feature-location VP40
+      add segment 4467 5447
+      exit
+
+    add feature-location GP
+    feature-location GP
+      add segment 6027 6911 
+      #add segment 6911 8056
+     exit
+
+    add feature-location VP30
+    feature-location VP30
+      add segment 8503 9372
+      exit
+
+    add feature-location VP24
+    feature-location VP24
+      add segment 10339 11094
+      exit
+
+    add feature-location L
+    feature-location L
+      add segment 11566 18198
+      exit
+
+    exit
+ 
+     
+  # declare feature locations on the Reston virus reference
+  reference RESTV
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 18891
+      exit
+
+    add feature-location NP
+    feature-location NP
+      add segment 464 2683
+      exit
+
+    add feature-location VP35
+    feature-location VP35
+      add segment 3155 4144
+      exit
+
+    add feature-location VP40
+    feature-location VP40
+      add segment 4485 5480
+      exit
+
+    add feature-location GP
+    feature-location GP
+     add segment 6042 7145
+     #add segment 6042 6930
+     #add segment 6930 8074
+     exit
+
+    add feature-location VP30
+    feature-location VP30
+      add segment 8490 9353
+      exit
+
+    add feature-location VP24
+    feature-location VP24
+      add segment 10303 11058
+      exit
+
+    add feature-location L
+    feature-location L
+      add segment 11550 18188
+      exit
+
+    exit
+   
+  # declare feature locations on the Bombali virus reference
+  reference BOMV
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 19043
+      exit
+
+    add feature-location NP
+    feature-location NP
+      add segment 464 2683
+      exit
+
+    add feature-location VP35
+    feature-location VP35
+      add segment 3114 4139
+      exit
+
+    add feature-location VP40
+    feature-location VP40
+      add segment 4466 5446
+      exit
+
+    add feature-location GP
+    feature-location GP
+      add segment 6043 6915
+      #add segment 6915 8060
+     exit
+
+    add feature-location VP30
+    feature-location VP30
+      add segment 8484 9383
+      exit
+
+    add feature-location VP24
+    feature-location VP24
+      add segment 10399 11154
+      exit
+
+    add feature-location L
+    feature-location L
+      add segment 11666 18298
+      exit
+
+    exit

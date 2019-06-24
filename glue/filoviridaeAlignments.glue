@@ -1,0 +1,19 @@
+# Import unconstrained pre-built alignments
+
+  module unconstrainedAlignmentImporter 
+
+    #~# Genus-level alignments
+    import AL_EBOLAVIRUS_UNCONSTRAINED -f alignments/ebolavirus-genome.fna
+    exit
+
+  module blastFastaAlignmentImporter
+
+    #~# Species-level alignments 
+    import AL_EBOV_UNCONSTRAINED    -f alignments/ebov-genome.fna
+    import AL_BDBV_UNCONSTRAINED    -f alignments/bdbv-genome.fna
+    import AL_TAFV_UNCONSTRAINED    -f alignments/tafv-genome.fna
+    import AL_BOMV_UNCONSTRAINED    -f alignments/bomv-genome.fna
+    import AL_SUDV_UNCONSTRAINED    -f alignments/sudv-genome.fna
+    import AL_RESTV_UNCONSTRAINED   -f alignments/restv-genome.fna
+    exit
+     

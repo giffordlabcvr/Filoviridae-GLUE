@@ -1,0 +1,58 @@
+  create feature whole_genome "Whole genome"
+  feature whole_genome set metatag INFORMATIONAL true
+
+  create feature NP -p whole_genome "Nucleoprotein"
+  feature NP
+    set field displayName "NP"
+    set metatag OWN_CODON_NUMBERING true
+    set metatag CODES_AMINO_ACIDS true
+    set metatag CODON_LABELER_MODULE ebolavirusKuiken2006CodonLabeler
+    exit
+
+  create feature VP35 -p whole_genome "VP35 RNA-dependent RNA polymerase cofactor"
+  feature VP35 
+    set field displayName "VP35"
+    set metatag OWN_CODON_NUMBERING true
+    set metatag CODES_AMINO_ACIDS true
+    set metatag CODON_LABELER_MODULE ebolavirusKuiken2006CodonLabeler
+    exit
+
+  create feature VP40 -p whole_genome "VP40 matrix protein"
+  feature VP40 
+    set field displayName "VP40"
+    set metatag OWN_CODON_NUMBERING true
+    set metatag CODES_AMINO_ACIDS true
+    set metatag CODON_LABELER_MODULE ebolavirusKuiken2006CodonLabeler
+    exit
+
+  create feature GP -p whole_genome "Glycoprotein"
+  feature GP 
+    set field displayName "GP"
+    set metatag OWN_CODON_NUMBERING true
+    set metatag CODES_AMINO_ACIDS true
+    set metatag CODON_LABELER_MODULE ebolavirusKuiken2006CodonLabeler
+    exit
+
+  create feature VP30 -p whole_genome "VP30"
+  feature VP30 
+    set field displayName "VP30"
+    set metatag OWN_CODON_NUMBERING true
+    set metatag CODES_AMINO_ACIDS true
+    set metatag CODON_LABELER_MODULE ebolavirusKuiken2006CodonLabeler
+    exit
+
+  create feature VP24 -p whole_genome "VP24"
+  feature VP24 
+    set field displayName "VP24"
+    set metatag OWN_CODON_NUMBERING true
+    set metatag CODES_AMINO_ACIDS true
+    set metatag CODON_LABELER_MODULE ebolavirusKuiken2006CodonLabeler
+    exit
+
+  create feature L -p whole_genome "Large protein / RNA polymerase"
+  feature L 
+    set field displayName "L"
+    set metatag OWN_CODON_NUMBERING true
+    set metatag CODES_AMINO_ACIDS true
+    set metatag CODON_LABELER_MODULE ebolavirusKuiken2006CodonLabeler
+    exit

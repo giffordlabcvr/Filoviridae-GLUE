@@ -1,0 +1,24 @@
+table sequence
+  create field gb_primary_accession VARCHAR
+  create field gb_accession_version VARCHAR
+  create field gb_length INTEGER
+  create field host VARCHAR 1000
+  create field name VARCHAR 25
+  create field gb_create_date DATE
+  create field gb_update_date DATE
+  create field collection_year INTEGER 
+  create field collection_month VARCHAR
+  create field collection_month_day INTEGER
+  create field earliest_collection_year INTEGER
+  create field latest_collection_year INTEGER
+  exit
+
+table alignment
+  create field clade_category VARCHAR 20
+  create field phylogeny CLOB
+  exit 
+
+table member_floc_note
+  create field ref_nt_coverage_pct DOUBLE
+  exit
+
