@@ -67,7 +67,7 @@
 				<matchPattern>^.*:(.*)$</matchPattern>
 				<outputTemplate>${g1?trim}</outputTemplate>
 			</propertyPopulator>
-			<isoCountryPropertyPopulator property="m49_country" codeStyle="ALPHA_3">
+			<isoCountryPropertyPopulator property="gb_country" codeStyle="ALPHA_3">
 				<valueConverter>
 					<matchPattern>.*Yugoslavia.*</matchPattern>
 					<outputTemplate>SRB</outputTemplate>

@@ -1,9 +1,21 @@
 table sequence
+  create field gb_gi_number VARCHAR
   create field gb_primary_accession VARCHAR
   create field gb_accession_version VARCHAR
+  create field gb_locus VARCHAR
   create field gb_length INTEGER
+  create field patent_related BOOLEAN
+  create field exclude_from_almt_tree BOOLEAN
+  create field isolate VARCHAR 100
+  create field gb_taxonomy VARCHAR 200
   create field host VARCHAR 1000
   create field name VARCHAR 25
+  create field genus VARCHAR 25
+  create field major_clade VARCHAR 20
+  create field cluster INTEGER
+  create field iso_source VARCHAR 300
+  create field gb_country VARCHAR 200
+  create field gb_place_sampled VARCHAR 500
   create field gb_create_date DATE
   create field gb_update_date DATE
   create field collection_year INTEGER 
@@ -11,6 +23,8 @@ table sequence
   create field collection_month_day INTEGER
   create field earliest_collection_year INTEGER
   create field latest_collection_year INTEGER
+  create field outbreak VARCHAR 100
+  create field gb_pubmed_id VARCHAR
   exit
 
 table alignment
@@ -22,3 +36,22 @@ table member_floc_note
   create field ref_nt_coverage_pct DOUBLE
   exit
 
+
+  # Create schema extension
+  create custom-table endogenous_data
+
+  table endogenous_data
+
+    create field scaffold VARCHAR 50
+    create field start INTEGER
+    create field end INTEGER
+    create field orientation VARCHAR 10
+
+    create field length INTEGER
+    create field integration INTEGER
+    create field fragment INTEGER
+    create field duplicate INTEGER
+
+  exit
+
+  create link sequence endogenous_data

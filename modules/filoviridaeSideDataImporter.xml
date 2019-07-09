@@ -5,15 +5,15 @@
     <textFileColumn>
         <identifier>true</identifier>
         <header>sequenceID</header>
-        <fieldName>sequenceID</fieldName>
+        <property>sequenceID</property>
     </textFileColumn>
     <textFileColumn>
         <header>name</header>
-        <fieldName>name</fieldName>
+        <property>name</property>
     </textFileColumn>
     <textFileColumn>
         <header>genus</header>
-        <fieldName>genus</fieldName>
+        <property>genus</property>
     </textFileColumn>  
     <skipMissing>true</skipMissing>
 </textFilePopulator>

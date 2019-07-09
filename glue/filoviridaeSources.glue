@@ -1,11 +1,6 @@
   # Import NCBI sources 
   import source sources/ncbi-refseqs
-  import source sources/ncbi-curated-bdbv
-  import source sources/ncbi-curated-ebov
-  import source sources/ncbi-curated-sudv
-  import source sources/ncbi-curated-bomv
-  import source sources/ncbi-curated-tafv
-  import source sources/ncbi-curated-restv
 
-  # Import outbreak FASTA sources 
-  import source sources/outbreak-drc2019-ebov-fasta
+  # Import EVE FASTA sources 
+  import source sources/fasta-curated
+
