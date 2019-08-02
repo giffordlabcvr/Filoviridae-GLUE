@@ -233,7 +233,8 @@
       exit
 
     exit
-   
+
+ 
   # declare feature locations on the Bombali virus reference
   reference BOMV
 
@@ -279,3 +280,159 @@
       exit
 
     exit
+
+
+  # declare feature locations on the Marburg reference
+  reference MARV
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 19111
+      exit
+
+    add feature-location NP
+    feature-location NP
+      add segment 104 2191
+      exit
+
+    add feature-location VP35
+    feature-location VP35
+      add segment 2945 3934
+      exit
+
+    add feature-location VP40
+    feature-location VP40
+      add segment 4568 5479
+      exit
+
+    add feature-location GP
+    feature-location GP
+      add segment 5941 7986
+     exit
+
+    add feature-location VP30
+    feature-location VP30
+      add segment 8869 9714
+      exit
+
+    add feature-location VP24
+    feature-location VP24
+      add segment 10207 10968
+      exit
+
+    add feature-location L
+    feature-location L
+      add segment 11481 18476
+      exit
+
+    exit
+
+
+  # declare feature locations on the Mengla reference
+  reference MLAV
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 18300
+      exit
+
+    add feature-location NP
+    feature-location NP
+      add segment 110 2203
+      exit
+
+    add feature-location VP35
+    feature-location VP35
+      add segment 2814 3803
+      exit
+
+    add feature-location VP40
+    feature-location VP40
+      add segment 4597 5511
+      exit
+
+    add feature-location GP
+    feature-location GP
+      add segment 6030 8018
+     exit
+
+    add feature-location VP30
+    feature-location VP30
+      add segment 8515 9396
+      exit
+
+    add feature-location VP24
+    feature-location VP24
+      add segment 9728 10489
+      exit
+
+    add feature-location L
+    feature-location L
+      add segment 11352 18182
+      exit
+
+    exit
+    
+
+  # declare feature locations on the Xilang / Wenling frogfish reference
+  reference XILV
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 17221
+      exit
+
+    add feature-location NP
+    feature-location NP
+      add segment 94 2079
+      exit
+
+    add feature-location GP1
+    feature-location GP1
+      add segment 5116 6396
+     exit
+
+    add feature-location GP2
+    feature-location GP2
+      add segment 6497 7918
+     exit
+
+    add feature-location VP30
+    feature-location VP30
+      add segment 8010 9011
+      exit
+
+    add feature-location L
+    feature-location L
+      add segment 10778 17128
+      exit
+
+    exit
+    
+    
+  # declare feature locations on the Huangjiao / Wenling thamnaconus filovirus
+  reference HUJV
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 14280
+      exit
+
+    add feature-location NP
+    feature-location NP
+      add segment 789 2003
+      exit
+
+    add feature-location GP1
+    feature-location GP1
+      add segment 4353 6233
+     exit
+
+    add feature-location L
+    feature-location L
+      add segment 7759 14199
+      exit
+
+    exit
+    
+    

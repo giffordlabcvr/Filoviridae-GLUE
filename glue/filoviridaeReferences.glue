@@ -13,5 +13,15 @@
   # Marburgvirus
   create reference MARV             ncbi-refseqs NC_001608
 
+  # Dianlovirus
+  create reference MLAV             ncbi-refseqs KX371887
+
+  # Xilang virus / Wenling frogfish filovirus
+  create reference XILV             ncbi-refseqs MG599980
+
+  # Huangjiao virus / Wenling thamnaconus septentrionalis filovirus
+  create reference HUJV             ncbi-refseqs MG599981
+
   # EVEs
+
  
