@@ -1,6 +1,6 @@
   ### Constrained alignment tree
 
-  create alignment AL_EBOLAVIRUS_MASTER -r EBOV_MASTER
+  create alignment AL_EBOLAVIRUS_MASTER -r REF_EBOV_MASTER
   alignment AL_EBOLAVIRUS_MASTER add member --allSequences
   
     

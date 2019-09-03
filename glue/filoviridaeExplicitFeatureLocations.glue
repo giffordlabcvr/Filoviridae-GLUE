@@ -1,5 +1,5 @@
   # declare feature locations on the master reference
-  reference EBOV_MASTER
+  reference REF_EBOV_MASTER
 
     add feature-location whole_genome
     feature-location whole_genome
@@ -46,7 +46,7 @@
     
 
   # declare feature locations on the Sudan virus reference
-  reference SUDV
+  reference REF_SUDV
 
     add feature-location whole_genome
     feature-location whole_genome
@@ -93,7 +93,7 @@
     
 
   # declare feature locations on the Bundibugyo virus reference
-  reference BDBV
+  reference REF_BDBV
 
 
     add feature-location whole_genome
@@ -141,7 +141,7 @@
     
     
    # declare feature locations on the Tai Forest virus reference
-  reference TAFV
+  reference REF_TAFV
 
     add feature-location whole_genome
     feature-location whole_genome
@@ -188,7 +188,7 @@
  
      
   # declare feature locations on the Reston virus reference
-  reference RESTV
+  reference REF_RESTV
 
     add feature-location whole_genome
     feature-location whole_genome
@@ -236,7 +236,7 @@
 
  
   # declare feature locations on the Bombali virus reference
-  reference BOMV
+  reference REF_BOMV
 
     add feature-location whole_genome
     feature-location whole_genome
@@ -283,7 +283,7 @@
 
 
   # declare feature locations on the Marburg reference
-  reference MARV
+  reference REF_MARV
 
     add feature-location whole_genome
     feature-location whole_genome
@@ -329,7 +329,7 @@
 
 
   # declare feature locations on the Mengla reference
-  reference MLAV
+  reference REF_MLAV
 
     add feature-location whole_genome
     feature-location whole_genome
@@ -375,7 +375,7 @@
     
 
   # declare feature locations on the Xilang / Wenling frogfish reference
-  reference XILV
+  reference REF_XILV
 
     add feature-location whole_genome
     feature-location whole_genome
@@ -411,7 +411,7 @@
     
     
   # declare feature locations on the Huangjiao / Wenling thamnaconus filovirus
-  reference HUJV
+  reference REF_HUJV
 
     add feature-location whole_genome
     feature-location whole_genome
