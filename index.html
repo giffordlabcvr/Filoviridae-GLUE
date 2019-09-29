@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127420264-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-127420264-1');
+</script>
+
+
+    <meta charset="UTF-8">
+    <title>Filoviridae-EVE by giffordlabcvr</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+
+
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Filoviridae-EVE</h1>
+      <h2 class="project-tagline">A GLUE project for endogenous filoviral elements.</h2>
+      <a href="https://github.com/giffordlabcvr/Filoviridae-EVE/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/giffordlabcvr/Filoviridae-EVE/tarball/master" class="btn">Download .tar.gz</a>
+      <a href="https://github.com/giffordlabcvr/Filoviridae-EVE" class="btn">View on GitHub</a>
+    </section>
+
+    <section class="main-content">
+
+
+
+
+
+<h3>
+<a id="Filoviridae-glue" class="anchor" href="#Filoviridae-glue" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Description</strong>
+</h3>
+
+
+<p>
+Filoviridae-EVE is an  open source virus sequence data resource focussed on <strong>endogenous
+filoviral elements</strong> (EVEs).
+It has been developed as part of the
+<strong><a href="http://giffordlabcvr.github.io/DIGS-for-EVEs/">DIGS-for-EVEs</a> </strong>project.
+</p>
+
+<p>
+<strong>
+Filoviridae-EVE is based on
+<a href="http://tools.glue.cvr.ac.uk/">GLUE</a>,
+an open source, data-centric bioinformatics environment
+specialised for the analysis of virus sequence data. 
+</strong> 
+</p>
+
+<p>
+We have created a core project - <a href="https://giffordlabcvr.github.io/Filoviridae-GLUE/"><strong>Filoviridae-GLUE</strong></a> -
+for analysing filovirus (family <i>Filoviridae</i>) sequence data generally,
+and <strong>Filoviridae-EVE</strong> is an extension to this project.
+</p>
+
+<p>
+This GLUE project contains reference information for EVEs derived from filoviruses and filovirus-like viruses:
+
+<ol>
+<li><a href="https://github.com/giffordlabcvr/Filoviridae-EVE/tree/master/sources">EVE sequences</a> linked to <a href="https://github.com/giffordlabcvr/Filoviridae-EVE/blob/master/tabular/efiv-side-data.tsv">auxiliary data</a>.</li>
+<li><a href="https://github.com/giffordlabcvr/Filoviridae-EVE/tree/master/alignments">Alignments</a> of EVE and filovirus reference sequences arranged hierarchically by clade.</li>
+</ol>
+</p>
+
+
+<h3>
+<a id="standard-nomenclature" class="anchor" href="#"standard-nomenclature" aria-hidden="true">
+<span aria-hidden="true" class="octicon octicon-link"></span></a>
+<strong>Standard nomenclature for EVE loci</strong>
+</h3>
+
+
+
+<p>
+This project applies a standard nomenclature to EVE loci, following the model 
+described for ERVs in the paper cited below, except using the classifier 'EVE' rather 
+than ERV.
+
+<br>
+<br>
+
+Gifford RJ, Blomberg B, Coffin JM, Fan H, Heidmann T, Mayer J, Stoye J, Tristem M, and WE Johnson
+<b>(2018)</b>
+<strong><a href="https://retrovirology.biomedcentral.com/articles/10.1186/s12977-018-0442-1" target="_blank">Nomenclature for Endogenous Retrovirus (ERV) Loci</a></strong>
+<i>Retrovirology</i>
+<br>
+
+</p>
+
+
+
+
+<h3>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Installation</strong>
+</h3>
+
+
+<p>
+
+You can install Filoviridae-EVE on computers running Windows, MacOSX or Linux, as follows: 
+
+<ol>
+<li>Install GLUE, based on the <a href="http://tools.glue.cvr.ac.uk/#/installation">GLUE installation instructions</a>.</li> 
+<li>Clone the <a href="https://github.com/giffordlabcvr/Filoviridae-GLUE">Filoviridae-GLUE</a> repository into your `gluetools/projects` directory.</li> 
+<li>Navigate to the `gluetools/projects/Filoviridae-GLUE` directory on the command line, initiate GLUE, and build the project by issuing the following command in the GLUE shell:</li>
+</ol>
+
+<pre>
+<code>Mode path: /
+GLUE> run file filoviridaeProject.glue
+</code></pre>
+
+<ol>
+<li>Clone the <a href="https://github.com/giffordlabcvr/Filoviridae-EVE">Filoviridae-EVE</a> repository into your `gluetools/projects` directory.</li> 
+<li>Navigate to the `gluetools/projects/Filoviridae-EVE` directory on the command line, initiate GLUE, and build the EVE project extension by issuing the following command in the GLUE shell:</li>
+</ol>
+
+<pre>
+<code>Mode path: /
+GLUE> run file Filoviridae-eve.glue
+</code></pre>
+
+</p>
+
+
+<h3>
+<a id="whos-it-for" class="anchor" href="#whos-it-for" aria-hidden="true">
+<span aria-hidden="true" class="octicon octicon-link"></span></a>
+<strong>Publications</strong>
+</h3>
+
+
+<p>
+Data collated in Filoviridae-EVE has been described in the following published articles:
+
+<br>
+<br>
+
+
+				 Ng M, Ndungo E, Kaczmarek ME, Herbert AS, Binger T, Kuehne AI, Jangra RK, Hawkins JA, Gifford RJ, Biswas R, Demogines A, James RM, Yu M, Brummelkamp TR, Drosten C, Wang LF, Kuhn JH, Müller MA, Dye JM, Sawyer SL, Chandran K.
+				 <b>(2015)</b>      
+				 <br>
+				 <b>Filovirus receptor NPC1 contributes to species-specific patterns of ebolavirus susceptibility in bats.</b>
+                 <br>
+				 <i>Elife.</i> 4. pii: e11785.
+				 <a href="https://elifesciences.org/articles/11785" target="_blank">[view]</a>
+
+
+</p>
+
+
+<h3>
+	<a id="contributors" class="anchor" href="#contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Contributors</strong>
+</h3>
+
+<p>Robert J. Gifford (<a href="mailto:robert.gifford@glasgow.ac.uk">robert.gifford@glasgow.ac.uk</a>)</p>
+
+<p>Josh Singer (<a href="mailto:josh.singer@glasgow.ac.uk">josh.singer@glasgow.ac.uk</a>)</p>
+
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/giffordlabcvr/DIGS-tool">Filoviridae-EVE</a> is maintained by <a href="https://github.com/giffordlabcvr">giffordlabcvr</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+
+  </body>
+</html>
