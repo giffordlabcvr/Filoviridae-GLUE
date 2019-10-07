@@ -24,14 +24,12 @@ project filoviridae
 
   # Import metadata for exogenous reference sequences from tabular
   module filoviridaeSideDataImporter 
-    populate -f tabular/ebola-ncbi-refseqs-side-data.tsv
+    populate -f tabular/filoviridae-ncbi-refseqs-side-data.tsv
     exit
 
   # Import efv sequences and side data
   run script glue/loadEndogenousData1.js
   run script glue/loadEndogenousData2.js
-
-
 
   # Create reference sequences
   run file glue/filoviridaeReferences.glue

@@ -2,8 +2,36 @@
 
   module unconstrainedAlignmentImporter 
 
-    #~# Genus-level alignments
-    import AL_EBOLAVIRUS_UNCONSTRAINED -f alignments/internal/ebolavirus-genome.fna
+    #~# Root-level alignments (Filoviridae)
+    import AL_FILO_ROOT_NP_UNCONSTRAINED -f alignments/root/vp30.root.aln.fna
+    #import AL_FILO_ROOT_VP35_UNCONSTRAINED -f alignments/root/vp35.root.aln.fna
+    #import AL_FILO_ROOT_VP30_UNCONSTRAINED -f alignments/root/np.root.aln.fna
+    #import AL_FILO_ROOT_Genome_UNCONSTRAINED -f alignments/root/np.root.aln.fna
+
+    #~# Genus-level alignments 
+    #import AL_EBOLAVIRUS_UNCONSTRAINED    -f alignments/root/vp30.root.aln.fna
+    #import AL_MARBURGVIRUS_UNCONSTRAINED  -f alignments/internal/ebolavirus-genome.fna
+    #import AL_DIANLOVIRUS_UNCONSTRAINED   -f alignments/internal/dianlovirus-genome.fna
+
+    #~# EVE species-level alignments    
+    #import AL_EFLH_FILO-1_UNCONSTRAINED    -f alignments/root/eflh.filo.1-cricetidae.fna
+    #import AL_EFLN_FILO-1_UNCONSTRAINED    -f alignments/root/efln.filo.1-bathyergidae
+    #import AL_EFLN_FILO-2_UNCONSTRAINED    -f alignments/root/efln.filo.2-caviomorpha
+    #import AL_EFLN_FILO-3_UNCONSTRAINED    -f alignments/root/efln.filo.3-dipodidae
+    #import AL_EFLN_FILO-4_UNCONSTRAINED    -f alignments/root/efln.filo.4-cricetidae
+    #import AL_EFLN_FILO-5_UNCONSTRAINED    -f alignments/root/efln.filo.5-mus
+    #import AL_EFLN_FILO-6_UNCONSTRAINED    -f alignments/root/efln.filo.6-ctenomys
+    #import AL_EFLN_FILO-7_UNCONSTRAINED    -f alignments/root/efln.filo.7-acomys
+    #import AL_EFLN_FILO-8_UNCONSTRAINED    -f alignments/root/efln.filo.8-dipodomys
+    #import AL_EFLN_FILO-9_UNCONSTRAINED    -f alignments/root/efln.filo.9-spalacidae
+    #import AL_EFLN_FILO-10_UNCONSTRAINED   -f alignments/root/efln.filo.10-neotominae
+    #import AL_EFLN_FILO-21_UNCONSTRAINED   -f alignments/root/efln.filo.21-vespertilionidae
+    #import AL_EFLN_FILO-31_UNCONSTRAINED   -f alignments/root/efln.filo.31-soricidae
+    #import AL_EFLN_FILO-41_UNCONSTRAINED   -f alignments/root/efln.filo.41-xenarthra
+    #import AL_EFLN_FILO-51_UNCONSTRAINED   -f alignments/root/efln.filo.51-monodelphis
+    #import AL_EFLN_FILO-61_UNCONSTRAINED   -f alignments/root/efln.filo.61-diprotodontia
+
+
     exit
 
-     
+
