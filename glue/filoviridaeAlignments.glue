@@ -6,26 +6,24 @@
     #import AL_FILO_ROOT_Genome_UNC -f alignments/root/vp30.root.aln.fna
 
     #~# EVE tip-level alignments (single genes)
+    import AL_FILO_ROOT_NP_UNC -f alignments/root/np.root.aln.fna
     import AL_FILO_ROOT_VP30_UNC -f alignments/root/vp30.root.aln.fna
     #import AL_FILO_ROOT_VP35_UNC -f alignments/root/vp35.root.aln.fna
-    #import AL_FILO_ROOT_NP_UNC -f alignments/root/np.root.aln.fna
 
-    #~# Genus-level alignments
 
-    #import AL_EBOLAVIRUS_UNC    -f alignments/internal/ebolavirus-genome.fna
+    #~# Virus genus-level alignments
+    import AL_EBOLAVIRUS_UNC    -f alignments/internal/ebolavirus-genome.fna
     #import AL_MARBURGVIRUS_UNC  -f alignments/internal/marburgvirus-genome.fna
     #import AL_DIANLOVIRUS_UNC   -f alignments/internal/dianlovirus-genome.fna
 
-    #~# EVE tip-level alignments (single genes)
-    
+    #~# EVE tip-level alignments (single genes)   
     # VP30
     import AL_EFLH_FILO-1_UNC    -f alignments/tip/eve/eflh/eflh-filo.1-cricetidae.fna
-    
     # NP
     import AL_EFLN_FILO-1_UNC    -f alignments/tip/eve//efln/efln-filo.1-bathyergidae.fna
     import AL_EFLN_FILO-2_UNC    -f alignments/tip/eve/efln/efln-filo.2-dipodomys.fna
     import AL_EFLN_FILO-3_UNC    -f alignments/tip/eve/efln/efln-filo.3-dipodidae.fna
-    #import AL_EFLN_FILO-4_UNC    -f alignments/tip/eve/efln/efln-filo.4-cricetidae.fna
+    import AL_EFLN_FILO-4_UNC    -f alignments/tip/eve/efln/efln-filo.4-cricetidae.fna
     import AL_EFLN_FILO-7_UNC    -f alignments/tip/eve/efln/efln-filo.7-acomys.fna
     import AL_EFLN_FILO-9_UNC    -f alignments/tip/eve/efln/efln-filo.9-spalacidae.fna
     import AL_EFLN_FILO-10_UNC   -f alignments/tip/eve/efln/efln-filo.10-neotominae.fna
@@ -33,7 +31,6 @@
     import AL_EFLN_FILO-31_UNC   -f alignments/tip/eve/efln/efln-filo.31-soricidae.fna
     import AL_EFLN_FILO-41_UNC   -f alignments/tip/eve/efln/efln-filo.41-vermilingua.fna
     import AL_EFLN_FILO-61_UNC   -f alignments/tip/eve/efln/efln-filo.61-diprotodontia.fna
-
     # VP35
 
     exit
