@@ -43,10 +43,6 @@ project filoviridae
   # Import alignments
   run file glue/filoviridaeAlignments.glue
 
-  # Import alignment tree
-  run file glue/filoviridaeAlignmentTree.glue
-
-
   # Validate
   validate
 
