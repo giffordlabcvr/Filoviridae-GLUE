@@ -190,3 +190,10 @@ VP35_3_56_Psammomys_obesus	VP35	Psammomys_obesus	NESX01024980.1	237572	238276	70
 VP35_3_57_Rattus_norvegicus	VP35	Rattus_norvegicus	chr5	36369303	36369443	141	positive	Myotis-endogenous-filo-like	219	265	3	57
 VP35_3_58_Rattus_norvegicus	VP35	Rattus_norvegicus	chr9	89434652	89435143	492	positive	Myotis-endogenous-filo-like	96	265	3	58
 VP35_5_59_Tarsius_syrichta	VP35	Tarsius_syrichta	scaffold_521	86724	87294	571	negative	Myotis-endogenous-filo-like	79	197	5	59
+VP35_3_9_Neotoma_lepida	VP35	Neotoma_lepida	LZPO01076085.1	36391	37087	697	negative	Reston-ebolavirus	92	222	3	9
+VP35_12_10_Phascolarctos_cinereus	VP35	Phascolarctos_cinereus	phaCin_unsw_v4.1.fa.scaf00002	31890409	31890720	312	negative	Reston-ebolavirus	192	275	12	10
+VP35_12_11_Phascolarctos_cinereus	VP35	Phascolarctos_cinereus	phaCin_unsw_v4.1.fa.scaf00044	2489279	2489812	534	positive	Reston-ebolavirus	125	240	12	11
+VP35_1_12_Phodopus_sungorus	VP35	Phodopus_sungorus	MCBN011428430.1	2981	3594	614	positive	Reston-ebolavirus	94	185	1	12
+VP35_1_2_Cricetulus_griseus	VP35	Cricetulus_griseus	gi|351517679|ref|NW_003613870.1|	628441	628928	488	positive	Reston-ebolavirus	159	279	1	2
+VP35_4_6_Microtus_agrestis	VP35	Microtus_agrestis	LIQJ01002402.1	524071	524334	264	negative	Reston-ebolavirus	226	315	4	6
+VP35_1_5_Mesocricetus_auratus	VP35	Mesocricetus_auratus	gi|472278400|gb|KB708193.1|	3324650	3325141	492	negative	Reston-ebolavirus	108	289	1	5

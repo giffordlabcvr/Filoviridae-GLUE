@@ -6,7 +6,7 @@
     set field displayName "NP"
     set metatag OWN_CODON_NUMBERING true
     set metatag CODES_AMINO_ACIDS true
-    set metatag CODON_LABELER_MODULE filoviridaeKuiken2006CodonLabeler
+    #set metatag CODON_LABELER_MODULE filoviridaeKuiken2006CodonLabeler
     exit
 
   create feature VP35 -p whole_genome "VP35 RNA-dependent RNA polymerase cofactor"
@@ -14,7 +14,7 @@
     set field displayName "VP35"
     set metatag OWN_CODON_NUMBERING true
     set metatag CODES_AMINO_ACIDS true
-    set metatag CODON_LABELER_MODULE filoviridaeKuiken2006CodonLabeler
+    #set metatag CODON_LABELER_MODULE filoviridaeKuiken2006CodonLabeler
     exit
 
   create feature VP40 -p whole_genome "VP40 matrix protein"
@@ -22,7 +22,7 @@
     set field displayName "VP40"
     set metatag OWN_CODON_NUMBERING true
     set metatag CODES_AMINO_ACIDS true
-    set metatag CODON_LABELER_MODULE filoviridaeKuiken2006CodonLabeler
+    #set metatag CODON_LABELER_MODULE filoviridaeKuiken2006CodonLabeler
     exit
 
   create feature GP -p whole_genome "Glycoprotein"
@@ -30,7 +30,7 @@
     set field displayName "GP"
     set metatag OWN_CODON_NUMBERING true
     set metatag CODES_AMINO_ACIDS true
-    set metatag CODON_LABELER_MODULE filoviridaeKuiken2006CodonLabeler
+    #set metatag CODON_LABELER_MODULE filoviridaeKuiken2006CodonLabeler
     exit
 
   create feature GP1 -p whole_genome "Glycoprotein1"
@@ -38,7 +38,7 @@
     set field displayName "GP1"
     set metatag OWN_CODON_NUMBERING true
     set metatag CODES_AMINO_ACIDS true
-    set metatag CODON_LABELER_MODULE filoviridaeKuiken2006CodonLabeler
+    #set metatag CODON_LABELER_MODULE filoviridaeKuiken2006CodonLabeler
     exit
 
   create feature GP2 -p whole_genome "Glycoprotein2"
@@ -46,7 +46,7 @@
     set field displayName "GP2"
     set metatag OWN_CODON_NUMBERING true
     set metatag CODES_AMINO_ACIDS true
-    set metatag CODON_LABELER_MODULE filoviridaeKuiken2006CodonLabeler
+    #set metatag CODON_LABELER_MODULE filoviridaeKuiken2006CodonLabeler
     exit
 
   create feature VP30 -p whole_genome "VP30"
@@ -54,7 +54,7 @@
     set field displayName "VP30"
     set metatag OWN_CODON_NUMBERING true
     set metatag CODES_AMINO_ACIDS true
-    set metatag CODON_LABELER_MODULE filoviridaeKuiken2006CodonLabeler
+    #set metatag CODON_LABELER_MODULE filoviridaeKuiken2006CodonLabeler
     exit
 
   create feature VP24 -p whole_genome "VP24"
@@ -62,7 +62,7 @@
     set field displayName "VP24"
     set metatag OWN_CODON_NUMBERING true
     set metatag CODES_AMINO_ACIDS true
-    set metatag CODON_LABELER_MODULE filoviridaeKuiken2006CodonLabeler
+    #set metatag CODON_LABELER_MODULE filoviridaeKuiken2006CodonLabeler
     exit
 
   create feature L -p whole_genome "Large protein / RNA polymerase"
@@ -70,5 +70,5 @@
     set field displayName "L"
     set metatag OWN_CODON_NUMBERING true
     set metatag CODES_AMINO_ACIDS true
-    set metatag CODON_LABELER_MODULE filoviridaeKuiken2006CodonLabeler
+    #set metatag CODON_LABELER_MODULE filoviridaeKuiken2006CodonLabeler
     exit
