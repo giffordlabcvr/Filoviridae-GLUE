@@ -3,5 +3,5 @@
 
   # Import EVE FASTA sources 
   import source sources/fasta-curated
-  import source sources/fasta-reference
+  import source sources/fasta-refseqs
 
