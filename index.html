@@ -35,57 +35,84 @@
     <section class="main-content">
 
 	   <h3>
-	   <a id="description" class="anchor" href="#description" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Description</strong>
+		 <a id="description" class="anchor" href="#description" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Description</strong>
 	   </h3>
 
-
 	   <p>
-	   Filoviridae-EVE is a sequence data resource for filoviruses (family
-	   <i>Filoviridae</i>) developed using <a href="http://tools.glue.cvr.ac.uk/">GLUE</a>.  
+		 This is Filoviridae-EVE, a <a href="http://tools.glue.cvr.ac.uk/">GLUE</a> project
+		 supporting comparative genomic and evolutionary analysis of filoviruses.
+		 It includes aligned, annotated genome sequence data for:
+		 <ol>
+		   <li><a target="_blank" href="https://viralzone.expasy.org/23?outline=all_by_species">Filoviruses</a></li> 
+		   <li>Endogenous viral elements (EVEs) derived from filoviruses</li>
+		 </ol>
 	   </p>
-
-	   <p>
-	   This <a href="http://tools.glue.cvr.ac.uk/">GLUE</a> project includes aligned, annotated genome sequence data for:
-
-
-	   <ol>
-		 <li><a target="_blank" href="https://viralzone.expasy.org/23?outline=all_by_species">Filoviruses</a></li> 
-		 <li>Endogenous viral elements (EVEs) derived from filoviruses</li>
-	   </ol>
-	   </p>
-
-
 
 	   <h3>
-	   <a id="alignments" class="anchor" href="#alignments" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Alignments</strong>
+		 <a id="sequenceData" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Sequence data</strong>
 	   </h3>
 	   
 	   <p>
-       This project contains several distinct categories of multiple sequence alignment (MSA), each representing a distinct taxonomic level.
-        
-	   <ol>
-		 <li><b>Tip (i)</b>: <a href="https://github.com/giffordlabcvr/Filoviridae-EVE/tree/master/alignments/tip/virus">Virus species</a> (genome-length)</li> 
-		 <li><b>Tip (ii)</b>: <a href="https://github.com/giffordlabcvr/Filoviridae-EVE/tree/master/alignments/tip/eve">EVE orthologs</a> (single gene)</li> 
-		 <li><b>Internal</b>: <a href="https://github.com/giffordlabcvr/Filoviridae-EVE/tree/master/alignments/internal">Virus genera</a> (genome-length)</li> 
-		 <li><b>Root</b>: <a href="https://github.com/giffordlabcvr/Filoviridae-EVE/tree/master/alignments/internal">Viruses and EVEs</a> (single gene)</li> 
-	   </ol>
+		 The sequence data included in this project have been organised into
+		 <b>sources</b>, as follows:<br>
+	   </p>
+	   
+	   	   
+	   <p>	      
+		 <b>ncbi-refseqs</b>: This source contains genome-length <a href="https://github.com/giffordlabcvr/Filoviridae-EVE/tree/master/sources/ncbi-refseqs">reference sequences</a>
+		 of representative filovirus species in GenBank XML format. It is populated
+		 directly from  <a href="https://www.ncbi.nlm.nih.gov/genbank/">NCBI GenBank</a> using an <a href="https://github.com/giffordlabcvr/Filoviridae-EVE/blob/master/modules/filoviridaeNcbiImporterReferences.xml">ncbiImporter</a>
+		 module contained within this project. 
+	   </p>
+	   
+	   <p>
+		 <b>fasta-curated</b>: FASTA-formatted sequences of a non-redundant set of EVE loci
+		 identified via systematic <i>in silico</i> genome screening 
+		 of eukaryotic genomes using the <a target="_blank" href="https://giffordlabcvr.github.io/DIGS-tool/">DIGS tool</a>.
+		 Sequences in this source have unique IDs based on arbitrary numbering. 
+	   </p>
+	      	   
+	   <p>
+		 <b>fasta-refseqs</b>: contains EVE reference sequences - current best estimates of the ancestral virus sequences that founded EVE lineages.
+		 Sequences contained in this source are consensus/ancestral sequences derived from multiple sequence alignments (MSAs) included
+		 <a href="https://github.com/giffordlabcvr/Filoviridae-EVE/tree/master/alignments/tip/eve">with this project</a>.
+		 
+	   <h3>
+		 <a id="alignments" class="anchor" href="#alignments" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Alignments</strong>
+	   </h3>
+	   
+	   <p>
+		 Several distinct categories of multiple sequence alignment (MSA) are included in this project, each representing a distinct taxonomic level.
+		
+		 <ol>
+		   <li><b>Tip (i)</b>: <a href="https://github.com/giffordlabcvr/Filoviridae-EVE/tree/master/alignments/tip/virus">Virus species</a> (genome-length)</li> 
+		   <li><b>Tip (ii)</b>: <a href="https://github.com/giffordlabcvr/Filoviridae-EVE/tree/master/alignments/tip/eve">EVE lineages</a> (single gene)</li> 
+		   <li><b>Internal</b>: <a href="https://github.com/giffordlabcvr/Filoviridae-EVE/tree/master/alignments/internal">Virus genera</a> (genome-length)</li> 
+		   <li><b>Root</b>: <a href="https://github.com/giffordlabcvr/Filoviridae-EVE/tree/master/alignments/internal">Viruses and EVEs</a> (single gene)</li> 
+		 </ol>
 	   </p>
 
  
 	   <h3>
-	   <a id="sideData" class="anchor" href="#sideData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Sequence-associated data</strong>
+	   <a id="sequenceData" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Sequence-associated data</strong>
 	   </h3>
 	   
 	   <p>
-       This project incorporates linked auxiliary data in tabular format for both
-       <a href="https://github.com/giffordlabcvr/Filoviridae-EVE/blob/master/tabular/filoviridae-ncbi-refseqs-side-data.tsv">virus</a> and
-       <a href="https://github.com/giffordlabcvr/Filoviridae-EVE/blob/master/tabular/eve-side-data.tsv">EVE</a> sequences.   
+		 Sequences in this project are linked to auxiliary data in tabular format:
+		 
+		 <ol>
+		   <li>Genome length virus <a href="https://github.com/giffordlabcvr/Filoviridae-EVE/blob/master/tabular/filoviridae-ncbi-refseqs-side-data.tsv">reference</a> sequences</li> 
+		   <li>Individual<a href="https://github.com/giffordlabcvr/Filoviridae-EVE/blob/master/tabular/eve-side-data.tsv"> EVE loci</a></li> 
+		 </ol>
+		 
 	   </p>
 
 
 	   <h3>
 		 <a id="contributors" class="anchor" href="#contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Contributors</strong>
 	   </h3>
+
+       Access to this GitHub repository is currently restricted. To request access contact:
 
 	   <p>Robert J. Gifford (<a href="mailto:robert.gifford@glasgow.ac.uk">robert.gifford@glasgow.ac.uk</a>)</p>
 	   <p>Josh Singer (<a href="mailto:josh.singer@glasgow.ac.uk">josh.singer@glasgow.ac.uk</a>)</p>
