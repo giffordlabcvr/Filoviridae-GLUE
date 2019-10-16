@@ -40,7 +40,7 @@
 
 	   <p>
 		 This is Filoviridae-EVE, a <a href="http://tools.glue.cvr.ac.uk/">GLUE</a> project
-		 supporting comparative genomic and evolutionary analysis of filoviruses.
+		 designed to support comparative genomic and evolutionary analysis of filoviruses.
 		 It includes aligned, annotated genome sequence data for:
 		 <ol>
 		   <li><a target="_blank" href="https://viralzone.expasy.org/23?outline=all_by_species">Filoviruses</a></li> 
@@ -59,8 +59,10 @@
 	   
 	   	   
 	   <p>	      
-		 <b>ncbi-refseqs</b>: Genome-length reference sequences of <a href="https://github.com/giffordlabcvr/Filoviridae-EVE/tree/master/sources/ncbi-refseqs">representative filovirus species</a>.
-		 These XML-formatted files are downloaded directly from <a href="https://www.ncbi.nlm.nih.gov/genbank/">NCBI</a> using a GLUE module
+		 <b>ncbi-refseqs</b>: Genome-length reference sequences of <a href="https://github.com/giffordlabcvr/Filoviridae-EVE/tree/master/sources/ncbi-refseqs">representative filovirus species</a>.		 
+		 These
+		 <a href="https://github.com/giffordlabcvr/Filoviridae-EVE/tree/master/sources/ncbi-refseqs">XML-formatted files</a>
+		  are downloaded directly from <a href="https://www.ncbi.nlm.nih.gov/genbank/">NCBI</a> using a GLUE module
 		 (see <a href="https://github.com/giffordlabcvr/Filoviridae-EVE/blob/master/modules/filoviridaeNcbiImporterReferences.xml">here</a>)
 		 and are uniquely identified within this project by their <a href="https://www.ncbi.nlm.nih.gov/Sequin/acc.html">GenBank accession numbers</a>. 
 	   </p>
@@ -76,12 +78,12 @@
 	   </p>
 	      	   
 	   <p>
-		 <b>fasta-refseqs</b>: Current, best-guess estimates of the ancestral virus sequences that gave rise to EVEs.
-		 Where possible these are consensus or ancestral sequences based on
-		 <a href="https://github.com/giffordlabcvr/Filoviridae-EVE/tree/master/alignments/tip/eve">alignments of EVE sequences</a>
-		 we have determined to be derived from the same ancestral germline colonisation event (i.e. orthologs, duplicates).
-		 Sequences in this source have been assigned IDs corresponding to the names of the unique loci they represent,
-		 using a <a href="https://retrovirology.biomedcentral.com/articles/10.1186/s12977-018-0442-1" target="_blank">standardised approach</a>.
+		 <b>fasta-refseqs</b>: Best-guess estimates of the ancestral filovirus sequences that gave rise to EVEs.
+		 Where possible these are consensus/ancestral sequences derived from an
+		 <a href="https://github.com/giffordlabcvr/Filoviridae-EVE/tree/master/alignments/tip/eve">alignment</a>
+		 of EVE orthologs and/or duplicates (i.e. EVEs derived from ancestral germline colonisation event).
+		 Sequence IDs correspond to the names of the unique EVE loci they represent
+		 (see <a href="https://retrovirology.biomedcentral.com/articles/10.1186/s12977-018-0442-1" target="_blank">here</a> for details).
 	   </p>
 	      	   
 
@@ -91,11 +93,12 @@
 	   </h3>
 	   
 	   <p>
-		 Sequences in this project are linked to auxiliary data in tabular format:
+         Sequences included in this project are linked to auxiliary data in tabular format, this includes:
 		 
 		 <ol>
-		   <li>Genome length virus <a href="https://github.com/giffordlabcvr/Filoviridae-EVE/blob/master/tabular/filoviridae-ncbi-refseqs-side-data.tsv">reference</a> sequences (ncbi-refseqs)</li> 
-		   <li>Individual<a href="https://github.com/giffordlabcvr/Filoviridae-EVE/blob/master/tabular/eve-side-data.tsv"> EVE loci</a> (fasta-curated)</li> 
+		   <li><a href="https://github.com/giffordlabcvr/Filoviridae-EVE/blob/master/tabular/filoviridae-ncbi-refseqs-side-data.tsv">Basic taxonomic data</a> for the genome-length virus reference sequence in <b>ncbi-refseqs</b>.</li> 
+		   <li><a href="https://github.com/giffordlabcvr/Filoviridae-EVE/blob/master/tabular/eve-side-data.tsv">Positional coordinates</a> within WGS assemblies for EVE sequences in <b>fasta-curated</b>.</li> 
+		   <li><a href="https://github.com/giffordlabcvr/Filoviridae-EVE/blob/master/tabular/locus-side-data.tsv">Evolutionary history</a> of the EVE loci represented in <b>fasta-refseqs</b>.</li> 
 		 </ol>
 		 
 	   </p>
