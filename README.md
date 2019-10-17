@@ -36,6 +36,15 @@ Several distinct categories of MSA are included in this project, each representi
 3. Internal: Virus genera (genome-length)
 4. Root: Viruses and EVE reference sequences (single gene)
 
+## GLUE project
+
+On computers with
+[GLUE](http://tools.glue.cvr.ac.uk) installed, the Filoviridae-EVE project can be instantiated by
+navigating to the project folder, initiating GLUE, and issuing the following command in the GLUE shell:
+
+	Mode path: /
+	GLUE> run file filoviridaeProject.glue
+
 
 ## Contributors
 
