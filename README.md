@@ -6,8 +6,8 @@ This is Filoviridae-EVE, a GLUE project designed to support comparative genomic 
 
 Filoviridae-EVE contains aligned, annotated genome sequence data for:
 
-    1. Filoviruses (family Filoviridae)
-    1. Endogenous viral elements (EVEs) derived from filoviruses
+1. Filoviruses (family Filoviridae)
+2. Endogenous viral elements (EVEs) derived from filoviruses
 
 ## Sequence data
 
@@ -23,18 +23,18 @@ The sequence data in this project have been organised into the following sources
 
 Sequences included in this project are linked to auxiliary data in tabular format, this includes:
 
-    1. Basic taxonomic data for genome-length virus reference sequence in ncbi-refseqs.
-    2. Locus data for the EVE sequences in fasta-curated.
-    3. Evolutionary history of the EVE loci represented in fasta-refseqs.
+1. Basic taxonomic data for genome-length virus reference sequence in ncbi-refseqs.
+2. Locus data for the EVE sequences in fasta-curated.
+3. Evolutionary history of the EVE loci represented in fasta-refseqs.
 
 ## Multiple sequence alignments (MSAs)
 
 Several distinct categories of MSA are included in this project, each representing a distinct taxonomic level.
 
-    1. Tip (i): Virus species (genome-length)
-    2. Tip (ii): EVE lineages (single gene). These alignments contain sets of EVE sequences derived from the same ancestral germline colonisation event (i.e. orthologs or duplicates)
-    3. Internal: Virus genera (genome-length)
-    4. Root: Viruses and EVE reference sequences (single gene)
+1. Tip (i): Virus species (genome-length)
+2. Tip (ii): EVE lineages (single gene). These alignments contain sets of EVE sequences derived from the same ancestral germline colonisation event (i.e. orthologs or duplicates)
+3. Internal: Virus genera (genome-length)
+4. Root: Viruses and EVE reference sequences (single gene)
 
 
 ## Contributors
