@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>LY532954</GBSeq_locus>
+    <GBSeq_length>1944</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>26-SEP-2018</GBSeq_update-date>
+    <GBSeq_create-date>26-SEP-2018</GBSeq_create-date>
+    <GBSeq_definition>KR 1020170122750-A/9: EQUINE IMMUNOGLOBULIN COMPOSITIONS AND USES FOR TREATING FILOVIRUS-MEDIATED DISEASES</GBSeq_definition>
+    <GBSeq_primary-accession>LY532954</GBSeq_primary-accession>
+    <GBSeq_accession-version>LY532954.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|LY532954.1|</GBSeqid>
+      <GBSeqid>pat|KR|1020170122750|9</GBSeqid>
+      <GBSeqid>gi|1483451528</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>KR 1020170122750-A/9</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Ebola virus (EBOV)</GBSeq_source>
+    <GBSeq_organism>Ebola virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA negative-strand viruses; Mononegavirales; Filoviridae; Ebolavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1944</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Holtsberg,F.W.</GBAuthor>
+          <GBAuthor>Aman,M.J.</GBAuthor>
+          <GBAuthor>Walz,P.H.</GBAuthor>
+          <GBAuthor>Ostrowski,S.R.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>EQUINE IMMUNOGLOBULIN COMPOSITIONS AND USES FOR TREATING FILOVIRUS-MEDIATED DISEASES</GBReference_title>
+        <GBReference_journal>KR1020170122750-A 9 06-NOV-2017 INTEGRATED BIOTHERAPEUTICS, INC.|AUBURN UNIVERSITY</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>KN KR 1020177023643-A/9~AN KR 1020177023643~AD 2017-08-24~PN KR 1020170122750~PD 2017-11-06~AT EQUINE IMMUNOGLOBULIN COMPOSITIONS AND USES FOR TREATING~AT FILOVIRUS-MEDIATED DISEASES~AI Holtsberg, Frederick Wayne|Aman, Mohammad Javad|Walz, Paul~AI H.|Ostrowski, Stephanie R.~AA INTEGRATED BIOTHERAPEUTICS, INC.|AUBURN UNIVERSITY~PR US 62/109,042=2015-01-28~OS Ebola virus~TY DNA~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1944</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1944</GBInterval_to>
+            <GBInterval_accession>LY532954.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Ebola virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1570291</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgggagttacgggcatattgcagctgcctagagacagattcaagaggacttccttcttcttgtgggtaatcatcttgttccagaggactttttcaatcccgttgggcgttattcataactctactctgcaagtgtccgatgtcgataagctcgtatgtagggacaagctcagctcaacaaaccagttgcgttccgtgggcctgaacctcgagggaaatggagtagccaccgatgtaccctctgcaaccaagaggtggggcttccgcagcggtgtccctcccaaagtcgtgaattacgaagctggcgaatgggccgagaattgctataacctcgagatcaagaagccggacggctctgaatgtctgcctgccgctcctgacggtattcgcggtttcccacgttgccgttacgtgcataaagtgtccggtacgggaccatgcgcaggcgactttgcgttccacaaagagggagcctttttcctctacgaccgcctggcttcgactgtcatctatcgtggaaccacattcgccgaaggtgtggtagcctttctgatcctgccacaggccaagaaggacttcttctctagccacccactgagggaaccagtcaacgctacagaagatcccagcagtggttactacagtactaccatccgctaccaagcgaccggtttcggaacgaatgagactgagtatctctttgaggtggataacctgacctacgtgcaactcgaatccagattcacgcctcaatttcttctccaattgaacgagactatctacacttccggaaaacgtagtaacactacgggaaagctgatttggaaggtgaaccccgagatcgatacgactattggcgagtgggccttttgggaaacaaagaaaaacttgacgaggaagattcgctctgaagaactgtccttcactgtcgtgtcaaacggagcgaaaaacatttcgggccagagtccagcccgcacctcgagtgatcccggtaccaatacaactacagaggaccataagatcatggcttcagagaactcctcggccatggtccaagtccacagtcaaggacgcgaagctgcagttagccacctgactacactggcgaccataagcacatctccgcagagccttacgacaaaacctggtcccgacaactctacgcataatacgcccgtgtacaaactcgatattagcgaagccacccaagtcgaacagcaccaccgtagaactgacaacgactcaactgcaagtgataccccttcggccaccacagctgctggcccacctaaagctgagaacaccaatactagcaaatcgaccgatttcctcgaccctgctacaaccacatcacctcagaatcactccgaaacagcgggtaacaataacacccaccatcaagacacgggcgaggaatctgcctcttccggcaaactcggtcttatcacaaacactatcgcgggtgtcgctggattgatcaccggtggtaggcgcactcgtagagaggcaatcgttaatgcccagccaaagtgtaaccccaacttgcattattggactactcaagatgagggagcagctataggactcgcttggatcccttacttcggacccgctgcagagggcatctacacggaaggtttgatgcacaaccaggacggccttatttgcggtctgaggcagcttgctaacgagacaacgcaagccctccaactgttcctccgcgcgacgacggagttgcgcaccttcagtattctcaacaggaaggctattgatttcttgttgcagcgctggggtggtacctgccacatcttgggcccagactgttgcatcgagccccacgattggactaagaacattaccgacaagatcgaccagatcatccacgattttgttgacaagacgttgccagaccatcaccatcatcatcaccaccaccatcactga</GBSeq_sequence>
+  </GBSeq>

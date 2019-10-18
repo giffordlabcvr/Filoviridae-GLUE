@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>LX074018</GBSeq_locus>
+    <GBSeq_length>2302</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>29-JUN-2017</GBSeq_update-date>
+    <GBSeq_create-date>29-JUN-2017</GBSeq_create-date>
+    <GBSeq_definition>JP 2017048207-A/1: Adenovirus Serotype 26 and Serotype 35 Filovirus Vaccines</GBSeq_definition>
+    <GBSeq_primary-accession>LX074018</GBSeq_primary-accession>
+    <GBSeq_accession-version>LX074018.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|LX074018.1|</GBSeqid>
+      <GBSeqid>pat|JP|2017048207|1</GBSeqid>
+      <GBSeqid>gi|1214322119</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2017048207-A/1</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Ebola virus (EBOV)</GBSeq_source>
+    <GBSeq_organism>Ebola virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA negative-strand viruses; Mononegavirales; Filoviridae; Ebolavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2302</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Pau,M.G.</GBAuthor>
+          <GBAuthor>Asiedu,C.</GBAuthor>
+          <GBAuthor>Sullivan,N.J.</GBAuthor>
+          <GBAuthor>Nabel,G.J.</GBAuthor>
+          <GBAuthor>Cheng,C.</GBAuthor>
+          <GBAuthor>Goudsmit,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Adenovirus Serotype 26 and Serotype 35 Filovirus Vaccines</GBReference_title>
+        <GBReference_journal>JP2017048207-A 1 09-MAR-2017 Nancy J Sullivan,Gary J Nabel,Clement Asiedu,Cheng Cheng,Maria Grazia Pau, Jaap Goudsmit, The Government of the United States of America as represented by The Secretary of the Department of Health and Human Services, Crucell Holland B V</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Ebola virus~PN JP 2017048207-A/1~PD 09-MAR-2017~PF 21-OCT-2016 JP 2016206679~PR 14-DEC-2010 US 61/422954~PA Nancy J Sullivan,Gary J Nabel,Clement Asiedu,Cheng Cheng,Maria~PA Grazia Pau,~PA Jaap Goudsmit,~PA The Government of the United States of America as represented~PA by The~PA Secretary of the Department of Health and Human Services,~PA Crucell Holland B V~PI maria grazia pau,clement asiedu,nancy j sullivan,gary j~PI nabel,cheng cheng,~PI jaap goudsmit~PT 'Adenovirus Serotype 26 and Serotype 35 Filovirus Vaccines'~PS N1~CC Ebola virus (EBOV) transmembrane envelope glycoprotein (GP)~CC Zaire type~CC species (ZEBOV) wild type filovirus antigen~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2302</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2302</GBInterval_to>
+            <GBInterval_accession>LX074018.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Ebola virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1570291</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cgtcgtcgacacgtgtgatcagatatcgcggccgctctagaccaggccctggatcgatccaacaacacaatgggcgttacaggaatattgcagttacctcgtgatcgattcaagaggacatcattctttctttgggtaattatccttttccaaagaacattttccatcccacttggagtcatccacaatagcacattacaggttagtgatgtcgacaaactagtttgtcgtgacaaactgtcatccacaaatcaattgagatcagttggactgaatctcgaagggaatggagtggcaactgacgtgccatctgcaactaaaagatggggcttcaggtccggtgtcccaccaaaggtggtcaattatgaagctggtgaatgggctgaaaactgctacaatcttgaaatcaaaaaacctgacgggagtgagtgtctaccagcagcgccagacgggattcggggcttcccccggtgccggtatgtgcacaaagtatcaggaacgggaccgtgtgccggagactttgccttccataaagagggtgctttcttcctgtatgatcgacttgcttccacagttatctaccgaggaacgactttcgctgaaggtgtcgttgcatttctgatactgccccaagctaagaaggacttcttcagctcacaccccttgagagagccggtcaatgcaacggaggacccgtctagtggctactattctaccacaattagatatcaggctaccggttttggaaccaatgagacagagtacttgttcgaggttgacaatttgacctacgtccaacttgaatcaagattcacaccacagtttctgctccagctgaatgagacaatatatacaagtgggaaaaggagcaataccacgggaaaactaatttggaaggtcaaccccgaaattgatacaacaatcggggagtgggccttctgggaaactaaaaaaaacctcactagaaaaattcgcagtgaagagttgtctttcacagttgtatcaaacggagccaaaaacatcagtggtcagagtccggcgcgaacttcttccgacccagggaccaacacaacaactgaagaccacaaaatcatggcttcagaaaattcctctgcaatggttcaagtgcacagtcaaggaagggaagctgcagtgtcgcatctaacaacccttgccacaatctccacgagtccccaatccctcacaaccaaaccaggtccggacaacagcacccataatacacccgtgtataaacttgacatctctgaggcaactcaagttgaacaacatcaccgcagaacagacaacgacagcacagcctccgacactccctctgccacgaccgcagccggacccccaaaagcagagaacaccaacacgagcaagagcactgacttcctggaccccgccaccacaacaagtccccaaaaccacagcgagaccgctggcaacaacaacactcatcaccaagataccggagaagagagtgccagcagcgggaagctaggcttaattaccaatactattgctggagtcgcaggactgatcacaggcgggagaagaactcgaagagaagcaattgtcaatgctcaacccaaatgcaaccctaatttacattactggactactcaggatgaaggtgctgcaatcggactggcctggataccatatttcgggccagcagccgagggaatttacatagaggggctaatgcacaatcaagatggtttaatctgtgggttgagacagctggccaacgagacgactcaagctcttcaactgttcctgagagccacaactgagctacgcaccttttcaatcctcaaccgtaaggcaattgatttcttgctgcagcgatggggcggcacatgccacattctgggaccggactgctgtatcgaaccacatgattggaccaagaacataacagacaaaattgatcagattattcatgattttgttgataaaacccttccggaccagggggacaatgacaattggtggacaggatggagacaatggataccggcaggtattggagttacaggcgttgtaattgcagttatcgctttattctgtatatgcaaatttgtcttttagtttttcttcagattgcttcatggaaaagctcagcctcaaatcaatgaaaccaggatttaattatatggattacttgaatctaagattacttgacaaatgataatataatacactggagctttaaacatagccaatgtgattctaactcctttaaactcacagttaatcataaacaaggtttgaggtaccgagctcgaattga</GBSeq_sequence>
+  </GBSeq>

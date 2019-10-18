@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MH657013</GBSeq_locus>
+    <GBSeq_length>214</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>30-JUL-2018</GBSeq_update-date>
+    <GBSeq_create-date>30-JUL-2018</GBSeq_create-date>
+    <GBSeq_definition>Zaire ebolavirus isolate Boende_17 VP35 gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>MH657013</GBSeq_primary-accession>
+    <GBSeq_accession-version>MH657013.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MH657013.1|</GBSeqid>
+      <GBSeqid>gi|1434150846</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Zaire ebolavirus</GBSeq_source>
+    <GBSeq_organism>Zaire ebolavirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA negative-strand viruses; Mononegavirales; Filoviridae; Ebolavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..214</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Mbala Kingebeni,P.</GBAuthor>
+          <GBAuthor>Villabona-Arenas,C.J.</GBAuthor>
+          <GBAuthor>Vidal,N.</GBAuthor>
+          <GBAuthor>Likofata,J.</GBAuthor>
+          <GBAuthor>Nsio-Mbeta,J.</GBAuthor>
+          <GBAuthor>Makiala-Mandanda,S.</GBAuthor>
+          <GBAuthor>Mukadi,D.</GBAuthor>
+          <GBAuthor>Mukadi,P.</GBAuthor>
+          <GBAuthor>Kumakamba,C.</GBAuthor>
+          <GBAuthor>Djokolo,B.</GBAuthor>
+          <GBAuthor>Ayouba,A.</GBAuthor>
+          <GBAuthor>Delaporte,E.</GBAuthor>
+          <GBAuthor>Peeters,M.</GBAuthor>
+          <GBAuthor>Muyembe Tamfum,J.J.</GBAuthor>
+          <GBAuthor>Ahuka Mundeke,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Rapid confirmation of the Zaire Ebola Virus in the outbreak of the Equateur province in the Democratic Republic of Congo: implications for public health interventions</GBReference_title>
+        <GBReference_journal>Clin. Infect. Dis. (2018) In press</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1093/cid/ciy527</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>29961823</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Available-Online prior to print</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..214</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Mbala Kingebeni,P.</GBAuthor>
+          <GBAuthor>Villabona-Arenas,C.J.</GBAuthor>
+          <GBAuthor>Vidal,N.</GBAuthor>
+          <GBAuthor>Likofata,J.</GBAuthor>
+          <GBAuthor>Nsio-Mbeta,J.</GBAuthor>
+          <GBAuthor>Makiala-Mandanda,S.</GBAuthor>
+          <GBAuthor>Mukadi,D.</GBAuthor>
+          <GBAuthor>Kumakamba,C.</GBAuthor>
+          <GBAuthor>Djokolo,B.</GBAuthor>
+          <GBAuthor>Ayouba,A.</GBAuthor>
+          <GBAuthor>Delaporte,E.</GBAuthor>
+          <GBAuthor>Peeters,M.</GBAuthor>
+          <GBAuthor>Muyembe Tamfum,J.-J.</GBAuthor>
+          <GBAuthor>Ahuka-Mundeke,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (20-JUL-2018) UMI233, IRD, 911 avenue Agropolis, Montpellier 34394, France</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: ONT Albacore Sequencing Pipeline Software v. 2.1.10; Porechop v. 0.2.3 ; Assembly Name :: Nanopolish 0.9 ; Coverage :: 100 ; Sequencing Technology :: ONT ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..214</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>214</GBInterval_to>
+            <GBInterval_accession>MH657013.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Zaire ebolavirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>Boende_17</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:186538</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Democratic Republic of the Congo</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>20-Aug-2014</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;214</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>214</GBInterval_to>
+            <GBInterval_accession>MH657013.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>VP35</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AXF92401.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MYDHLPGFGTAFHQLVQVICKLGKDSNSLDIIHAEFQASLAEGDSPQCALIQITKRVPIFQDAAPPVIHIR</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgtatgatcacttgcctggttttggaactgctttccaccaattagtacaagtgatttgtaaattgggaaaagatagcaactcattggacatcattcatgctgagttccaggccagcctggctgaaggagactctcctcaatgtgccctaattcaaattacaaaaagagttccaatcttccaagatgctgctccacctgtcatccacatccgct</GBSeq_sequence>
+  </GBSeq>

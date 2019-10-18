@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>EVU77385</GBSeq_locus>
+    <GBSeq_length>853</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>28-AUG-2002</GBSeq_update-date>
+    <GBSeq_create-date>31-MAY-1997</GBSeq_create-date>
+    <GBSeq_definition>Zaire Ebola virus strain Gabon-94 membrane associated protein VP24 (vp24) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>U77385</GBSeq_primary-accession>
+    <GBSeq_accession-version>U77385.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|U77385.1|EVU77385</GBSeqid>
+      <GBSeqid>gi|2138279</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Zaire ebolavirus</GBSeq_source>
+    <GBSeq_organism>Zaire ebolavirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA negative-strand viruses; Mononegavirales; Filoviridae; Ebolavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..853</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Volchkov,V.E.</GBAuthor>
+          <GBAuthor>Blinov,V.M.</GBAuthor>
+          <GBAuthor>Kotov,A.</GBAuthor>
+          <GBAuthor>Chepurnov,A.</GBAuthor>
+          <GBAuthor>Netesov,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>The full-length nucleotide sequence of the Ebola virus</GBReference_title>
+        <GBReference_journal>Thesis (1993) Institut f. Virologie, Philipps-Universitaet</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..853</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Volchkov,V.</GBAuthor>
+          <GBAuthor>Volchkova,V.</GBAuthor>
+          <GBAuthor>Eckel,C.</GBAuthor>
+          <GBAuthor>Klenk,H.D.</GBAuthor>
+          <GBAuthor>Bouloy,M.</GBAuthor>
+          <GBAuthor>LeGuenno,B.</GBAuthor>
+          <GBAuthor>Feldmann,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Emergence of subtype Zaire Ebola virus in Gabon</GBReference_title>
+        <GBReference_journal>Virology 232 (1), 139-144 (1997)</GBReference_journal>
+        <GBReference_pubmed>9185597</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..853</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Volchkov,V.E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (05-NOV-1996) Institut f. Virologie, Philipps Universitaet, Robert Koch Str.17, Marburg 35037, Germany</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..853</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>853</GBInterval_to>
+            <GBInterval_accession>U77385.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Zaire ebolavirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>Gabon-94</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:186538</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>58..813</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>58</GBInterval_from>
+            <GBInterval_to>813</GBInterval_to>
+            <GBInterval_accession>U77385.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>vp24</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>58..813</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>58</GBInterval_from>
+            <GBInterval_to>813</GBInterval_to>
+            <GBInterval_accession>U77385.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>vp24</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>function</GBQualifier_name>
+            <GBQualifier_value>unknown</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>membrane associated protein VP24</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAC57991.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MAKATGRYNLISPKKDLEKGVVLSDLCNFLVSQTIQGWKVYWAGIEFDVTHKGMALLHRLKTNDFAPAWSMTRNLFPHLFQNPNSTIESPLWALRVILAAGIQDQLIDQSLIEPLAGALGLISDWLLTTNTNHFNMRTQRVKEQLSLKMLSLIRSNILKFINKLDALHVVNYNGLLSSIEIGTQNHTIIITRTNMGFLVELQEPDKSAMNRKKPGPAKFSLLHESTLKAFTQGSSTRMQSLILEFNSSLAI</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tgtctagacaacaaagtatcgatactccagacaccaagcaagacctgagaaaaaaccatggctaaagctacgggacgatacaatctaatatcgcccaaaaaggacctggaaaaaggggttgtcttaagcgacctctgtaacttcttagttagccaaactattcaggggtggaaggtttattgggctggtattgagtttgatgtgactcacaaaggaatggccctattgcatagactgaaaactaatgactttgcccctgcatggtcaatgacaaggaatctctttcctcatttatttcaaaatccgaattccacaattgaatcaccgctgtgggcattgagagtcatccttgcagcagggatacaagaccagctgattgaccagtctttgattgaacccttagcaggagcccttggtctgatctctgattggctgctaacaaccaacactaaccatttcaacatgcgaacacaacgtgtcaaggaacaattgagcctaaaaatgctgtcgttgattcgatccaatattctcaagtttattaacaaattggatgctctacatgtcgtgaactacaacggattgttgagcagtattgaaattggaactcaaaatcatacaatcatcataactcgaactaacatgggttttctggtggagctccaagaacccgacaaatcggcaatgaaccgcaagaagcctgggccggcgaaattttccctccttcatgagtccacactgaaagcatttacacaaggatcctcgacacgaatgcaaagtttgattcttgaatttaatagctctcttgctatctaactaagatggaatacttcatattgagctaactcatatatgc</GBSeq_sequence>
+  </GBSeq>

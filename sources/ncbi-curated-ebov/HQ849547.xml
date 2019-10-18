@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HQ849547</GBSeq_locus>
+    <GBSeq_length>2031</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>19-JUL-2011</GBSeq_update-date>
+    <GBSeq_create-date>19-JUL-2011</GBSeq_create-date>
+    <GBSeq_definition>Zaire ebolavirus strain Mayibout glycoproteine (GP) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>HQ849547</GBSeq_primary-accession>
+    <GBSeq_accession-version>HQ849547.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|HQ849547.1|</GBSeqid>
+      <GBSeqid>gi|339959396</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Zaire ebolavirus</GBSeq_source>
+    <GBSeq_organism>Zaire ebolavirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA negative-strand viruses; Mononegavirales; Filoviridae; Ebolavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2031</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Wittmann,T.J.</GBAuthor>
+          <GBAuthor>Biek,R.</GBAuthor>
+          <GBAuthor>Hassanin,A.</GBAuthor>
+          <GBAuthor>Rouquet,P.</GBAuthor>
+          <GBAuthor>Reed,P.</GBAuthor>
+          <GBAuthor>Yaba,P.</GBAuthor>
+          <GBAuthor>Pourrut,X.</GBAuthor>
+          <GBAuthor>Real,L.A.</GBAuthor>
+          <GBAuthor>Gonzalez,J.P.</GBAuthor>
+          <GBAuthor>Leroy,E.M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Isolates of Zaire ebolavirus from wild apes reveal genetic lineage and recombinants</GBReference_title>
+        <GBReference_journal>Proc. Natl. Acad. Sci. U.S.A. 104 (43), 17123-17127 (2007)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1073/pnas.0704076104</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>17942693</GBReference_pubmed>
+        <GBReference_remark>Erratum:[Proc Natl Acad Sci U S A. 2007 Dec 4;104(49):19656]</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2031</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Wittmann,T.</GBAuthor>
+          <GBAuthor>Leroy,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (05-JAN-2011) Centre International de Recherches Medicales de Franceville, Franceville BP 769, Gabon</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2031</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2031</GBInterval_to>
+            <GBInterval_accession>HQ849547.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Zaire ebolavirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>Mayibout</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>serum</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:186538</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Gabon</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>1996</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..2031</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2031</GBInterval_to>
+            <GBInterval_accession>HQ849547.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>GP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..2031</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2031</GBInterval_to>
+            <GBInterval_accession>HQ849547.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>GP</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>glycoproteine</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AEK25495.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MGVTGILQLPRDRFKRTSFFLWVIILFQRTFSIPLGVIHNSTLQVSDVDKLVCRDKLSSTNQLRSVGLNLEGNGVATDVPSATKRWGFRSGVPPKVVNYEAGEWAENCYNLEIKKPDGSECLPAAPDGIRGFPRCRYVHKVSGTGPCAGDFAFHKEGAFFLYDRLASTVIYRGTTFAEGVVAFLILPQAKKDFFSSHPLREPVNATEDPSSGYYSTTIRYQATGFGTNETEYLFEVDNLTYVQLESRFTPQFLLQLNETIYTSGKRSNTTGKLIWKVNPEIDTTIGEWAFWETKKNLTRKIRSEELSFTAVSNRAKNISGQSPARTSSDPGTNTTTEDHKIMASENSSAMVQVHSQGREAAVSHLTTLATISTSLQPPTTKPGPDNSTHNTPVYKLDISEATQVEQHHRRTDNASTTSDTPPATTAAGPLKAENTNTSKGTDLLDPATTTSPQNHSETAGNNNTHHQDTGEESASSGKLGLITNTIAGVAGLITGGRRTRREAIVNAQPKCNPNLHYWTTQDEGAAIGLAWIPYFGPAAEGIYTEGLMHNQDGLICGLRQLANETTQALQLFLRATTELRTFSILNRKAIDFLLQRWGGTCHILGPDCCIEPHDWTKNITDKIDQIIHDFVDKTLPDQGDNDNWWTGWRQWIPAGIGVTGVIIAVIALFCICKFVF</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgggtgttacaggaatattgcagttacctcgtgatcgattcaagaggacatcattctttctttgggtaattatccttttccaaagaacattttccatcccacttggagtcatccacaatagcacattacaggttagtgatgtcgacaaactggtttgccgtgacaaactgtcatccacgaatcaattgagatcagttggactgaatctcgaagggaatggagtggcaactgacgtgccatctgcaactaaaagatggggcttcaggtccggtgtcccaccaaaagtggtcaattatgaagctggtgaatgggctgaaaactgctacaatcttgaaatcaaaaaacctgacgggagtgagtgtctaccagcagcgccagacgggattcggggcttcccccggtgccggtatgtgcacaaagtatcaggaacgggaccgtgtgccggagactttgccttccacaaagagggtgctttcttcctgtatgatcgacttgcttccacagttatctaccgaggaacgactttcgctgaaggtgtcgtggcatttctgatactgccccaagctaagaaggacttcttcagctcacaccccttgagagagccggtcaatgcaacggaggacccgtctagtggctactattctaccacaattagatatcaggctaccggctttggaaccaatgagacagagtatttgttcgaggttgacaatttgacctacgtccaacttgaatcaagattcacaccacagtttctgctccagctgaatgagacaatatatacaagtgggaaaaggagcaataccacgggaaaactaatttggaaggtcaaccccgaaattgatacaacaatcggggagtgggccttctgggaaactaaaaaaaacctcactagaaaaattcgcagtgaagagttgtctttcacagctgtatcaaacagagccaaaaacatcagtggtcagagtccggcgcgaacttcttccgacccagggaccaacacaacaactgaagaccacaaaatcatggcttcagaaaattcctctgcaatggttcaagtgcacagtcaaggaagggaagctgcagtgtcgcatctgacaacccttgccacaatctccacgagtcttcaaccccccacaaccaaaccaggtccggacaacagcacccacaatacacccgtgtataaacttgacatctctgaggcaactcaagttgaacaacatcaccgcagaacagacaacgccagcacaacctccgacactccccccgccacgaccgcagccggacccctaaaagcagagaacaccaacacgagcaagggcactgacctcctggaccccgccaccacaacaagtccccaaaaccacagcgagaccgctggcaacaacaacactcatcaccaagataccggagaagagagtgccagcagcgggaagctaggcttaattaccaatactattgctggagtcgcaggactgatcacaggcgggagaagaactcgaagagaagcaattgtcaatgctcaacccaaatgcaaccctaatttacattactggactactcaggatgaaggtgctgcaatcggactggcctggataccatatttcgggccagcagccgagggaatttacacagaggggctgatgcacaatcaagatggtttaatctgtgggttgagacagctggccaacgagacgactcaagctcttcaactattcctgagagccacaaccgagctacgcaccttttcaatcctcaaccgtaaggcaattgatttcttgctgcagcgatggggcggcacatgccacattttgggaccggactgctgtatcgaaccacatgattggactaagaacataacggacaaaattgatcagattattcatgattttgttgataaaacccttccggaccagggggacaatgacaattggtggacaggatggagacagtggataccggcaggtattggagttacaggcgttataattgcagttatcgctttattctgtatatgcaaatttgtcttttag</GBSeq_sequence>
+  </GBSeq>

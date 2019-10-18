@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>EF490230</GBSeq_locus>
+    <GBSeq_length>634</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>23-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>28-OCT-2007</GBSeq_create-date>
+    <GBSeq_definition>Zaire ebolavirus isolate Gabon 2003 L protein (L) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>EF490230</GBSeq_primary-accession>
+    <GBSeq_accession-version>EF490230.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|EF490230.1|</GBSeqid>
+      <GBSeqid>gi|152013732</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Zaire ebolavirus</GBSeq_source>
+    <GBSeq_organism>Zaire ebolavirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA negative-strand viruses; Mononegavirales; Filoviridae; Ebolavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..634</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Panning,M.</GBAuthor>
+          <GBAuthor>Laue,T.</GBAuthor>
+          <GBAuthor>Olschlager,S.</GBAuthor>
+          <GBAuthor>Eickmann,M.</GBAuthor>
+          <GBAuthor>Becker,S.</GBAuthor>
+          <GBAuthor>Raith,S.</GBAuthor>
+          <GBAuthor>Courbot,M.C.</GBAuthor>
+          <GBAuthor>Nilsson,M.</GBAuthor>
+          <GBAuthor>Gopal,R.</GBAuthor>
+          <GBAuthor>Lundkvist,A.</GBAuthor>
+          <GBAuthor>Caro,A.</GBAuthor>
+          <GBAuthor>Brown,D.</GBAuthor>
+          <GBAuthor>Meyer,H.</GBAuthor>
+          <GBAuthor>Lloyd,G.</GBAuthor>
+          <GBAuthor>Kummerer,B.M.</GBAuthor>
+          <GBAuthor>Gunther,S.</GBAuthor>
+          <GBAuthor>Drosten,C.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Diagnostic reverse-transcription polymerase chain reaction kit for filoviruses based on the strain collections of all European biosafety level 4 laboratories</GBReference_title>
+        <GBReference_journal>J. Infect. Dis. 196 (SUPPL 2), S199-S204 (2007)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1086/520600</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>17940950</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..634</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Panning,M.</GBAuthor>
+          <GBAuthor>Guenther,S.</GBAuthor>
+          <GBAuthor>Drosten,C.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (12-MAR-2007) Virology, Bernhard-Nocht-Institute for Tropical Medicine, Bernhard Nocht Str. 74, Hamburg 20359, Germany</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..634</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>634</GBInterval_to>
+            <GBInterval_accession>EF490230.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Zaire ebolavirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>Gabon 2003</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:186538</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Gabon</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;634</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>634</GBInterval_to>
+            <GBInterval_accession>EF490230.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>L</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;634</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>634</GBInterval_to>
+            <GBInterval_accession>EF490230.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>L</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>polymerase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>L protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ABS19982.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>HKFSTKRVPEQFLEQENFSIENVLSYAQKLEYLLPQYRNFSFSLKEKELNVGRTFGKLPYPTRNVQTLCEALLADGLAKAFPSNMMVVTEREQKESLLHQASWHHTSDDFGEHATVRGSSFVTDLEKYNLAFRYEFTAPFIEYCNRCYGVKNVFNWMHYTIPQCYMHVSDYYNPPHNLTLENRDNPPEGPSSYRGHMGGIEGLQQKLWTSI</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tcacaaattcagtactaaacgtgtgccagaacaatttttagagcaagaaaacttttctattgagaatgttctttcctacgcgcaaaaactcgagtatctactaccacaataccggaatttttctttctcattgaaagagaaagagttgaatgtaggtagaactttcggaaaattgccttacccgactcgcaatgttcaaacactttgtgaagctctgttagctgatggtcttgctaaagcatttcctagcaatatgatggtagtcacagagcgtgagcaaaaagaaagcttattgcatcaagcatcatggcaccacacaagtgatgattttggtgagcatgccacagttagagggagtagctttgtaactgatttagagaaatacaatcttgcatttagatatgagtttacagcaccttttatagaatattgtaaccgttgctatggtgttaagaatgtttttaattggatgcattatacaatcccacagtgttatatgcatgtcagtgattattataatccaccgcataacctcactctggaaaatcgagacaacccccccgaagggcctagttcatacagaggtcatatgggagggattgaaggactgcaacaaaaactctggacaagtatt</GBSeq_sequence>
+  </GBSeq>

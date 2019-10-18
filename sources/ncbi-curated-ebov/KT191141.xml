@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KT191141</GBSeq_locus>
+    <GBSeq_length>1216</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>07-APR-2016</GBSeq_update-date>
+    <GBSeq_create-date>07-APR-2016</GBSeq_create-date>
+    <GBSeq_definition>Ebola virus isolate Ebola virus H.sapiens-wt/NIV/2015/India/NIV152881 nucleoprotein (NP) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>KT191141</GBSeq_primary-accession>
+    <GBSeq_accession-version>KT191141.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KT191141.1|</GBSeqid>
+      <GBSeqid>gi|846357754</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Ebola virus (EBOV)</GBSeq_source>
+    <GBSeq_organism>Ebola virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA negative-strand viruses; Mononegavirales; Filoviridae; Ebolavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1216</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Srinivas,V.</GBAuthor>
+          <GBAuthor>Yadav,P.</GBAuthor>
+          <GBAuthor>Mittal,V.</GBAuthor>
+          <GBAuthor>Chaubal,G.</GBAuthor>
+          <GBAuthor>Chhabra,M.</GBAuthor>
+          <GBAuthor>Mattoo,S.</GBAuthor>
+          <GBAuthor>Rai,A.</GBAuthor>
+          <GBAuthor>Mourya,D.T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Follow-up of Ebola Patient, 2014-2015</GBReference_title>
+        <GBReference_journal>Emerging Infect. Dis. 22 (4), 748-750 (2016)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.3201/eid2204.151405</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>26981772</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1216</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Yadav,P.D.</GBAuthor>
+          <GBAuthor>Mourya,D.T.</GBAuthor>
+          <GBAuthor>Chaubal,G.Y.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (22-JUN-2015) Maximum Containment Laboratory, National Institute of Virology, 121/1, Sus Road, Pashan, Pune, Maharashtra 411021, India</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: Sequencher v. 5.0 ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1216</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1216</GBInterval_to>
+            <GBInterval_accession>KT191141.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Ebola virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>Ebola virus H.sapiens-wt/NIV/2015/India/NIV152881</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>semen</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens; Ebola recovered patient</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1570291</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>India</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>17-Nov-2014</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..&gt;1216</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1216</GBInterval_to>
+            <GBInterval_accession>KT191141.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..&gt;1216</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1216</GBInterval_to>
+            <GBInterval_accession>KT191141.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NP</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>nucleoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AKN20129.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MDSRPQKVWMTPSLTESDMDYHKILTAGLSVQQGIVRQRVIPVYQVNNLEEICQLIIQAFEAGVDFQESADSFLLMLCLHHAYQGDYKLFLESGAVKYLEGHGFRFEVKKCDGVKRLEELLPAVSSGRNIKRTLAAMPEEETTEANAGQFLSFASLFLPKLVVGEKACLEKVQRQIQVHAEQGLIQYPTAWQSVGHMMVIFRLMRTNFLIKFLLIHQGMHMVAGHDANDAVISNSVAQARFSGLLIVKTVLDHILQKTERGVRLHPLARTAKVKNEVNSFKAALSSLAKHGEYAPFARLLNLSGVNNLEHGLFPQLSAIALGVATAHGSTLAGVNVGEQYQQLREAATEAEKQLQQYAESRELDHLGLDDQEKKILMNFHQKKNEISFQQTNAMVTLRKERLAKL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggattctcgtcctcagaaagtctggatgacgccgagtctcactgaatctgacatggattaccacaagatcttgacagcaggtctgtccgttcaacaggggattgttcggcaaagagtcatcccagtgtatcaagtaaacaatcttgaggaaatttgccaacttatcatacaggcctttgaagctggtgttgattttcaagagagtgcggacagtttccttctcatgctttgtcttcatcatgcgtaccaaggagattacaaacttttcttggaaagtggcgcagtcaagtatttggaagggcacgggttccgttttgaagtcaagaagtgtgatggagtgaagcgccttgaggaattgctgccagcagtatctagtgggagaaacattaagagaacacttgctgccatgccggaagaggagacgactgaagctaatgccggtcagttcctctcctttgcaagtctattccttccgaaattggtagtaggagaaaaggcttgccttgagaaggttcaaaggcaaattcaagtacatgcagagcaaggactgatacaatatccaacagcttggcaatcagtaggacacatgatggtgattttccgtttgatgcgaacaaattttttgatcaaatttcttctaatacaccaagggatgcacatggttgccggacatgatgccaacgatgctgtgatttcaaattcagtggctcaagctcgtttttcaggtctattgattgtcaaaacagtacttgatcatatcctacaaaagacagaacgaggagttcgtctccatcctcttgcaaggaccgccaaggtaaaaaatgaggtgaactccttcaaggctgcactcagctccctggccaagcatggagagtatgctcctttcgcccgacttttgaacctttctggagtaaataatcttgagcatggtcttttccctcaactgtcggcaattgcactcggagtcgccacagcccacgggagcaccctcgcaggagtaaatgttggagaacagtatcaacagctcagagaggcagccactgaggctgagaagcaactccaacaatatgcggagtctcgtgaacttgaccatcttggacttgatgatcaggaaaagaaaattcttatgaacttccatcagaaaaagaacgaaatcagcttccagcaaacaaacgcgatggtaactctaagaaaagagcgcctggccaagctga</GBSeq_sequence>
+  </GBSeq>
