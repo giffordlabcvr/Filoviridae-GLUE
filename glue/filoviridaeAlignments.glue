@@ -22,15 +22,15 @@
     
     # NP
     import AL_EFLN_FILO-1_UNC    -f alignments/tip/eve//efln/efln-filo.1-bathyergidae.fna
-    import AL_EFLN_FILO-2_UNC    -f alignments/tip/eve/efln/efln-filo.2-dipodomys.fna
     import AL_EFLN_FILO-3_UNC    -f alignments/tip/eve/efln/efln-filo.3-dipodidae.fna
     import AL_EFLN_FILO-4_UNC    -f alignments/tip/eve/efln/efln-filo.4-cricetidae.fna
     import AL_EFLN_FILO-7_UNC    -f alignments/tip/eve/efln/efln-filo.7-acomys.fna
+    import AL_EFLN_FILO-8_UNC    -f alignments/tip/eve/efln/efln-filo.8-dipodomys.fna
     import AL_EFLN_FILO-9_UNC    -f alignments/tip/eve/efln/efln-filo.9-spalacidae.fna
     import AL_EFLN_FILO-10_UNC   -f alignments/tip/eve/efln/efln-filo.10-neotominae.fna
     import AL_EFLN_FILO-21_UNC   -f alignments/tip/eve/efln/efln-filo.21-vespertilionidae.fna
     import AL_EFLN_FILO-31_UNC   -f alignments/tip/eve/efln/efln-filo.31-soricidae.fna
-    import AL_EFLN_FILO-41_UNC   -f alignments/tip/eve/efln/efln-filo.41-vermilingua.fna
+    import AL_EFLN_FILO-41_UNC   -f alignments/tip/eve/efln/efln-filo.41-myrmecophagidae.fna
     import AL_EFLN_FILO-61_UNC   -f alignments/tip/eve/efln/efln-filo.61-diprotodontia.fna
     
     # VP35

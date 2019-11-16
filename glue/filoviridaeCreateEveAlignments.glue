@@ -12,6 +12,7 @@ delete alignment AL_EFLN-filo.5-mus
 delete alignment AL_EFLN-filo.9-spalacidae
 delete alignment AL_EFLN-filo.10-neotominae
 delete alignment AL_EFLN-filo.21-vespertilionidae
+delete alignment AL_EFLN-filo.41-myrmecophagidae
 delete alignment AL_EFLN-filo.51-monodelphis
 delete alignment AL_EFLN-filo.61-diprotodontia
 
@@ -28,6 +29,7 @@ delete source efln.filo.5-mus
 delete source efln.filo.9-spalacidae
 delete source efln.filo.10-neotominae
 delete source efln.filo.21-vespertilionidae
+delete source efln.filo.41-myrmecophagidae
 delete source efln.filo.61-diprotodontia
 
 delete source eflp.filo.1-chinchillidae
@@ -55,6 +57,7 @@ import source sources/fasta-bygroup/efln/efln.filo.5-mus
 import source sources/fasta-bygroup/efln/efln.filo.9-spalacidae
 import source sources/fasta-bygroup/efln/efln.filo.10-neotominae
 import source sources/fasta-bygroup/efln/efln.filo.21-vespertilionidae
+import source sources/fasta-bygroup/efln/efln.filo.41-myrmecophagidae
 import source sources/fasta-bygroup/efln/efln.filo.61-diprotodontia
 
 import source sources/fasta-bygroup/eflp/eflp.filo.1-chinchillidae
@@ -90,6 +93,10 @@ create alignment AL_EFLN-filo.21-vespertilionidae -r REF_EBOV_MASTER
 alignment AL_EFLN-filo.21-vespertilionidae add member --whereClause "source.name = 'efln.filo.21-vespertilionidae'"
 compute alignment AL_EFLN-filo.21-vespertilionidae --whereClause "sequence.source = 'efln.filo.21-vespertilionidae'" eflnCompoundAligner 
 
+create alignment AL_EFLN-filo.41-myrmecophagidae -r REF_EBOV_MASTER 
+alignment AL_EFLN-filo.41-myrmecophagidae add member --whereClause "source.name = 'efln.filo.41-myrmecophagidae'"
+compute alignment AL_EFLN-filo.41-myrmecophagidae --whereClause "sequence.source = 'efln.filo.41-myrmecophagidae'" eflnCompoundAligner 
+
 create alignment AL_EFLN-filo.61-diprotodontia -r REF_EBOV_MASTER 
 alignment AL_EFLN-filo.61-diprotodontia add member --whereClause "source.name = 'efln.filo.61-diprotodontia'"
 compute alignment AL_EFLN-filo.61-diprotodontia --whereClause "sequence.source = 'efln.filo.61-diprotodontia'" eflnCompoundAligner 
@@ -121,6 +128,7 @@ module fastaAlignmentExporter export AL_EFLN-filo.5-mus -a -o alignments/tips/ef
 module fastaAlignmentExporter export AL_EFLN-filo.9-spalacidae -a -o alignments/tips/efln/efln-filo.9-spalacidae.aln.fna
 module fastaAlignmentExporter export AL_EFLN-filo.10-neotominae -a -o alignments/tips/efln/efln-filo.10-neotominae.aln.fna
 module fastaAlignmentExporter export AL_EFLN-filo.21-vespertilionidae -a -o alignments/tips/efln/efln-filo.21-vespertilionidae.aln.fna
+module fastaAlignmentExporter export AL_EFLN-filo.41-myrmecophagidae -a -o alignments/tips/efln/efln-filo.21-vespertilionidae.aln.fna
 module fastaAlignmentExporter export AL_EFLN-filo.61-diprotodontia -a -o alignments/tips/efln/efln-filo.61-diprotodontia.aln.fna
 
 module fastaAlignmentExporter export AL_EFLP-filo.2-cricetidae -a -o alignments/tips/eflp/eflp-filo.2-cricetidae.aln.fna
