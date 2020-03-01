@@ -2,4 +2,4 @@
 create module -f modules/filoviridaeNcbiImporterReferences.xml ncbiImporterReferences
 module ncbiImporterReferences import
 
- export source ncbi-refseqs
+export source ncbi-refseqs
