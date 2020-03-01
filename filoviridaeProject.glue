@@ -1,49 +1,16 @@
 delete project filoviridae
 
-create project filoviridae "GLUE project for the filoviridae" --minVersion 0.1.50
+create project filoviridae "GLUE project for the Flaviviridae" --minVersion 1.1.65
 
 schema-project filoviridae
 
-  run file glue/filoviridaeSchemaExtensions.glue
+  run file glue/core/filoviridaeSchemaExtensions.glue
   exit
 
-project filoviridae
 
-  # load project settings
-  run file glue/projectSettings.glue
+# Build core project
+run file glue/core/buildCoreProject.glue
 
-  # create modules
-  run file glue/filoviridaeModules.glue
+# Build endogenous filovirus component
+run file glue/extension-eve/buildEveExtension.glue
 
-  # Import sources 
-  run file glue/filoviridaeSources.glue
-
-  # Import data 
-  #run script glue/loadExogenousData.js
-  module genbankXmlPopulator populate
-
-  # Import metadata for exogenous reference sequences from tabular
-  module filoviridaeSideDataImporter 
-    populate -f tabular/filoviridae-ncbi-refseqs-side-data.tsv
-    exit
-
-  # Import efv sequences and side data
-  run script glue/loadEndogenousData1.js
-  run script glue/loadEndogenousData2.js
-
-  # Create reference sequences
-  run file glue/filoviridaeReferences.glue
-  
-  # Define genome features
-  run file glue/filoviridaeFeatures.glue
-  
-  # Add feature locations
-  run file glue/filoviridaeExplicitFeatureLocations.glue
-
-  # Import alignments
-  run file glue/filoviridaeAlignments.glue
-
-  # Validate
-  validate
-
-  exit
