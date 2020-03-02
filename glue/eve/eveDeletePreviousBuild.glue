@@ -1,0 +1,16 @@
+ schema-project filoviridae
+  delete custom-table locus_data
+  delete custom-table refcon_data
+  exit
+
+project filoviridae
+
+  multi-delete alignment -w "name like 'AL_EFV%'"
+
+  multi-delete reference -w "name like 'REF_EFV-%'"
+
+  delete source --whereClause "name like 'fasta-eve%'"
+
+  
+  exit
+ 

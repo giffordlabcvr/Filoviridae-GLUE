@@ -1,0 +1,4 @@
+  # Import EVE FASTA sources 
+  import source sources/fasta-eve-digs
+  import source sources/fasta-eve-refseqs
+

@@ -12,5 +12,5 @@ schema-project filoviridae
 run file glue/core/buildCoreProject.glue
 
 # Build endogenous filovirus component
-run file glue/extension-eve/buildEveExtension.glue
+#run file glue/extension-eve/buildEveExtension.glue
 
