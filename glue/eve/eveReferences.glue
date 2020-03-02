@@ -1,0 +1,23 @@
+
+  # VP30
+  create reference REF_EFLH_Filo-1_cricetidae        fasta-eve-refseqs eflh-filo.1-cricetidae-con
+    
+  # NP
+  create reference REF_EFLN_Filo-1_bathyergidae      fasta-eve-refseqs efln-filo.1-bathyergidae-con
+  create reference REF_EFLN_Filo-3_dipodidae         fasta-eve-refseqs efln-filo.3-dipodidae-con
+  create reference REF_EFLN_Filo-4_cricetidae        fasta-eve-refseqs efln-filo.4-cricetidae-con
+  create reference REF_EFLN_Filo-7_acomys            fasta-eve-refseqs efln-filo.7-acomys-con
+  create reference REF_EFLN_Filo-8_dipodomys         fasta-eve-refseqs efln-filo.8-dipodomys-con
+  create reference REF_EFLN_Filo-9_spalacidae        fasta-eve-refseqs efln-filo.9-spalacidae-con
+  create reference REF_EFLN_Filo-10_neotominae       fasta-eve-refseqs efln-filo.10-neotominae-con
+  create reference REF_EFLN_Filo-21_vespertilionidae fasta-eve-refseqs efln-filo.21-vespertilionidae-con
+  create reference REF_EFLN_Filo-31_soricidae        fasta-eve-refseqs efln-filo.31-soricidae-con
+  #create reference REF_EFLN_Filo-41_myrmecophagidae  fasta-eve-refseqs efln-filo.41-myrmecophagidae-con
+  create reference REF_EFLN_Filo-61_diprotodontia    fasta-eve-refseqs efln-filo.61-diprotodontia-con
+    
+  # VP35
+  #create reference REF_EFLP_Filo-2_cricetidae        fasta-eve-refseqs eflp-filo.2-cricetidae-con
+  create reference REF_EFLP_Filo-6_myotis            fasta-eve-refseqs eflp-filo.6-myotis-con
+  create reference REF_EFLP_Filo-3_muridae           fasta-eve-refseqs eflp-filo.3-muridae-con
+  create reference REF_EFLP_Filo-8_phascolarctos     fasta-eve-refseqs eflp-filo.8-phascolarctos-con
+ 

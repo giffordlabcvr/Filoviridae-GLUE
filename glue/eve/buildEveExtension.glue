@@ -8,30 +8,23 @@ project filoviridae
 
 
   # Create modules
-  run file glue/eve/efvModules.glue
+  run file glue/eve/eveModules.glue
 
   # Import sources
-  import source sources/fasta-eve-refseqs/
-  import source sources/fasta-eve/
+  run file glue/eve/eveImportSources.glue
 
   # Import side data
-  run script glue/core/loadEndogenousData1.js
-  run script glue/core/loadEndogenousData2.js
+  run script glue/eve/loadEndogenousData1.js
+  run script glue/eve/loadEndogenousData2.js
   
   # Create references
-  run file glue/eve/efvReferences.glue
-
-  # Import sequence-associated data
-  run file glue/eve/efvImportSideData.glue
-
-  # Add feature locations to reference sequences
-  module featureLocationTextToGlue transform tabular/eve/efv-reference_feature_locations.tsv -r
+  run file glue/eve/eveReferences.glue
 
   # Import alignments
-  run file glue/eve/efvAlignments.glue
+  run file glue/eve/eveAlignments.glue
 
   # Import alignment tree
-  run file glue/eve/efvAlignmentTree.glue
+  run file glue/eve/eveAlignmentTree.glue
 
   # Validate
   validate

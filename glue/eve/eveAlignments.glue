@@ -1,0 +1,38 @@
+  #~# EVE tip-level alignments (single genes) 
+
+  module unconstrainedAlignmentImporter 
+     
+    # VP30
+    import AL_EFLH_FILO-1_UNC    -f alignments/eve/tip/eflh/eflh-filo.1-cricetidae.fna
+    
+    # NP
+    import AL_EFLN_FILO-1_UNC    -f alignments/eve/tip/efln/efln-filo.1-bathyergidae.fna
+    import AL_EFLN_FILO-3_UNC    -f alignments/eve/tip/efln/efln-filo.3-dipodidae.fna
+    import AL_EFLN_FILO-4_UNC    -f alignments/eve/tip/efln/efln-filo.4-cricetidae.fna
+    import AL_EFLN_FILO-7_UNC    -f alignments/eve/tip/efln/efln-filo.7-acomys.fna
+    import AL_EFLN_FILO-8_UNC    -f alignments/eve/tip/efln/efln-filo.8-dipodomys.fna
+    import AL_EFLN_FILO-9_UNC    -f alignments/eve/tip/efln/efln-filo.9-spalacidae.fna
+    import AL_EFLN_FILO-10_UNC   -f alignments/eve/tip/efln/efln-filo.10-neotominae.fna
+    import AL_EFLN_FILO-21_UNC   -f alignments/eve/tip/efln/efln-filo.21-vespertilionidae.fna
+    import AL_EFLN_FILO-31_UNC   -f alignments/eve/tip/efln/efln-filo.31-soricidae.fna
+    import AL_EFLN_FILO-41_UNC   -f alignments/eve/tip/efln/efln-filo.41-myrmecophagidae.fna
+    import AL_EFLN_FILO-61_UNC   -f alignments/eve/tip/efln/efln-filo.61-diprotodontia.fna
+    
+    # VP35
+    import AL_EFLP_FILO-2_UNC    -f alignments/eve/tip/eflp/eflp-filo.2-cricetidae.fna
+    import AL_EFLP_FILO-6_UNC    -f alignments/eve/tip/eflp/eflp-filo.6-myotis.fna
+    import AL_EFLP_FILO-3_UNC    -f alignments/eve/tip/eflp/eflp-filo.3-muridae.fna
+    import AL_EFLP_FILO-8_UNC    -f alignments/eve/tip/eflp/eflp-filo.8-phascolarctos.fna
+
+    exit
+
+
+  #~# EVE root-level alignments (single genes) 
+
+  module unconstrainedAlignmentImporter 
+     
+    #import AL_FILO_ROOT_NP_UNC -f alignments/eve/root/np.root.aln.fna
+    #import AL_FILO_ROOT_VP30_UNC -f alignments/eve/root/vp30.root.aln.fna
+    #import AL_FILO_ROOT_VP35_UNC -f alignments/eve/root/vp35.root.aln.fna
+
+    exit
