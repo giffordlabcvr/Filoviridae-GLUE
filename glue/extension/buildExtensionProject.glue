@@ -1,0 +1,47 @@
+schema-project filoviridae
+  run file glue/extension/filoviridaeSchemaExtensions.glue
+  exit
+
+project filoviridae
+
+  # load project settings
+  run file glue/projectSettings.glue
+
+  # create modules
+  run file glue/filoviridaeModules.glue
+
+  run file glue/m49_countries/populateM49All.glue
+
+  # Import sources 
+  run file glue/filoviridaeSources.glue
+
+  # Import data 
+  module genbankXmlPopulator populate
+
+  # Import metadata for exogenous reference sequences from tabular
+  module filoviridaeSideDataImporter 
+    populate -f tabular/ebola-ncbi-refseqs-side-data.tsv
+    exit
+
+  # Create reference sequences
+  run file glue/filoviridaeReferences.glue
+  
+  # Define genome features
+  run file glue/filoviridaeFeatures.glue
+  
+  # Import alignments
+  run file glue/filoviridaeAlignments.glue
+
+  # Add feature locations
+  run file glue/filoviridaeExplicitFeatureLocations.glue
+
+  # Validate feature locs
+  run script glue/filoviridaeValidateFeatureLocs.js
+
+  # Import alignment tree
+  run file glue/filoviridaeAlignmentTree.glue
+
+  # Validate
+  validate
+
+  exit
