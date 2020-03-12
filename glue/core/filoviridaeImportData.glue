@@ -1,0 +1,11 @@
+
+  # Link reference sequences to isolate table
+  run script glue/core/loadIsolateData.js
+
+  # Populate files from GenBank
+  module genbankXmlPopulator populate
+
+  # Import metadata for exogenous reference sequences from tabular
+  module filoviridaeSideDataImporter 
+    populate -f tabular/virus/filoviridae-ncbi-refseqs-side-data.tsv
+    exit

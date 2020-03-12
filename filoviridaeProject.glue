@@ -1,16 +1,18 @@
 delete project filoviridae
 
-create project filoviridae "GLUE project for the Flaviviridae" --minVersion 1.1.65
+create project filoviridae "A GLUE project for the Flaviviridae" --minVersion 1.1.65
 
 schema-project filoviridae
 
   run file glue/core/filoviridaeSchemaExtensions.glue
   exit
 
-
 # Build core project
 run file glue/core/buildCoreProject.glue
 
+# Build core project
+#run file glue/extension/buildExtensionProject.glue
+
 # Build endogenous filovirus component
-run file glue/eve/buildEveExtension.glue
+#run file glue/eve/buildEveExtension.glue
 

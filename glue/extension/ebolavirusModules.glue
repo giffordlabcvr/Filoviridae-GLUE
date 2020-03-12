@@ -1,13 +1,15 @@
-create module -f modules/ebolavirusGenbankXmlPopulator.xml genbankXmlPopulator
-create module -f modules/ebolavirusSideDataImporter.xml 
-create module -f modules/ebolavirusGpTranslationModifier.xml
-create module -f modules/ebolavirusSsgpTranslationModifier.xml
-create module -f modules/featureLocationTextToGlue.xml 
-create module -f modules/ebolavirusKuiken2006CodonLabeler.xml   
-create module -f modules/rootAlignmentImporter.xml 
-create module -f modules/unconstrainedAlignmentImporter.xml 
-create module -f modules/fastaExporter.xml fastaExporter
-create module -f modules/tabularUtilityCsv.xml
-create module -f modules/tabularUtilityTab.xml
-create module -f modules/blastFastaAlignmentImporter.xml
-create module -f modules/ebolavirusCompoundAligner.xml
+  create module -f modules/extension/ebolavirusGenbankXmlPopulator.xml genbankXmlPopulator
+  create module -f modules/extension/ebolavirusSideDataImporter.xml 
+  create module -f modules/extension/ebolavirusGpTranslationModifier.xml
+  create module -f modules/extension/ebolavirusSsgpTranslationModifier.xml
+  create module -f modules/extension/featureLocationTextToGlue.xml 
+  
+  create module -f modules/extension/ebolavirusKuiken2006CodonLabeler.xml   
+  create module -f modules/extension/rootAlignmentImporter.xml 
+  create module -f modules/extension/unconstrainedAlignmentImporter.xml 
+  create module -f modules/extension/fastaExporter.xml fastaExporter
+  
+  create module -f modules/extension/tabularUtilityCsv.xml
+  create module -f modules/extension/tabularUtilityTab.xml
+  create module -f modules/extension/blastFastaAlignmentImporter.xml
+  create module -f modules/extension/ebolavirusCompoundAligner.xml

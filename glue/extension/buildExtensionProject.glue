@@ -4,12 +4,10 @@ schema-project filoviridae
 
 project filoviridae
 
-  # load project settings
-  run file glue/projectSettings.glue
-
   # create modules
-  run file glue/filoviridaeModules.glue
+  run file glue/extension/filoviridaeModules.glue
 
+  # create M49 country ISO standard names table
   run file glue/m49_countries/populateM49All.glue
 
   # Import sources 
@@ -28,12 +26,12 @@ project filoviridae
   
   # Define genome features
   run file glue/filoviridaeFeatures.glue
-  
-  # Import alignments
-  run file glue/filoviridaeAlignments.glue
 
-  # Add feature locations
-  run file glue/filoviridaeExplicitFeatureLocations.glue
+  # Import alignments
+  run file glue/core/filoviridaeAlignments.glue
+
+  # Define constrained alignment tree
+  run file glue/core/filoviridaeAlignmentTree.glue
 
   # Validate feature locs
   run script glue/filoviridaeValidateFeatureLocs.js

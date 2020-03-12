@@ -6,24 +6,16 @@
 	<gbAccessionVersion>
 		<propertyPopulator property="gb_accession_version"/>
 	</gbAccessionVersion>
-	
-	<gbLocus>
-		<propertyPopulator property="gb_locus"/>
-	</gbLocus>
-	
+		
 	<gbOtherID>
 		<propertyPopulator property="gb_gi_number">
 			<matchPattern>gi\|(\d+)</matchPattern>
 			<outputTemplate>${g1}</outputTemplate>
 		</propertyPopulator>
 	</gbOtherID>
-	
-	<gbTaxonomy>
-		<propertyPopulator property="gb_taxonomy"/>
-	</gbTaxonomy>
-	
+		
 	<gbLength>
-		<propertyPopulator property="gb_length"/>
+		<propertyPopulator property="length"/>
 	</gbLength>
 	
 	<gbUpdateDate>
@@ -36,7 +28,7 @@
 
 	<gbReference>
 		<gbRefPubmed>
-			<propertyPopulator property="gb_pubmed_id"/>
+			<propertyPopulator property="pubmed_id"/>
 		</gbRefPubmed>
 	</gbReference>
 
@@ -50,24 +42,24 @@
 	<gbFeature key="source">
 	
 		<gbQualifier name="isolate">
-			<propertyPopulator property="isolate"/>
+			<propertyPopulator property="isolate_data.isolate"/>
 		</gbQualifier>
 		
 		<gbQualifier name="strain">
-			<propertyPopulator property="isolate"/>
+			<propertyPopulator property="isolate_data.isolate"/>
 		</gbQualifier>
 		
 		<gbQualifier name="isolation_source">
-			<propertyPopulator property="iso_source"/>
+			<propertyPopulator property="isolate_data.iso_source"/>
 		</gbQualifier>
 
 		<gbQualifier name="country">
-			<propertyPopulator property="gb_country"></propertyPopulator>
-			<propertyPopulator property="gb_place_sampled">
+			<propertyPopulator property="isolate_data.country"></propertyPopulator>
+			<propertyPopulator property="isolate_data.place_sampled">
 				<matchPattern>^.*:(.*)$</matchPattern>
 				<outputTemplate>${g1?trim}</outputTemplate>
 			</propertyPopulator>
-			<isoCountryPropertyPopulator property="gb_country" codeStyle="ALPHA_3">
+			<isoCountryPropertyPopulator property="isolate_data.country" codeStyle="ALPHA_3">
 				<valueConverter>
 					<matchPattern>.*Yugoslavia.*</matchPattern>
 					<outputTemplate>SRB</outputTemplate>
@@ -84,7 +76,7 @@
 		</gbQualifier>
 		
 		<gbQualifier name="host">
-			<propertyPopulator property="host">
+			<propertyPopulator property="isolate_data.host_sci_name">
 				<valueConverter>
 					<matchPattern>.*Homo [sS]apiens.*</matchPattern>
 					<outputTemplate>Homo sapiens</outputTemplate>
@@ -265,24 +257,24 @@
 		
 		
 		<gbQualifier name="collection_date">
-			<propertyPopulator property="collection_month_day">
+			<propertyPopulator property="isolate_data.collection_month_day">
 				<matchPattern>(\d{2})-[A-Za-z]{3}-\d{4}</matchPattern>
 				<outputTemplate>${g1}</outputTemplate>
 			</propertyPopulator>
-			<propertyPopulator property="collection_month">
+			<propertyPopulator property="isolate_data.collection_month">
 				<matchPattern>\d{2}-([A-Za-z]{3})-\d{4}</matchPattern>
 				<outputTemplate>${g1?upper_case}</outputTemplate>
 			</propertyPopulator>
-			<propertyPopulator property="collection_year">
+			<propertyPopulator property="isolate_data.collection_year">
 				<matchPattern>(\d{4})</matchPattern>
 				<outputTemplate>${g1}</outputTemplate>
 			</propertyPopulator>
 			<!-- if collection year is specified here then we have tight bounds on the earliest / latest collection year -->
-			<propertyPopulator property="earliest_collection_year">
+			<propertyPopulator property="isolate_data.earliest_collection_year">
 				<matchPattern>(\d{4})</matchPattern>
 				<outputTemplate>${g1}</outputTemplate>
 			</propertyPopulator>
-			<propertyPopulator property="latest_collection_year">
+			<propertyPopulator property="isolate_data.latest_collection_year">
 				<matchPattern>(\d{4})</matchPattern>
 				<outputTemplate>${g1}</outputTemplate>
 			</propertyPopulator>

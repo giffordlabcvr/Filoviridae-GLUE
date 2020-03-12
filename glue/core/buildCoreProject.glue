@@ -15,32 +15,20 @@ project filoviridae
   # create modules
   run file glue/core/filoviridaeModules.glue
 
+  # Define genome features
+  run file glue/core/filoviridaeFeatures.glue
+
   # Import sources 
   run file glue/core/filoviridaeSources.glue
 
   # Import data 
-  #run script glue/core/loadExogenousData.js
-  module genbankXmlPopulator populate
-
-  # Import metadata for exogenous reference sequences from tabular
-  module filoviridaeSideDataImporter 
-    populate -f tabular/virus/filoviridae-ncbi-refseqs-side-data.tsv
-    exit
+  run file glue/core/filoviridaeImportData.glue
 
   # Create reference sequences
   run file glue/core/filoviridaeReferences.glue
-  
-  # Define genome features
-  run file glue/core/filoviridaeFeatures.glue
-  
+    
   # Add feature locations
   run file glue/core/filoviridaeExplicitFeatureLocations.glue
-
-  # Import alignments
-  run file glue/core/filoviridaeAlignments.glue
-
-  # Define constrained alignment tree
-  run file glue/core/filoviridaeAlignmentTree.glue
 
   # Validate
   validate
