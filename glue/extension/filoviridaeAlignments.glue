@@ -16,4 +16,3 @@
     import AL_SUDV_UNCONSTRAINED    -f alignments/sudv-genome.fna
     import AL_RESTV_UNCONSTRAINED   -f alignments/restv-genome.fna
     exit
-     
