@@ -21,10 +21,23 @@
       add segment 4479 5459
       exit
 
+    add feature-location sGP
+    feature-location sGP
+      add segment 6039 7133
+      exit
+
+    add feature-location ssGP
+    feature-location ssGP
+      add segment 6039 6920 --spliceIndex 1
+      add segment 6921 6924 --spliceIndex 2 --translationModifier filoviridaeSsgpTranslationModifier
+      add segment 6925 6933 --spliceIndex 3
+      exit
+
     add feature-location GP
     feature-location GP
-      add segment 6039 6923
-      #add segment 6923 8068
+      add segment 6039 6920 --spliceIndex 1
+      add segment 6921 6925 --spliceIndex 2 --translationModifier filoviridaeGpTranslationModifier
+      add segment 6926 8068 --spliceIndex 3
       exit
 
     add feature-location VP30
@@ -68,11 +81,24 @@
       add segment 4454 5434
       exit
 
+    add feature-location sGP
+    feature-location sGP
+      add segment 5998 7116
+      exit
+
+    add feature-location ssGP
+    feature-location ssGP
+      add segment 5998 6879 --spliceIndex 1
+      add segment 6880 6883 --spliceIndex 2 --translationModifier filoviridaeSsgpTranslationModifier
+      add segment 6884 6955 --spliceIndex 3
+      exit
+
     add feature-location GP
     feature-location GP
-      add segment 5998 6882
-      #add segment 6882 8027
-     exit
+      add segment 5998 6879 --spliceIndex 1
+      add segment 6880 6884 --spliceIndex 2 --translationModifier filoviridaeGpTranslationModifier
+      add segment 6885 8027 --spliceIndex 3
+      exit
 
     add feature-location VP30
     feature-location VP30
@@ -116,25 +142,38 @@
       add segment 4461 5441
       exit
 
+    add feature-location sGP
+    feature-location sGP
+      add segment 6021 7142
+      exit
+
+    add feature-location ssGP
+    feature-location ssGP
+      add segment 6021 6902 --spliceIndex 1
+      add segment 6903 6906 --spliceIndex 2 --translationModifier filoviridaeSsgpTranslationModifier
+      add segment 6907 6930 --spliceIndex 3
+      exit
+
     add feature-location GP
     feature-location GP
-      add segment 5998 6882
-      #add segment 6882 8027
-     exit
+      add segment 6021 6902 --spliceIndex 1
+      add segment 6903 6907 --spliceIndex 2 --translationModifier filoviridaeGpTranslationModifier
+      add segment 6908 8050 --spliceIndex 3
+      exit
 
     add feature-location VP30
     feature-location VP30
-      add segment 8441 9307
+      add segment 8496 9365
       exit
 
     add feature-location VP24
     feature-location VP24
-      add segment 9826 9837
+      add segment 10335 11090
       exit
 
     add feature-location L
     feature-location L
-      add segment 11535 18167
+      add segment 11567 18199
       exit
 
     exit
@@ -163,11 +202,24 @@
       add segment 4467 5447
       exit
 
+    add feature-location sGP
+    feature-location sGP
+      add segment 6027 7124
+      exit
+
+    add feature-location ssGP
+    feature-location ssGP
+      add segment 6027 6908 --spliceIndex 1
+      add segment 6909 6912 --spliceIndex 2 --translationModifier filoviridaeSsgpTranslationModifier
+      add segment 6913 6936 --spliceIndex 3
+      exit
+
     add feature-location GP
     feature-location GP
-      add segment 6027 6911 
-      #add segment 6911 8056
-     exit
+      add segment 6027 6908 --spliceIndex 1
+      add segment 6909 6913 --spliceIndex 2 --translationModifier filoviridaeGpTranslationModifier
+      add segment 6914 8056 --spliceIndex 3
+      exit
 
     add feature-location VP30
     feature-location VP30
@@ -210,12 +262,24 @@
       add segment 4485 5480
       exit
 
+    add feature-location sGP
+    feature-location sGP
+      add segment 6042 7145
+      exit
+
+    add feature-location ssGP
+    feature-location ssGP
+      add segment 6042 6926 --spliceIndex 1
+      add segment 6927 6930 --spliceIndex 2 --translationModifier filoviridaeSsgpTranslationModifier
+      add segment 6931 7038 --spliceIndex 3
+      exit
+
     add feature-location GP
     feature-location GP
-     add segment 6042 7145
-     #add segment 6042 6930
-     #add segment 6930 8074
-     exit
+      add segment 6042 6926 --spliceIndex 1
+      add segment 6927 6931 --spliceIndex 2 --translationModifier filoviridaeGpTranslationModifier
+      add segment 6932 8074 --spliceIndex 3
+      exit
 
     add feature-location VP30
     feature-location VP30
@@ -233,8 +297,7 @@
       exit
 
     exit
-
- 
+   
   # declare feature locations on the Bombali virus reference
   reference REF_BOMV
 
@@ -258,11 +321,24 @@
       add segment 4466 5446
       exit
 
+    add feature-location sGP
+    feature-location sGP
+      add segment 6043 7140
+      exit
+
+    add feature-location ssGP
+    feature-location ssGP
+      add segment 6043 6912 --spliceIndex 1
+      add segment 6913 6916 --spliceIndex 2 --translationModifier filoviridaeSsgpTranslationModifier
+      add segment 6917 6940 --spliceIndex 3
+      exit
+
     add feature-location GP
     feature-location GP
-      add segment 6043 6915
-      #add segment 6915 8060
-     exit
+      add segment 6043 6912 --spliceIndex 1
+      add segment 6913 6917 --spliceIndex 2 --translationModifier filoviridaeGpTranslationModifier
+      add segment 6918 8060 --spliceIndex 3
+      exit
 
     add feature-location VP30
     feature-location VP30

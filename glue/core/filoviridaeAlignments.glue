@@ -3,7 +3,11 @@
   module unconstrainedAlignmentImporter 
 
     #~# Virus genus-level alignments
+    import AL_EBOLAVIRIDAE_UNC    -f alignments/virus/root/ebolaviridae-genome.fna
 
-    import AL_EBOLAVIRUS_UNC    -f alignments/virus/internal/ebolavirus-genome.fna
-    #import AL_MARBURGVIRUS_UNC  -f alignments/virus/internal/marburgvirus-genome.fna
-    #import AL_DIANLOVIRUS_UNC   -f alignments/virus/internal/dianlovirus-genome.fna
+    #~# Virus genus-level alignments
+    import AL_EBOLAVIRUS_UNC    -f alignments/virus/tip/ebolavirus-genome.fna
+    import AL_MARBURGVIRUS_UNC  -f alignments/virus/tip/marburgvirus-genome.fna
+    import AL_DIANLOVIRUS_UNC   -f alignments/virus/tip/dianlovirus-genome.fna
+    
+    exit
