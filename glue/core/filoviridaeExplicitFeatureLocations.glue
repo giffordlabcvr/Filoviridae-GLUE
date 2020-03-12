@@ -29,14 +29,14 @@
     add feature-location ssGP
     feature-location ssGP
       add segment 6039 6920 --spliceIndex 1
-      add segment 6921 6924 --spliceIndex 2 --translationModifier ebolavirusSsgpTranslationModifier
+      add segment 6921 6924 --spliceIndex 2 --translationModifier filoviridaeSsgpTranslationModifier
       add segment 6925 6933 --spliceIndex 3
       exit
 
     add feature-location GP
     feature-location GP
       add segment 6039 6920 --spliceIndex 1
-      add segment 6921 6925 --spliceIndex 2 --translationModifier ebolavirusGpTranslationModifier
+      add segment 6921 6925 --spliceIndex 2 --translationModifier filoviridaeGpTranslationModifier
       add segment 6926 8068 --spliceIndex 3
       exit
 
@@ -89,14 +89,14 @@
     add feature-location ssGP
     feature-location ssGP
       add segment 5998 6879 --spliceIndex 1
-      add segment 6880 6883 --spliceIndex 2 --translationModifier ebolavirusSsgpTranslationModifier
+      add segment 6880 6883 --spliceIndex 2 --translationModifier filoviridaeSsgpTranslationModifier
       add segment 6884 6955 --spliceIndex 3
       exit
 
     add feature-location GP
     feature-location GP
       add segment 5998 6879 --spliceIndex 1
-      add segment 6880 6884 --spliceIndex 2 --translationModifier ebolavirusGpTranslationModifier
+      add segment 6880 6884 --spliceIndex 2 --translationModifier filoviridaeGpTranslationModifier
       add segment 6885 8027 --spliceIndex 3
       exit
 
@@ -150,14 +150,14 @@
     add feature-location ssGP
     feature-location ssGP
       add segment 6021 6902 --spliceIndex 1
-      add segment 6903 6906 --spliceIndex 2 --translationModifier ebolavirusSsgpTranslationModifier
+      add segment 6903 6906 --spliceIndex 2 --translationModifier filoviridaeSsgpTranslationModifier
       add segment 6907 6930 --spliceIndex 3
       exit
 
     add feature-location GP
     feature-location GP
       add segment 6021 6902 --spliceIndex 1
-      add segment 6903 6907 --spliceIndex 2 --translationModifier ebolavirusGpTranslationModifier
+      add segment 6903 6907 --spliceIndex 2 --translationModifier filoviridaeGpTranslationModifier
       add segment 6908 8050 --spliceIndex 3
       exit
 
@@ -180,7 +180,7 @@
     
     
    # declare feature locations on the Tai Forest virus reference
-  reference REF_TAFV_NC_014372
+  reference REF_TAFV
 
     add feature-location whole_genome
     feature-location whole_genome
@@ -210,14 +210,14 @@
     add feature-location ssGP
     feature-location ssGP
       add segment 6027 6908 --spliceIndex 1
-      add segment 6909 6912 --spliceIndex 2 --translationModifier ebolavirusSsgpTranslationModifier
+      add segment 6909 6912 --spliceIndex 2 --translationModifier filoviridaeSsgpTranslationModifier
       add segment 6913 6936 --spliceIndex 3
       exit
 
     add feature-location GP
     feature-location GP
       add segment 6027 6908 --spliceIndex 1
-      add segment 6909 6913 --spliceIndex 2 --translationModifier ebolavirusGpTranslationModifier
+      add segment 6909 6913 --spliceIndex 2 --translationModifier filoviridaeGpTranslationModifier
       add segment 6914 8056 --spliceIndex 3
       exit
 
@@ -270,14 +270,14 @@
     add feature-location ssGP
     feature-location ssGP
       add segment 6042 6926 --spliceIndex 1
-      add segment 6927 6930 --spliceIndex 2 --translationModifier ebolavirusSsgpTranslationModifier
+      add segment 6927 6930 --spliceIndex 2 --translationModifier filoviridaeSsgpTranslationModifier
       add segment 6931 7038 --spliceIndex 3
       exit
 
     add feature-location GP
     feature-location GP
       add segment 6042 6926 --spliceIndex 1
-      add segment 6927 6931 --spliceIndex 2 --translationModifier ebolavirusGpTranslationModifier
+      add segment 6927 6931 --spliceIndex 2 --translationModifier filoviridaeGpTranslationModifier
       add segment 6932 8074 --spliceIndex 3
       exit
 
@@ -329,14 +329,14 @@
     add feature-location ssGP
     feature-location ssGP
       add segment 6043 6912 --spliceIndex 1
-      add segment 6913 6916 --spliceIndex 2 --translationModifier ebolavirusSsgpTranslationModifier
+      add segment 6913 6916 --spliceIndex 2 --translationModifier filoviridaeSsgpTranslationModifier
       add segment 6917 6940 --spliceIndex 3
       exit
 
     add feature-location GP
     feature-location GP
       add segment 6043 6912 --spliceIndex 1
-      add segment 6913 6917 --spliceIndex 2 --translationModifier ebolavirusGpTranslationModifier
+      add segment 6913 6917 --spliceIndex 2 --translationModifier filoviridaeGpTranslationModifier
       add segment 6918 8060 --spliceIndex 3
       exit
 
