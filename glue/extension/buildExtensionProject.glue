@@ -23,8 +23,10 @@ project filoviridae
   # Define constrained alignment tree
   run file glue/extension/filoviridaeAlignmentTree.glue
 
+  # Build phylogenies
+  run file glue/extension/filoviridaeCreatePhylogenies.glue
 
   # Validate
-  validate
+  #validate
 
   exit

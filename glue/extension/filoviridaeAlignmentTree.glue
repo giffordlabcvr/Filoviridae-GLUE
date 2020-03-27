@@ -1,27 +1,27 @@
 
   ### Constrained alignment tree
 
-  create alignment AL_EBOLAVIRUS_MASTER -r REF_MASTER_NC_002549
-  alignment AL_EBOLAVIRUS_MASTER add member -w "source.name != 'ncbi-curated-ebov' or gb_length >= 7000"
+  create alignment AL_EBOLAVIRUS_MASTER -r REF_EBOV_MASTER
+  alignment AL_EBOLAVIRUS_MASTER add member -w "source.name != 'ncbi-curated-ebov' or length >= 7000"
   
   alignment AL_EBOLAVIRUS_MASTER
-	extract child AL_EBOV    --refName REF_MASTER_NC_002549
-	demote member AL_EBOV    --whereClause "sequence.source = 'ncbi-curated-ebov' and sequence.gb_length >= 10000" 
+	extract child AL_EBOV    --refName REF_EBOV_MASTER
+	demote member AL_EBOV    --whereClause "sequence.source = 'ncbi-curated-ebov' and sequence.length >= 10000" 
 	#demote member AL_EBOV    --whereClause "sequence.source = 'outbreak-drc2019-ebov-fasta'" 
-	extract child AL_SUDV    --refName REF_SUDV_NC_006432
+	extract child AL_SUDV    --refName REF_SUDV
 	demote member AL_SUDV    --whereClause "sequence.source = 'ncbi-curated-sudv'" 
-	extract child AL_BDBV    --refName REF_BDBV_NC_014373
+	extract child AL_BDBV    --refName REF_BDBV
 	demote member AL_BDBV    --whereClause "sequence.source = 'ncbi-curated-bdbv'" 
-	extract child AL_TAFV    --refName REF_TAFV_NC_014372
+	extract child AL_TAFV    --refName REF_TAFV
 	demote member AL_TAFV    --whereClause "sequence.source = 'ncbi-curated-tafv'" 
-	extract child AL_BOMV    --refName REF_BOMV_NC_039345
+	extract child AL_BOMV    --refName REF_BOMV
 	demote member AL_BOMV    --whereClause "sequence.source = 'ncbi-curated-bomv'" 
-	extract child AL_RESTV   --refName REF_RESTV_NC_004161
+	extract child AL_RESTV   --refName REF_RESTV
 	demote member AL_RESTV   --whereClause "sequence.source = 'ncbi-curated-restv'" 
     exit
  
-  create alignment AL_MARBURGVIRUS_MASTER -r REF_MARV_NC_001608
-  alignment AL_EBOLAVIRUS_MASTER add member -w "source.name != 'ncbi-curated-ebov' or gb_length >= 7000"
+  create alignment AL_MARBURGVIRUS_MASTER -r REF_MARV
+  alignment AL_EBOLAVIRUS_MASTER add member -w "source.name != 'ncbi-curated-ebov' or length >= 7000"
  
  
   ### Derive constrained alignment segments from unconstrained alignments
@@ -48,6 +48,10 @@
 
   alignment AL_BOMV
     derive segments AL_BOMV_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_RESTV
+    derive segments AL_RESTV_UNCONSTRAINED -a --mergeStrategy OVERWRITE
     exit
 
   ### Compute alignments

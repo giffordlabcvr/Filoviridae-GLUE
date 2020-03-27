@@ -30,10 +30,13 @@ project filoviridae
   # Add feature locations
   run file glue/core/filoviridaeExplicitFeatureLocations.glue
 
+  # Add feature locations
+  run file glue/core/filoviridaeAlignments.glue
+
   # Validate feature locs
-  run script glue/core/filoviridaeValidateFeatureLocs.js
+  #run script glue/core/filoviridaeValidateFeatureLocs.js
 
   # Validate
-  validate
+  #validate
 
   exit
