@@ -1,6 +1,9 @@
   # Import unconstrained pre-built alignments/virus/tip/  
   module blastFastaAlignmentImporter
 
+    #~# Genus-level alignments/virus/tip/ 
+    import AL_EBOLAVIRUS_UNC  -f alignments/virus/internal/ebolavirus-genome.fna
+
     #~# Species-level alignments/virus/tip/ 
     import AL_EBOV_UNC  -f alignments/virus/tip/ebov-genome.fna
     import AL_BDBV_UNC  -f alignments/virus/tip/bdbv-genome.fna

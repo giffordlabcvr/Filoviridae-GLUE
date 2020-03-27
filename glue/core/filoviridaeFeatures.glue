@@ -39,7 +39,7 @@
     set field displayName "sGP"
     set metatag OWN_CODON_NUMBERING true
     set metatag CODES_AMINO_ACIDS true
-    set metatag CODON_LABELER_MODULE filoviridaeKuiken2006CodonLabeler
+    #set metatag CODON_LABELER_MODULE filoviridaeKuiken2006CodonLabeler
     exit
 
   create feature ssGP -p whole_genome "Minor nonstructural glycoprotein"
@@ -47,7 +47,7 @@
     set field displayName "ssGP"
     set metatag OWN_CODON_NUMBERING true
     set metatag CODES_AMINO_ACIDS true
-    set metatag CODON_LABELER_MODULE filoviridaeKuiken2006CodonLabeler
+    #set metatag CODON_LABELER_MODULE filoviridaeKuiken2006CodonLabeler
     exit
 
   create feature GP -p whole_genome "Surface glycoprotein"
@@ -55,7 +55,7 @@
     set field displayName "GP"
     set metatag OWN_CODON_NUMBERING true
     set metatag CODES_AMINO_ACIDS true
-    set metatag CODON_LABELER_MODULE filoviridaeKuiken2006CodonLabeler
+    #set metatag CODON_LABELER_MODULE filoviridaeKuiken2006CodonLabeler
     exit
 
   create feature GP1 -p whole_genome "Glycoprotein1"

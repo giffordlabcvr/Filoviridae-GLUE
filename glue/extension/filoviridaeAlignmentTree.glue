@@ -1,10 +1,10 @@
 
   ### Constrained alignment tree
 
-  create alignment AL_EBOLAVIRUS_MASTER -r REF_EBOV_MASTER
-  alignment AL_EBOLAVIRUS_MASTER add member -w "source.name != 'ncbi-curated-ebov' or length >= 7000"
+  create alignment AL_EBOLAVIRUS_GENUS -r REF_EBOV_MASTER
+  alignment AL_EBOLAVIRUS_GENUS add member -w "source.name != 'ncbi-curated-ebov' or length >= 7000"
   
-  alignment AL_EBOLAVIRUS_MASTER
+  alignment AL_EBOLAVIRUS_GENUS
 	extract child AL_EBOV    --refName REF_EBOV_MASTER
 	demote member AL_EBOV    --whereClause "sequence.source = 'ncbi-curated-ebov' and sequence.length >= 10000" 
 	#demote member AL_EBOV    --whereClause "sequence.source = 'outbreak-drc2019-ebov-fasta'" 
@@ -20,41 +20,42 @@
 	demote member AL_RESTV   --whereClause "sequence.source = 'ncbi-curated-restv'" 
     exit
  
-  create alignment AL_MARBURGVIRUS_MASTER -r REF_MARV
-  alignment AL_EBOLAVIRUS_MASTER add member -w "source.name != 'ncbi-curated-ebov' or length >= 7000"
+  #create alignment AL_MARBURGVIRUS_MASTER -r REF_MARV
+  #alignment AL_MARBURGVIRUS_MASTER add member -w "source.name != 'ncbi-curated-marv' or length >= 7000"
+  
  
- 
+
   ### Derive constrained alignment segments from unconstrained alignments
 
-  #alignment AL_EBOLAVIRUS_MASTER
-  #  derive segments AL_EBOLAVIRUS_UNCONSTRAINED -a --mergeStrategy OVERWRITE
-  #  exit
+  alignment AL_EBOLAVIRUS_GENUS
+    derive segments AL_EBOLAVIRUS_UNC -a --mergeStrategy OVERWRITE
+    exit
  
   alignment AL_EBOV
-    derive segments AL_EBOV_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_EBOV_UNC -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_BDBV
-    derive segments AL_BDBV_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_BDBV_UNC -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_TAFV
-    derive segments AL_TAFV_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_TAFV_UNC -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_SUDV
-    derive segments AL_SUDV_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_SUDV_UNC -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_BOMV
-    derive segments AL_BOMV_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_BOMV_UNC -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_RESTV
-    derive segments AL_RESTV_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_RESTV_UNC -a --mergeStrategy OVERWRITE
     exit
 
   ### Compute alignments
   # this computes rows for any member which does not currently have any segments.
-  compute alignment AL_EBOV  -w "alignedSegments+.refStart = null" ebolavirusCompoundAligner
+  compute alignment AL_EBOV  -w "alignedSegments+.refStart = null" filoviridaeCompoundAligner
   

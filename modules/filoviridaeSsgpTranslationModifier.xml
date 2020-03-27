@@ -2,8 +2,8 @@
 	<segmentNtLength>4</segmentNtLength>
 	<!-- 
 	EBOV master reference NC_002549 
-	AAAA becomes AAA, with the A at 6923 deleted.
-	Alternatively you could have 2 As added
+	'AAAA' becomes 'AAA', with the 'A' at 6923 deleted.
+	Alternatively you could have 2 'A's added
 	-->
 	<preTranslationNtModifications>
 		<deleteNucleotide>

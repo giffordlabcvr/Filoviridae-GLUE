@@ -1,5 +1,8 @@
 project filoviridae
 
+  # create modules
+  run file glue/extension/filoviridaeExtensionModules.glue
+
   # create M49 country ISO standard names table
   run file glue/extension/m49_countries/populateM49All.glue
 
@@ -12,13 +15,8 @@ project filoviridae
   # Import data 
   module genbankXmlPopulator populate
 
-  # Import metadata for exogenous reference sequences from tabular
-  #module filoviridaeSideDataImporter 
-  #  populate -f tabular/ebola-ncbi-refseqs-side-data.tsv
-  #  exit
-
-  # Import alignments
-  #run file glue/extension/filoviridaeAlignments.glue
+  # Import genus and species-level alignments
+  run file glue/extension/filoviridaeExtensionAlignments.glue
 
   # Define constrained alignment tree
   run file glue/extension/filoviridaeAlignmentTree.glue
@@ -27,6 +25,6 @@ project filoviridae
   run file glue/extension/filoviridaeCreatePhylogenies.glue
 
   # Validate
-  #validate
+  validate
 
   exit

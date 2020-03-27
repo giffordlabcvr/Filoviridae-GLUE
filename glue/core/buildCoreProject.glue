@@ -37,6 +37,6 @@ project filoviridae
   #run script glue/core/filoviridaeValidateFeatureLocs.js
 
   # Validate
-  #validate
+  validate
 
   exit
