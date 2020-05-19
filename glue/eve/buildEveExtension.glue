@@ -6,9 +6,6 @@ schema-project filoviridae
 
 project filoviridae
 
-  # Create modules
-  run file glue/eve/eveModules.glue
-
   # Import sources
   run file glue/eve/eveImportSources.glue
 
