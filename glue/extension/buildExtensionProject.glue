@@ -22,7 +22,7 @@ project filoviridae
   run file glue/extension/filoviridaeAlignmentTree.glue
 
   # Build phylogenies
-  run file glue/extension/filoviridaeCreatePhylogenies.glue
+  #run file glue/extension/filoviridaeCreatePhylogenies.glue
 
   # Validate
   validate
