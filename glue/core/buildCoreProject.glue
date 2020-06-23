@@ -30,7 +30,7 @@ project filoviridae
   # Add feature locations
   run file glue/core/filoviridaeExplicitFeatureLocations.glue
 
-  # Add feature locations
+  # Import alignments
   run file glue/core/filoviridaeAlignments.glue
 
   # Validate feature locs
