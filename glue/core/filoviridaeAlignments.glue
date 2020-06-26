@@ -5,5 +5,5 @@
     import AL_FILOVIRIDAE_UNC -f alignments/virus/root/filoviridae-genome.fna  
 
     #~# Virus genus-level alignments
-    import AL_EBOLAVIRUS_UNC -f alignments/virus/root/ebolavirus-genome.fna  
+    import AL_EBOLAVIRUS_UNC -f alignments/virus/internal/ebolavirus-genome.fna  
     exit

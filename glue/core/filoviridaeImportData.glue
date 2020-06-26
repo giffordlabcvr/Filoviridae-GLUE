@@ -7,5 +7,5 @@
 
   # Import metadata for exogenous reference sequences from tabular
   module filoviridaeSideDataImporter 
-    populate -f tabular/virus/filoviridae-ncbi-refseqs-side-data.tsv
+    populate -f tabular/core/filoviridae-ncbi-refseqs-side-data.tsv
     exit

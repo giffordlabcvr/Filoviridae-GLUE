@@ -1,7 +1,7 @@
 // Load EVE data from tab file 
 var loadResult;
 glue.inMode("module/filoviridaeTabularUtility", function() {
-	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve-digs/eve-side-data.tsv"]));
+	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/eve-side-data.tsv"]));
 	//glue.log("INFO", "load result was:", loadResult);
 });
 
@@ -19,3 +19,4 @@ _.each(loadResult, function(eveObj) {
 
 	});
 });
+ 
