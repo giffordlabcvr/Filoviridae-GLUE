@@ -59,7 +59,7 @@
 
     generate nucleotide phylogeny AL_TREE_Filoviridae -s alignmentColumnsSelectorFiloPolymerase \
       -w "fLocNotes.featureLoc.feature.name = 'L' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/main-root/filo-pol.export_nucs.tre NEWICK_BOOTSTRAPS
+      -o trees/main-root/filo-L-polymerase.export_nucs.tre NEWICK_BOOTSTRAPS
 
     exit
 

@@ -1,3 +1,14 @@
+  #~# EVE root-level alignments (single genes) 
+
+  module unconstrainedAlignmentImporter 
+     
+    import AL_FILO_ROOT_NP_UNC -f alignments/eve/root/np.root.aln.fna
+    import AL_FILO_ROOT_VP30_UNC -f alignments/eve/root/vp30.root.aln.fna
+    import AL_FILO_ROOT_VP35_UNC -f alignments/eve/root/vp35.root.aln.fna
+
+    exit
+
+
   #~# EVE tip-level alignments (single genes) 
 
   module unconstrainedAlignmentImporter 
@@ -27,12 +38,3 @@
     exit
 
 
-  #~# EVE root-level alignments (single genes) 
-
-  module unconstrainedAlignmentImporter 
-     
-    import AL_FILO_ROOT_NP_UNC -f alignments/eve/root/np.root.aln.fna
-    import AL_FILO_ROOT_VP30_UNC -f alignments/eve/root/vp30.root.aln.fna
-    import AL_FILO_ROOT_VP35_UNC -f alignments/eve/root/vp35.root.aln.fna
-
-    exit

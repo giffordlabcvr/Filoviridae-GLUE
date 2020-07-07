@@ -1,1 +1,111 @@
-((alignment/AL_TREE_Filoviridae/member/ncbi-refseqs/NC_016144:1.49381333055398402010,((alignment/AL_TREE_Filoviridae/member/ncbi-refseqs/NC_014372:0.17105562359574078002,alignment/AL_TREE_Filoviridae/member/ncbi-refseqs/NC_014373:0.19898150289366209331)100:0.07903076291878205484,(((alignment/AL_TREE_Filoviridae/member/ncbi-refseqs/NC_006432:0.39556100568664115391,alignment/AL_TREE_Filoviridae/member/ncbi-refseqs/NC_004161:0.37980420562694661157)97:0.13397144812407360548,alignment/AL_TREE_Filoviridae/member/ncbi-refseqs/NC_002549:0.21862803593077287378)2:0.03864871189736791834,alignment/AL_TREE_Filoviridae/member/ncbi-refseqs/NC_039345:0.43976801128690456988)8:0.06943658292457986769)100:0.99347076529721201066)100:1.541663288963359509935,(alignment/AL_TREE_Filoviridae/member/ncbi-refseqs/KX371887:0.95269521586952687908,alignment/AL_TREE_Filoviridae/member/ncbi-refseqs/NC_001608:0.94775718328003855095)100:2.220056587023707186935);
+#NEXUS
+begin taxa;
+	dimensions ntax=9;
+	taxlabels
+	'alignment/AL_TREE_Filoviridae/member/ncbi-refseqs/KX371887'[&country="China",genus="Dianlovirus",host_sci_name="Rousettus sp.",isolate="Rousettus-wt/CHN/2015/Sharen-Bat9447-1",major_clade="-",name="MLAV",sample_date="-",sequenceID="KX371887"]
+	'alignment/AL_TREE_Filoviridae/member/ncbi-refseqs/NC_001608'[&country="Kenya",genus="Marburgvirus",host_sci_name="-",isolate="Marburg virus/H.sapiens-tc/KEN/1980/Mt. Elgon-Musoke",major_clade="-",name="MARV",sample_date="-",sequenceID="NC_001608"]
+	'alignment/AL_TREE_Filoviridae/member/ncbi-refseqs/NC_002549'[&country="-",genus="Ebolavirus",host_sci_name="-",isolate="Ebola virus/H.sapiens-tc/COD/1976/Yambuku-Mayinga",major_clade="-",name="EBOV",sample_date="-",sequenceID="NC_002549"]
+	'alignment/AL_TREE_Filoviridae/member/ncbi-refseqs/NC_004161'[&country="-",genus="Ebolavirus",host_sci_name="-",isolate="Reston virus/M.fascicularis-tc/USA/1989/Philippines89-Pennsylvania",major_clade="-",name="RESTV",sample_date="-",sequenceID="NC_004161"]
+	'alignment/AL_TREE_Filoviridae/member/ncbi-refseqs/NC_006432'[&country="Uganda",genus="Ebolavirus",host_sci_name="-",isolate="Sudan virus/H.sapiens-tc/UGA/2000/Gulu-808892",major_clade="-",name="SUDV",sample_date="-",sequenceID="NC_006432"]
+	'alignment/AL_TREE_Filoviridae/member/ncbi-refseqs/NC_014372'[&country="Cote d'Ivoire",genus="Ebolavirus",host_sci_name="Homo sapiens",isolate="Tai Forest virus/H.sapiens-tc/CIV/1994/Pauleoula-CI",major_clade="-",name="TAFV",sample_date="-",sequenceID="NC_014372"]
+	'alignment/AL_TREE_Filoviridae/member/ncbi-refseqs/NC_014373'[&country="Uganda",genus="Ebolavirus",host_sci_name="Homo sapiens",isolate="Bundibugyo virus/H.sapiens-tc/UGA/2007/Butalya-811250",major_clade="-",name="BDBV",sample_date="-",sequenceID="NC_014373"]
+	'alignment/AL_TREE_Filoviridae/member/ncbi-refseqs/NC_016144'[&country="Spain",genus="Cuevavirus",host_sci_name="Miniopterus schreibersii",isolate="Lloviu virus/M.schreibersii-wt/ESP/2003/Asturias-Bat86",major_clade="-",name="LLOV",sample_date="-",sequenceID="NC_016144"]
+	'alignment/AL_TREE_Filoviridae/member/ncbi-refseqs/NC_039345'[&country="Sierra Leone",genus="Ebolavirus",host_sci_name="Mops condylurus",isolate="Bombali ebolavirus/Mops condylurus/SLE/2016/PREDICT_SLAB000156",major_clade="-",name="BOMV",sample_date="-",sequenceID="NC_039345"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (('alignment/AL_TREE_Filoviridae/member/ncbi-refseqs/NC_016144':1.493813,(('alignment/AL_TREE_Filoviridae/member/ncbi-refseqs/NC_014372':0.171056,'alignment/AL_TREE_Filoviridae/member/ncbi-refseqs/NC_014373':0.198982)[&label=100]:0.079031,((('alignment/AL_TREE_Filoviridae/member/ncbi-refseqs/NC_006432':0.395561,'alignment/AL_TREE_Filoviridae/member/ncbi-refseqs/NC_004161':0.379804)[&label=97]:0.133971,'alignment/AL_TREE_Filoviridae/member/ncbi-refseqs/NC_002549':0.218628)[&label=2]:0.038649,'alignment/AL_TREE_Filoviridae/member/ncbi-refseqs/NC_039345':0.439768)[&label=8]:0.069437)[&label=100]:0.993471)[&label=100]:1.541663,('alignment/AL_TREE_Filoviridae/member/ncbi-refseqs/KX371887':0.952695,'alignment/AL_TREE_Filoviridae/member/ncbi-refseqs/NC_001608':0.947757)[&label=100]:2.220057);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="genus";
+	set tipLabels.displayAttribute="name";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
