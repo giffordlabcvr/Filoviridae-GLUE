@@ -3,7 +3,7 @@
   create module -f modules/featureLocationTextToGlue.xml
   create module -f modules/filoviridaeSsgpTranslationModifier.xml
   create module -f modules/filoviridaeGpTranslationModifier.xml
-  create module -f modules/filoviridaeKuiken2006CodonLabeler.xml
+  #create module -f modules/filoviridaeKuiken2006CodonLabeler.xml
 
   create module -f modules/rootAlignmentImporter.xml 
   create module -f modules/unconstrainedAlignmentImporter.xml 

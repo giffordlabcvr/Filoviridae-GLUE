@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<alignmentColumnsSelector>
+
+    <relRefName>REF_EBOV_MASTER</relRefName>
+    
+    <aminoAcidRegionSelector>
+        <featureName>VP35</featureName>
+        <startCodon>1</startCodon>
+        <endCodon>340</endCodon>
+    </aminoAcidRegionSelector>
+    
+    <nucleotideRegionSelector>
+        <featureName>VP35</featureName>
+        <startNt>3129</startNt>
+        <endNt>4146</endNt>
+    </nucleotideRegionSelector>
+    
+</alignmentColumnsSelector>
+

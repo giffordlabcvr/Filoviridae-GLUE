@@ -2,9 +2,9 @@
   module unconstrainedAlignmentImporter 
 
     #~# Virus genus-level alignments
-    import AL_UNC_FILOVIRIDAE_ROOT -f alignments/virus/root/l-pol.filoviridae.aln  
+    import AL_UNC_FILOVIRIDAE_ROOT -f alignments/virus/root/l-pol.filoviridae.aln.fna 
 
     #~# Virus major clade-level alignments
-    import AL_UNC_FILOVIRIDAE_MAMMAL_POL -f alignments/virus/root/filoviridae-genome.fna  
+    import AL_UNC_FILOVIRIDAE_MAMMAL_POL -f alignments/virus/root/genome.filoviridae.mammals.aln.fna  
 
     exit
