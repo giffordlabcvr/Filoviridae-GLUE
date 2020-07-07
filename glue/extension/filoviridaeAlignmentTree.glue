@@ -1,30 +1,36 @@
-
+ 
   ### Constrained alignment tree
 
   create alignment AL_EBOLAVIRUS_GENUS -r REF_EBOV_MASTER
-  alignment AL_EBOLAVIRUS_GENUS add member -w "source.name != 'ncbi-curated-ebov' or length >= 7000"
+  alignment AL_EBOLAVIRUS_GENUS add member -w "source.name like '%ncbi-curated%'"
   
   alignment AL_EBOLAVIRUS_GENUS
+  
 	extract child AL_EBOV    --refName REF_EBOV_MASTER
 	demote member AL_EBOV    --whereClause "sequence.source = 'ncbi-curated-ebov' and sequence.length >= 10000" 
-	#demote member AL_EBOV    --whereClause "sequence.source = 'outbreak-drc2019-ebov-fasta'" 
+	#demote member AL_EBOV    --whereClause "sequence.source = 'outbreak-drc2019-ebov-fasta'"
+	
 	extract child AL_SUDV    --refName REF_SUDV
 	demote member AL_SUDV    --whereClause "sequence.source = 'ncbi-curated-sudv'" 
+	
 	extract child AL_BDBV    --refName REF_BDBV
-	demote member AL_BDBV    --whereClause "sequence.source = 'ncbi-curated-bdbv'" 
+	demote member AL_BDBV    --whereClause "sequence.source = 'ncbi-curated-bdbv'"
+	
 	extract child AL_TAFV    --refName REF_TAFV
-	demote member AL_TAFV    --whereClause "sequence.source = 'ncbi-curated-tafv'" 
+	demote member AL_TAFV    --whereClause "sequence.source = 'ncbi-curated-tafv'"
+	
 	extract child AL_BOMV    --refName REF_BOMV
-	demote member AL_BOMV    --whereClause "sequence.source = 'ncbi-curated-bomv'" 
+	demote member AL_BOMV    --whereClause "sequence.source = 'ncbi-curated-bomv'"
+	
 	extract child AL_RESTV   --refName REF_RESTV
-	demote member AL_RESTV   --whereClause "sequence.source = 'ncbi-curated-restv'" 
+	demote member AL_RESTV   --whereClause "sequence.source = 'ncbi-curated-restv'"
+	
     exit
  
-  #create alignment AL_MARBURGVIRUS_MASTER -r REF_MARV
-  #alignment AL_MARBURGVIRUS_MASTER add member -w "source.name != 'ncbi-curated-marv' or length >= 7000"
+  create alignment AL_MARBURGVIRUS_GENUS -r REF_MARV
+  alignment AL_MARBURGVIRUS_GENUS add member -w "source.name != 'ncbi-curated-marv' or length >= 7000"
   
  
-
   ### Derive constrained alignment segments from unconstrained alignments
 
   alignment AL_EBOLAVIRUS_GENUS

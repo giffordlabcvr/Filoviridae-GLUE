@@ -1,9 +1,51 @@
-  # Import unconstrained, pre-built alignments
-  module unconstrainedAlignmentImporter 
+### Constrained alignment tree
 
-    #~# Virus genus-level alignments
-    import AL_FILOVIRIDAE_UNC -f alignments/virus/root/filoviridae-genome.fna  
+### Filoviridae     
+create alignment AL_Filoviridae -r REF_EBOV_MASTER
+alignment AL_Filoviridae add member --allSequences
+  
+#~# Genus alignments
+alignment AL_Filoviridae
 
-    #~# Virus genus-level alignments
-    import AL_GENUS_EBOLAVIRUS_UNC -f alignments/virus/internal/ebolavirus-genome.fna  
-    exit
+  extract child AL_GENUS_Ortho -r REF_EBOV_MASTER
+  demote member AL_GENUS_Ortho --whereClause "sequence.genus = 'Orthohepadnavirus'"
+
+  extract child AL_GENUS_Avi -r REF_Avi_MASTER_DHBV
+  demote member AL_GENUS_Avi --whereClause "sequence.genus = 'Avihepadnavirus'"
+
+  extract child AL_GENUS_Herpeto -r REF_Herpeto_MASTER_tfHBV
+  demote member AL_GENUS_Herpeto --whereClause "sequence.genus = 'Herpetohepadnavirus'"
+
+  extract child AL_GENUS_Meta -r REF_Meta_MASTER_bgHBV
+  demote member AL_GENUS_Meta --whereClause "sequence.genus = 'Metahepadnavirus'"
+
+  extract child AL_GENUS_Para -r REF_Para_MASTER_wsHBV
+  demote member AL_GENUS_Para --whereClause "sequence.genus = 'Parahepadnavirus'"
+  exit
+
+
+#~# Derive constrained alignment segments from unconstrained alignments  
+alignment AL_Filoviridae
+  derive segments AL_UNC_FILOVIRIDAE_ROOT -a --mergeStrategy OVERWRITE
+  exit
+
+alignment AL_GENUS_Ortho
+  derive segments AL_UNC_GENUS_ORTHO -a --mergeStrategy OVERWRITE
+  exit
+
+alignment AL_GENUS_Avi
+  derive segments AL_UNC_GENUS_AVI -a --mergeStrategy OVERWRITE
+  exit
+
+alignment AL_GENUS_Herpeto
+  derive segments AL_UNC_GENUS_HERPETO -a --mergeStrategy OVERWRITE
+  exit
+
+alignment AL_GENUS_Para
+  derive segments AL_UNC_GENUS_PARA -a --mergeStrategy OVERWRITE
+  exit
+
+alignment AL_GENUS_Meta
+  derive segments AL_UNC_GENUS_META -a --mergeStrategy OVERWRITE
+  exit
+

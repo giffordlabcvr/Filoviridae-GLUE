@@ -33,6 +33,9 @@ project filoviridae
   # Import alignments
   run file glue/core/filoviridaeAlignments.glue
 
+  # Define constrained alignment tree
+  run file glue/core/filoviridaeAlignmentTree.glue
+
   # Validate
   validate
 
