@@ -5,10 +5,20 @@
 
 project filoviridae
 
-  multi-delete alignment -w "name like 'AL_EFV%'"
+  multi-delete alignment -w "name like 'AL_EFLN%'"
+  multi-delete alignment -w "name like 'AL_EFLP%'"
+  multi-delete alignment -w "name like 'AL_EFLL%'"
 
-  multi-delete reference -w "name like 'REF_EFV-%'"
+  multi-delete alignment -w "name like 'AL_UNC_EFLN%'"
+  multi-delete alignment -w "name like 'AL_UNC_EFLP%'"
+  multi-delete alignment -w "name like 'AL_UNC_EFLL%'"
 
+  multi-delete reference -w "name like 'REF_EFLN%'"
+  multi-delete reference -w "name like 'REF_EFLP%'"
+  multi-delete reference -w "name like 'REF_EFLH%'"
+  multi-delete reference -w "name like 'REF_EFLL%'"
+  
+  
   delete source --whereClause "name like 'fasta-eve%'"
 
   
