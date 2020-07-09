@@ -22,6 +22,12 @@ project filoviridae
   # Import alignment tree
   run file glue/eve/eveAlignmentTree.glue
 
+  # Record feature presence
+  run file glue/eve/eveRecordFeaturePresence.glue
+
+  # Create phylogenies
+  run file glue/core/filoviridaeCreateRootPhylogenies.glue
+
   # Validate
   validate
 

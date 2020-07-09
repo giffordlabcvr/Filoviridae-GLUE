@@ -36,6 +36,9 @@ project filoviridae
   # Define constrained alignment tree
   run file glue/core/filoviridaeAlignmentTree.glue
 
+  # Record feature presence
+  run file glue/core/filoviridaeRecordFeaturePresence.glue
+
   # Create phylogenies
   run file glue/core/filoviridaeCreateRootPhylogenies.glue
 
