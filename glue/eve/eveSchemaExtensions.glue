@@ -8,7 +8,8 @@
     create field host_group_taxlevel VARCHAR 50
     create field host_group_name VARCHAR 50
     create field host_group_common_name VARCHAR 50
-    create field num_copies INTEGER
+    create field num_dupes INTEGER
+    create field num_species INTEGER
     create field locus_numeric_id INTEGER
     create field nearest_upstream_orf VARCHAR 100
     create field nearest_downstream_orf VARCHAR 100

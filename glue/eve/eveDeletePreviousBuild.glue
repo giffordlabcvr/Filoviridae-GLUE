@@ -21,8 +21,10 @@ project filoviridae
   multi-delete reference -w "name like 'REF_EFLL%'"
   
   
-  delete source --whereClause "name like 'fasta-eve%'"
+  delete source --whereClause "name like 'fasta-digs-eve'"
+  delete source --whereClause "name like 'fasta-refseqs-eve%'"
+  delete source --whereClause "name like 'fasta-refseqs%'"
 
-  
+ 
   exit
  

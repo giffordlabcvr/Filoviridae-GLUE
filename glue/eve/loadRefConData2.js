@@ -11,8 +11,9 @@ _.each(loadResult, function(eveObj) {
 	
 		glue.log("INFO", "Entering locus data for EVE reference:", eveObj.sequenceID);
 
-		glue.command(["set", "field", "num_copies", eveObj.num_copies]);
 		glue.command(["set", "field", "locus_numeric_id", eveObj.locus_numeric_id]);
+		glue.command(["set", "field", "num_dupes", eveObj.num_dupes]);
+		glue.command(["set", "field", "num_species", eveObj.num_species]);
 
 	});
 
