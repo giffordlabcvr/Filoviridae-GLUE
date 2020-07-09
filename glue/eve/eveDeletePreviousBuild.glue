@@ -7,10 +7,12 @@ project filoviridae
 
   multi-delete alignment -w "name like 'AL_EFLN%'"
   multi-delete alignment -w "name like 'AL_EFLP%'"
+  multi-delete alignment -w "name like 'AL_EFLH%'"
   multi-delete alignment -w "name like 'AL_EFLL%'"
 
   multi-delete alignment -w "name like 'AL_UNC_EFLN%'"
   multi-delete alignment -w "name like 'AL_UNC_EFLP%'"
+  multi-delete alignment -w "name like 'AL_UNC_EFLH%'"
   multi-delete alignment -w "name like 'AL_UNC_EFLL%'"
 
   multi-delete reference -w "name like 'REF_EFLN%'"

@@ -1,4 +1,6 @@
   # Import EVE FASTA sources 
-  import source sources/fasta-eve-digs
-  import source sources/fasta-eve-refseqs
-
+  import source sources/fasta-digs-eve
+  import source sources/fasta-refseqs-eve
+  
+  # Import virus sequences for gene-level alignments of EVEs
+  import source sources/fasta-refseqs  

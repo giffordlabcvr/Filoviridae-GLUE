@@ -10,6 +10,9 @@
     create field host_group_common_name VARCHAR 50
     create field num_copies INTEGER
     create field locus_id VARCHAR 50
+    create field locus_numeric_id INTEGER
+    create field nearest_upstream_orf VARCHAR 100
+    create field nearest_downstream_orf VARCHAR 100
   exit
   
   create link sequence refcon_data

@@ -10,8 +10,7 @@ project filoviridae
   run file glue/eve/eveImportSources.glue
 
   # Import side data
-  run script glue/eve/loadEndogenousData1.js
-  run script glue/eve/loadEndogenousData2.js
+  run file glue/eve/eveImportData.glue
   
   # Create references
   run file glue/eve/eveReferences.glue
