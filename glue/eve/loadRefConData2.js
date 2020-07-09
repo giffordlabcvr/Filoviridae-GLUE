@@ -22,7 +22,6 @@ _.each(loadResult, function(eveObj) {
 		glue.log("INFO", "Entering sequence table data for EVE reference:", eveObj.sequenceID);
 
 		glue.command(["set", "field", "name", eveObj.sequenceID]);
-		glue.command(["set", "field", "full_name", eveObj.sequenceID]);
 		glue.command(["set", "field", "genus", eveObj.sequenceID]);
 
 	});

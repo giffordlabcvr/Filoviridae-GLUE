@@ -1,13 +1,13 @@
   table sequence
-	create field name VARCHAR 25
+	create field name VARCHAR 100
 	create field gb_gi_number VARCHAR
 	create field gb_primary_accession VARCHAR
 	create field gb_accession_version VARCHAR
 	create field length INTEGER
 	create field patent_related BOOLEAN
 	create field exclude_from_almt_tree BOOLEAN
-	create field genus VARCHAR 25
-	create field major_clade VARCHAR 20
+	create field genus VARCHAR 60
+	create field major_clade VARCHAR 30
 	create field pubmed_id VARCHAR
 	create field gb_create_date DATE
 	create field gb_update_date DATE

@@ -10,22 +10,25 @@
 
 
   ### Filoviridae     
-  create alignment AL_EFLN_ROOT -r REF_EBOV_MASTER
-  alignment AL_EFLN_ROOT add member --whereClause "source.name = 'fasta-eve-refseqs' and name like 'efln%'"
-  alignment AL_EFLH_ROOT add member --whereClause "source.name = 'fasta-eve-refseqs' and name like 'eflh%'"
-  alignment AL_EFLP_ROOT add member --whereClause "source.name = 'fasta-eve-refseqs' and name like 'eflp%'"
-
+ 
   #~# Derive constrained alignment segments from unconstrained alignments  
-  create alignment AL_EFLN_ROOT -r REF_EBOV_MASTER_N
+  create alignment AL_EFLN_ROOT -r REF_Ebola_MASTER_NP
+  alignment AL_EFLN_ROOT add member --whereClause "source.name = 'fasta-eve-refseqs' and name like 'efln%'"
   alignment AL_EFLN_ROOT
 	derive segments AL_UNC_EFLN_ROOT -a --mergeStrategy OVERWRITE
 	exit
 
-  create alignment AL_EFLH_ROOT -r REF_EBOV_MASTER_H
+  create alignment AL_EFLH_ROOT -r REF_Ebola_MASTER_VP30
+  alignment AL_EFLH_ROOT add member --whereClause "source.name = 'fasta-eve-refseqs' and name like 'eflh%'"
   alignment AL_EFLH_ROOT
 	derive segments AL_UNC_EFLH_ROOT -a --mergeStrategy OVERWRITE
 	exit
 
+  create alignment AL_EFLP_ROOT -r REF_Ebola_MASTER_VP35
+  alignment AL_EFLP_ROOT add member --whereClause "source.name = 'fasta-eve-refseqs' and name like 'eflp%'"
   alignment AL_EFLP_ROOT
 	derive segments AL_UNC_EFLP_ROOT -a --mergeStrategy OVERWRITE
 	exit
+
+
+  

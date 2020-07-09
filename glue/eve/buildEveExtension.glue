@@ -12,9 +12,15 @@ project filoviridae
   # Import side data
   run file glue/eve/eveImportData.glue
   
+  # Define features
+  run file glue/eve/eveFeatures.glue
+  
   # Create references
   run file glue/eve/eveReferences.glue
 
+  # Add feature locations
+  run file glue/eve/eveFeatureLocations.glue
+  
   # Import root alignments and define constrained alignment tree
   run file glue/eve/eveAlignmentsRoot.glue
 
@@ -26,7 +32,6 @@ project filoviridae
 
   # Import root alignments and define constrained alignment tree
   #run file glue/eve/eveAlignmentsTips.glue
-
 
   # Validate
   validate

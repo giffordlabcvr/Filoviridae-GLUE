@@ -4,6 +4,6 @@
   run script glue/eve/loadRefConData2.js
  
   # Load DIGS sequences data
-  run script glue/eve/eveLoadLocusData1.js
-  run script glue/eve/eveLoadLocusData2.js
+  #run script glue/eve/eveLoadLocusData1.js
+  #run script glue/eve/eveLoadLocusData2.js
 
