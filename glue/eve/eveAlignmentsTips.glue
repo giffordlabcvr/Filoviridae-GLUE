@@ -1,12 +1,3 @@
-  #~# EVE root-level alignments (single genes) 
-
-  module unconstrainedAlignmentImporter 
-     
-    import AL_UNC_EFLN_ROOT -f alignments/eve/root/np.root.aln.fna
-    import AL_UNC_EFLH_ROOT -f alignments/eve/root/vp30.root.aln.fna
-    import AL_UNC_EFLP_ROOT -f alignments/eve/root/vp35.root.aln.fna
-
-    exit
 
 
   #~# EVE tip-level alignments (single genes) 
@@ -36,5 +27,3 @@
     import AL_UNC_EFLH_FILO-1    -f alignments/eve/tip/eflh/eflh-filo.1-cricetidae.fna
     
     exit
-
-

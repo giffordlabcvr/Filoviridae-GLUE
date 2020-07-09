@@ -40,7 +40,7 @@ project filoviridae
   run file glue/core/filoviridaeRecordFeaturePresence.glue
 
   # Create phylogenies
-  run file glue/core/filoviridaeCreateRootPhylogenies.glue
+  #run file glue/core/filoviridaeCreateRootPhylogenies.glue
 
   # Validate
   validate

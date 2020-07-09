@@ -16,17 +16,18 @@ project filoviridae
   # Create references
   run file glue/eve/eveReferences.glue
 
-  # Import alignments
-  run file glue/eve/eveAlignments.glue
-
-  # Import alignment tree
-  run file glue/eve/eveAlignmentTree.glue
+  # Import root alignments and define constrained alignment tree
+  run file glue/eve/eveAlignmentsRoot.glue
 
   # Record feature presence
   run file glue/eve/eveRecordFeaturePresence.glue
 
   # Create phylogenies
   run file glue/core/filoviridaeCreateRootPhylogenies.glue
+
+  # Import root alignments and define constrained alignment tree
+  #run file glue/eve/eveAlignmentsTips.glue
+
 
   # Validate
   validate

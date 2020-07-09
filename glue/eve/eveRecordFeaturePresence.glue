@@ -1,0 +1,11 @@
+  delete module filoviridaeFeaturePresenceRecorder
+  create module -f modules/filoviridaeFeaturePresenceRecorder.xml
+
+  module filoviridaeFeaturePresenceRecorder 
+
+    #~# Root alignment
+    record feature-presence AL_Filoviridae --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_Filoviridae_Mammal --recursive --featureName whole_genome --descendentFeatures
+    
+    exit
+
