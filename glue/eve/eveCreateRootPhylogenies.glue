@@ -27,15 +27,15 @@
 
     generate nucleotide phylogeny AL_EFLN_ROOT -s alignmentColumnsSelectorNp \
       -w "fLocNotes.featureLoc.feature.name = 'NP' and fLocNotes.ref_nt_coverage_pct >= 20" \
-      -o trees/eve-genus/-Np.eve.nucs.tre NEWICK_BOOTSTRAPS
+      -o trees/eve-root/Np.eve.nucs.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_EFLP_ROOT -s alignmentColumnsSelectorVp35 \
       -w "fLocNotes.featureLoc.feature.name = 'Vp35' and fLocNotes.ref_nt_coverage_pct >= 20" \
-      -o trees/eve-genus/Vp35.eve.nucs.tre NEWICK_BOOTSTRAPS
+      -o trees/eve-root/Vp35.eve.nucs.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_EFLH_ROOT -s alignmentColumnsSelectorVp30 \
       -w "fLocNotes.featureLoc.feature.name = 'VP30' and fLocNotes.ref_nt_coverage_pct >= 20" \
-      -o trees/eve-genus/Vp30.eve.nucs.tre NEWICK_BOOTSTRAPS
+      -o trees/eve-root/Vp30.eve.nucs.tre NEWICK_BOOTSTRAPS
 
     exit
 
@@ -44,19 +44,19 @@
   module filoPhyloUtility 
 
 	reroot-phylogeny \
-      --inputFile trees/eve-genus/Np.eve.nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/eve-root/Np.eve.nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/eve-genus/Np.eve.nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/eve-root/Np.eve.nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/eve-genus/Vp35.eve.nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/eve-root/Vp35.eve.nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/eve-genus/Vp35.eve.nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/eve-root/Vp35.eve.nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/eve-genus/Vp30.eve.nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/eve-root/Vp30.eve.nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/eve-genus/Vp30.eve.nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/eve-root/Vp30.eve.nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
 
@@ -65,11 +65,11 @@
   module eveFigTreeAnnotationExporter 
 
     export figtree-annotation AL_EFLN_ROOT -w "fLocNotes.featureLoc.feature.name = 'NP'  \
-      and fLocNotes.ref_nt_coverage_pct >= 20" -f trees/eve-genus/-root-Np.eve.figtree-annotations.tsv
+      and fLocNotes.ref_nt_coverage_pct >= 20" -f trees/eve-root/Np.eve.figtree-annotations.tsv
     export figtree-annotation AL_EFLP_ROOT -w "fLocNotes.featureLoc.feature.name = 'VP35'  \
-      and fLocNotes.ref_nt_coverage_pct >= 20" -f trees/eve-genus/-root-pol.eve.figtree-annotations.tsv
+      and fLocNotes.ref_nt_coverage_pct >= 20" -f trees/eve-root/Vp35.eve.figtree-annotations.tsv
     export figtree-annotation AL_EFLH_ROOT -w "fLocNotes.featureLoc.feature.name = 'VP30'  \
-      and fLocNotes.ref_nt_coverage_pct >= 20" -f trees/eve-genus/-root-Vp30.eve.figtree-annotations.tsv
+      and fLocNotes.ref_nt_coverage_pct >= 20" -f trees/eve-root/Vp30.eve.figtree-annotations.tsv
 
   exit
 
