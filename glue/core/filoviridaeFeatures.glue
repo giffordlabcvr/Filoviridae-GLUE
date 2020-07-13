@@ -1,6 +1,9 @@
   create feature whole_genome "Whole genome"
   feature whole_genome set metatag INFORMATIONAL true
 
+  create feature mRNA -p whole_genome "messengerRNA"
+  feature mRNA set metatag INFORMATIONAL true
+
   create feature NP -p whole_genome "Nucleoprotein"
   feature NP
     set field displayName "NP"

@@ -1,5 +1,3 @@
-  create feature mRNA -p "messengerRNA"
-  feature mRNA set metatag INFORMATIONAL true
 
   create feature 3flank "3 prime genomic flanking sequence"
   feature 3flank set field displayName "5' flank"

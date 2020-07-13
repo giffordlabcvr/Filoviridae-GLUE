@@ -4,8 +4,8 @@
   module filoviridaeFeaturePresenceRecorder 
 
     #~# Root alignment
-    record feature-presence AL_EFLN_ROOT --recursive --featureName mRNA --descendentFeatures
-    record feature-presence AL_EFLP_ROOT --recursive --featureName mRNA --descendentFeatures
-    record feature-presence AL_EFLP_ROOT --recursive --featureName mRNA --descendentFeatures
+    record feature-presence AL_EFLN_ROOT --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_EFLP_ROOT --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_EFLH_ROOT --recursive --featureName whole_genome --descendentFeatures
     
     exit

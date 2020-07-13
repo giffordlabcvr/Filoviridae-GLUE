@@ -1,0 +1,11 @@
+taxon	sequenceID	genus	major_clade	host_group_taxlevel	host_group_name	num_dupes	num_species	locus_numeric_id
+alignment/AL_EFLH_ROOT/member/fasta-refseqs/Ebola-vp30-NC_002549	Ebola-vp30-NC_002549	-	-	-	-	-	-	-
+alignment/AL_EFLH_ROOT/member/fasta-refseqs-eve/eflh-filo.1-cricetidae-con	eflh-filo.1-cricetidae-con	eflh-filo.1-cricetidae-con	-	-	-	1	5	1
+alignment/AL_EFLH_ROOT/member/ncbi-refseqs/KX371887	KX371887	Dianlovirus	-	-	-	-	-	-
+alignment/AL_EFLH_ROOT/member/ncbi-refseqs/NC_001608	NC_001608	Marburgvirus	-	-	-	-	-	-
+alignment/AL_EFLH_ROOT/member/ncbi-refseqs/NC_004161	NC_004161	Ebolavirus	-	-	-	-	-	-
+alignment/AL_EFLH_ROOT/member/ncbi-refseqs/NC_006432	NC_006432	Ebolavirus	-	-	-	-	-	-
+alignment/AL_EFLH_ROOT/member/ncbi-refseqs/NC_014372	NC_014372	Ebolavirus	-	-	-	-	-	-
+alignment/AL_EFLH_ROOT/member/ncbi-refseqs/NC_014373	NC_014373	Ebolavirus	-	-	-	-	-	-
+alignment/AL_EFLH_ROOT/member/ncbi-refseqs/NC_016144	NC_016144	Cuevavirus	-	-	-	-	-	-
+alignment/AL_EFLH_ROOT/member/ncbi-refseqs/NC_039345	NC_039345	Ebolavirus	-	-	-	-	-	-

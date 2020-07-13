@@ -17,9 +17,6 @@ project filoviridae
   
   # Create references
   run file glue/eve/eveReferences.glue
-
-  # Add feature locations
-  run file glue/eve/eveFeatureLocations.glue
   
   # Import root alignments and define constrained alignment tree
   run file glue/eve/eveAlignmentsRoot.glue
@@ -28,7 +25,7 @@ project filoviridae
   run file glue/eve/eveRecordFeaturePresence.glue
 
   # Create phylogenies
-  run file glue/core/filoviridaeCreateRootPhylogenies.glue
+  run file glue/eve/eveCreateRootPhylogenies.glue
 
   # Import root alignments and define constrained alignment tree
   #run file glue/eve/eveAlignmentsTips.glue

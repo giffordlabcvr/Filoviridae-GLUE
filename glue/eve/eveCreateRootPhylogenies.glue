@@ -20,21 +20,22 @@
   create module -f modules/alignmentColumnsSelectorNp.xml
   create module -f modules/alignmentColumnsSelectorVp35.xml
   create module -f modules/alignmentColumnsSelectorVp30.xml
+
   
   # Create the phylogenies
   module raxmlPhylogenyGenerator
 
-    generate nucleotide phylogeny AL_GENUS_ -s alignmentColumnsSelectorNp \
-      -w "fLocNotes.featureLoc.feature.name = 'NP' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/eve-genus/-Np.eve.export_nucs.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_EFLN_ROOT -s alignmentColumnsSelectorNp \
+      -w "fLocNotes.featureLoc.feature.name = 'NP' and fLocNotes.ref_nt_coverage_pct >= 20" \
+      -o trees/eve-genus/-Np.eve.nucs.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_GENUS_ -s alignmentColumnsSelectorVp35 \
-      -w "fLocNotes.featureLoc.feature.name = 'Vp35' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/eve-genus/-pol.eve.export_nucs.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_EFLP_ROOT -s alignmentColumnsSelectorVp35 \
+      -w "fLocNotes.featureLoc.feature.name = 'Vp35' and fLocNotes.ref_nt_coverage_pct >= 20" \
+      -o trees/eve-genus/Vp35.eve.nucs.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_GENUS_ -s alignmentColumnsSelectorVp30 \
-      -w "fLocNotes.featureLoc.feature.name = 'VP30' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/eve-genus/-Vp30.eve.export_nucs.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_EFLH_ROOT -s alignmentColumnsSelectorVp30 \
+      -w "fLocNotes.featureLoc.feature.name = 'VP30' and fLocNotes.ref_nt_coverage_pct >= 20" \
+      -o trees/eve-genus/Vp30.eve.nucs.tre NEWICK_BOOTSTRAPS
 
     exit
 
@@ -43,19 +44,19 @@
   module filoPhyloUtility 
 
 	reroot-phylogeny \
-      --inputFile trees/eve-genus/-Np.eve.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/eve-genus/Np.eve.nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/eve-genus/-Np.eve.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/eve-genus/Np.eve.nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/eve-genus/-pol.eve.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/eve-genus/Vp35.eve.nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/eve-genus/-pol.eve.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/eve-genus/Vp35.eve.nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/eve-genus/-Vp30.eve.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/eve-genus/Vp30.eve.nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/eve-genus/-Vp30.eve.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/eve-genus/Vp30.eve.nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
 
@@ -63,12 +64,12 @@
   # Export annotations
   module eveFigTreeAnnotationExporter 
 
-    export figtree-annotation AL_GENUS_ -w "fLocNotes.featureLoc.feature.name = 'NP'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/eve-genus/-root-Np.eve.figtree-annotations.tsv
-    export figtree-annotation AL_GENUS_ -w "fLocNotes.featureLoc.feature.name = 'VP35'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/eve-genus/-root-pol.eve.figtree-annotations.tsv
-    export figtree-annotation AL_GENUS_ -w "fLocNotes.featureLoc.feature.name = 'VP30'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/eve-genus/-root-Vp30.eve.figtree-annotations.tsv
+    export figtree-annotation AL_EFLN_ROOT -w "fLocNotes.featureLoc.feature.name = 'NP'  \
+      and fLocNotes.ref_nt_coverage_pct >= 20" -f trees/eve-genus/-root-Np.eve.figtree-annotations.tsv
+    export figtree-annotation AL_EFLP_ROOT -w "fLocNotes.featureLoc.feature.name = 'VP35'  \
+      and fLocNotes.ref_nt_coverage_pct >= 20" -f trees/eve-genus/-root-pol.eve.figtree-annotations.tsv
+    export figtree-annotation AL_EFLH_ROOT -w "fLocNotes.featureLoc.feature.name = 'VP30'  \
+      and fLocNotes.ref_nt_coverage_pct >= 20" -f trees/eve-genus/-root-Vp30.eve.figtree-annotations.tsv
 
   exit
 

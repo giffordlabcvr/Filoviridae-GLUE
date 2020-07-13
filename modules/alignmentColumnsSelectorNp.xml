@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_EBOV_MASTER</relRefName>
+    <relRefName>REF_Ebola_MASTER_NP</relRefName>
     
     <aminoAcidRegionSelector>
-        <featureName>VP30</featureName>
+        <featureName>NP</featureName>
         <startCodon>1</startCodon>
-        <endCodon>289</endCodon>
+        <endCodon>740</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
-        <featureName>VP30</featureName>
-        <startNt>8509</startNt>
-        <endNt>9373</endNt>
+        <featureName>NP</featureName>
+        <startNt>1</startNt>
+        <endNt>2220</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>
