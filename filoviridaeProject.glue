@@ -14,5 +14,5 @@ run file glue/core/buildCoreProject.glue
 run file glue/eve/buildEveExtension.glue
 
 # Build extension project
-#run file glue/extension/buildExtensionProject.glue
+run file glue/extension/buildExtensionProject.glue
 

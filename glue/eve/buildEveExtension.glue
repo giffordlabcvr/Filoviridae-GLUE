@@ -28,7 +28,7 @@ project filoviridae
   run file glue/eve/eveCreateRootPhylogenies.glue
 
   # Import root alignments and define constrained alignment tree
-  #run file glue/eve/eveAlignmentsTips.glue
+  run file glue/eve/eveAlignmentsTips.glue
 
   # Validate
   validate
