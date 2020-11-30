@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<alignmentColumnsSelector>
+
+    <relRefName>REF_Ebola_MASTER_VP30</relRefName>
+    
+    <aminoAcidRegionSelector>
+        <featureName>VP30</featureName>
+        <startCodon>1</startCodon>
+        <endCodon>289</endCodon>
+    </aminoAcidRegionSelector>
+    
+    <nucleotideRegionSelector>
+        <featureName>VP30</featureName>
+        <startNt>1</startNt>
+        <endNt>865</endNt>
+    </nucleotideRegionSelector>
+    
+</alignmentColumnsSelector>
+

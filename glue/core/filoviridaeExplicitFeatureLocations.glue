@@ -1,0 +1,514 @@
+  # declare feature locations on the master reference
+  reference REF_EBOV_MASTER
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 18959
+      exit
+
+    add feature-location NP
+    feature-location NP
+      add segment 470 2689
+      exit
+
+    add feature-location VP35
+    feature-location VP35
+      add segment 3129 4151
+      exit
+
+    add feature-location VP40
+    feature-location VP40
+      add segment 4479 5459
+      exit
+
+    add feature-location sGP
+    feature-location sGP
+      add segment 6039 7133
+      exit
+
+    add feature-location ssGP
+    feature-location ssGP
+      add segment 6039 6920 --spliceIndex 1
+      add segment 6921 6924 --spliceIndex 2 --translationModifier filoviridaeSsgpTranslationModifier
+      add segment 6925 6933 --spliceIndex 3
+      exit
+
+    add feature-location GP
+    feature-location GP
+      add segment 6039 6920 --spliceIndex 1
+      add segment 6921 6925 --spliceIndex 2 --translationModifier filoviridaeGpTranslationModifier
+      add segment 6926 8068 --spliceIndex 3
+      exit
+
+    add feature-location VP30
+    feature-location VP30
+      add segment 8509 9375
+      exit
+
+    add feature-location VP24
+    feature-location VP24
+      add segment 10345 11100
+      exit
+
+    add feature-location L
+    feature-location L
+      add segment 11581 18219
+      exit
+
+    exit
+    
+
+  # declare feature locations on the Sudan virus reference
+  reference REF_SUDV
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 18875
+      exit
+
+    add feature-location NP
+    feature-location NP
+      add segment 458 2674
+      exit
+
+    add feature-location VP35
+    feature-location VP35
+      add segment 3138 4127
+      exit
+
+    add feature-location VP40
+    feature-location VP40
+      add segment 4454 5434
+      exit
+
+    add feature-location sGP
+    feature-location sGP
+      add segment 5998 7116
+      exit
+
+    add feature-location ssGP
+    feature-location ssGP
+      add segment 5998 6879 --spliceIndex 1
+      add segment 6880 6883 --spliceIndex 2 --translationModifier filoviridaeSsgpTranslationModifier
+      add segment 6884 6955 --spliceIndex 3
+      exit
+
+    add feature-location GP
+    feature-location GP
+      add segment 5998 6879 --spliceIndex 1
+      add segment 6880 6884 --spliceIndex 2 --translationModifier filoviridaeGpTranslationModifier
+      add segment 6885 8027 --spliceIndex 3
+      exit
+
+    add feature-location VP30
+    feature-location VP30
+      add segment 8441 9307
+      exit
+
+    add feature-location VP24
+    feature-location VP24
+      add segment 10299 11054
+      exit
+
+    add feature-location L
+    feature-location L
+      add segment 11535 18167
+      exit
+
+    exit
+    
+
+  # declare feature locations on the Bundibugyo virus reference
+  reference REF_BDBV
+
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 18940
+      exit
+
+    add feature-location NP
+    feature-location NP
+      add segment 458 2677
+      exit
+
+    add feature-location VP35
+    feature-location VP35
+      add segment 3108 4133
+      exit
+
+    add feature-location VP40
+    feature-location VP40
+      add segment 4461 5441
+      exit
+
+    add feature-location sGP
+    feature-location sGP
+      add segment 6021 7142
+      exit
+
+    add feature-location ssGP
+    feature-location ssGP
+      add segment 6021 6902 --spliceIndex 1
+      add segment 6903 6906 --spliceIndex 2 --translationModifier filoviridaeSsgpTranslationModifier
+      add segment 6907 6930 --spliceIndex 3
+      exit
+
+    add feature-location GP
+    feature-location GP
+      add segment 6021 6902 --spliceIndex 1
+      add segment 6903 6907 --spliceIndex 2 --translationModifier filoviridaeGpTranslationModifier
+      add segment 6908 8050 --spliceIndex 3
+      exit
+
+    add feature-location VP30
+    feature-location VP30
+      add segment 8496 9365
+      exit
+
+    add feature-location VP24
+    feature-location VP24
+      add segment 10335 11090
+      exit
+
+    add feature-location L
+    feature-location L
+      add segment 11567 18199
+      exit
+
+    exit
+    
+    
+   # declare feature locations on the Tai Forest virus reference
+  reference REF_TAFV
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 18935
+      exit
+
+    add feature-location NP
+    feature-location NP
+      add segment 464 2683
+      exit
+
+    add feature-location VP35
+    feature-location VP35
+      add segment 3114 4139
+      exit
+
+    add feature-location VP40
+    feature-location VP40
+      add segment 4467 5447
+      exit
+
+    add feature-location sGP
+    feature-location sGP
+      add segment 6027 7124
+      exit
+
+    add feature-location ssGP
+    feature-location ssGP
+      add segment 6027 6908 --spliceIndex 1
+      add segment 6909 6912 --spliceIndex 2 --translationModifier filoviridaeSsgpTranslationModifier
+      add segment 6913 6936 --spliceIndex 3
+      exit
+
+    add feature-location GP
+    feature-location GP
+      add segment 6027 6908 --spliceIndex 1
+      add segment 6909 6913 --spliceIndex 2 --translationModifier filoviridaeGpTranslationModifier
+      add segment 6914 8056 --spliceIndex 3
+      exit
+
+    add feature-location VP30
+    feature-location VP30
+      add segment 8503 9372
+      exit
+
+    add feature-location VP24
+    feature-location VP24
+      add segment 10339 11094
+      exit
+
+    add feature-location L
+    feature-location L
+      add segment 11566 18198
+      exit
+
+    exit
+ 
+     
+  # declare feature locations on the Reston virus reference
+  reference REF_RESTV
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 18891
+      exit
+
+    add feature-location NP
+    feature-location NP
+      add segment 464 2683
+      exit
+
+    add feature-location VP35
+    feature-location VP35
+      add segment 3155 4144
+      exit
+
+    add feature-location VP40
+    feature-location VP40
+      add segment 4485 5480
+      exit
+
+    add feature-location sGP
+    feature-location sGP
+      add segment 6042 7145
+      exit
+
+    add feature-location ssGP
+    feature-location ssGP
+      add segment 6042 6926 --spliceIndex 1
+      add segment 6927 6930 --spliceIndex 2 --translationModifier filoviridaeSsgpTranslationModifier
+      add segment 6931 7038 --spliceIndex 3
+      exit
+
+    add feature-location GP
+    feature-location GP
+      add segment 6042 6926 --spliceIndex 1
+      add segment 6927 6931 --spliceIndex 2 --translationModifier filoviridaeGpTranslationModifier
+      add segment 6932 8074 --spliceIndex 3
+      exit
+
+    add feature-location VP30
+    feature-location VP30
+      add segment 8490 9353
+      exit
+
+    add feature-location VP24
+    feature-location VP24
+      add segment 10303 11058
+      exit
+
+    add feature-location L
+    feature-location L
+      add segment 11550 18188
+      exit
+
+    exit
+   
+  # declare feature locations on the Bombali virus reference
+  reference REF_BOMV
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 19043
+      exit
+
+    add feature-location NP
+    feature-location NP
+      add segment 464 2683
+      exit
+
+    add feature-location VP35
+    feature-location VP35
+      add segment 3114 4139
+      exit
+
+    add feature-location VP40
+    feature-location VP40
+      add segment 4466 5446
+      exit
+
+    add feature-location sGP
+    feature-location sGP
+      add segment 6043 7140
+      exit
+
+    add feature-location ssGP
+    feature-location ssGP
+      add segment 6043 6912 --spliceIndex 1
+      add segment 6913 6916 --spliceIndex 2 --translationModifier filoviridaeSsgpTranslationModifier
+      add segment 6917 6940 --spliceIndex 3
+      exit
+
+    add feature-location GP
+    feature-location GP
+      add segment 6043 6912 --spliceIndex 1
+      add segment 6913 6917 --spliceIndex 2 --translationModifier filoviridaeGpTranslationModifier
+      add segment 6918 8060 --spliceIndex 3
+      exit
+
+    add feature-location VP30
+    feature-location VP30
+      add segment 8484 9383
+      exit
+
+    add feature-location VP24
+    feature-location VP24
+      add segment 10399 11154
+      exit
+
+    add feature-location L
+    feature-location L
+      add segment 11666 18298
+      exit
+
+    exit
+
+
+  # declare feature locations on the Marburg reference
+  reference REF_MARV
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 19111
+      exit
+
+    add feature-location NP
+    feature-location NP
+      add segment 104 2191
+      exit
+
+    add feature-location VP35
+    feature-location VP35
+      add segment 2945 3934
+      exit
+
+    add feature-location VP40
+    feature-location VP40
+      add segment 4568 5479
+      exit
+
+    add feature-location GP
+    feature-location GP
+      add segment 5941 7986
+     exit
+
+    add feature-location VP30
+    feature-location VP30
+      add segment 8869 9714
+      exit
+
+    add feature-location VP24
+    feature-location VP24
+      add segment 10207 10968
+      exit
+
+    add feature-location L
+    feature-location L
+      add segment 11481 18476
+      exit
+
+    exit
+
+
+  # declare feature locations on the Mengla reference
+  reference REF_MLAV
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 18300
+      exit
+
+    add feature-location NP
+    feature-location NP
+      add segment 110 2203
+      exit
+
+    add feature-location VP35
+    feature-location VP35
+      add segment 2814 3803
+      exit
+
+    add feature-location VP40
+    feature-location VP40
+      add segment 4597 5511
+      exit
+
+    add feature-location GP
+    feature-location GP
+      add segment 6030 8018
+     exit
+
+    add feature-location VP30
+    feature-location VP30
+      add segment 8515 9396
+      exit
+
+    add feature-location VP24
+    feature-location VP24
+      add segment 9728 10489
+      exit
+
+    add feature-location L
+    feature-location L
+      add segment 11352 18182
+      exit
+
+    exit
+    
+
+  # declare feature locations on the Xilang / Wenling frogfish reference
+  reference REF_XILV
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 17221
+      exit
+
+    add feature-location NP
+    feature-location NP
+      add segment 94 2079
+      exit
+
+    add feature-location GP1
+    feature-location GP1
+      add segment 5116 6396
+     exit
+
+    add feature-location GP2
+    feature-location GP2
+      add segment 6497 7918
+     exit
+
+    add feature-location VP30
+    feature-location VP30
+      add segment 8010 9011
+      exit
+
+    add feature-location L
+    feature-location L
+      add segment 10778 17128
+      exit
+
+    exit
+    
+    
+  # declare feature locations on the Huangjiao / Wenling thamnaconus filovirus
+  reference REF_HUJV
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 14280
+      exit
+
+    add feature-location NP
+    feature-location NP
+      add segment 789 2003
+      exit
+
+    add feature-location GP1
+    feature-location GP1
+      add segment 4353 6233
+     exit
+
+    add feature-location L
+    feature-location L
+      add segment 7759 14199
+      exit
+
+    exit
+    
+    

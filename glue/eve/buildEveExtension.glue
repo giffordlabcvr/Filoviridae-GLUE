@@ -1,0 +1,37 @@
+run file glue/eve/eveDeletePreviousBuild.glue
+
+schema-project filoviridae
+  run file glue/eve/eveSchemaExtensions.glue
+  exit
+
+project filoviridae
+
+  # Import sources
+  run file glue/eve/eveImportSources.glue
+
+  # Import side data
+  run file glue/eve/eveImportData.glue
+  
+  # Define features
+  run file glue/eve/eveFeatures.glue
+  
+  # Create references
+  run file glue/eve/eveReferences.glue
+  
+  # Import root alignments and define constrained alignment tree
+  run file glue/eve/eveAlignmentsRoot.glue
+
+  # Record feature presence
+  run file glue/eve/eveRecordFeaturePresence.glue
+
+  # Create phylogenies
+  run file glue/eve/eveCreateRootPhylogenies.glue
+
+  # Import root alignments and define constrained alignment tree
+  run file glue/eve/eveAlignmentsTips.glue
+
+  # Validate
+  validate
+
+  exit
+

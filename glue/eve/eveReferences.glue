@@ -1,0 +1,82 @@
+
+  # Filovirus single gene whole_genome-level references
+  create reference REF_Ebola_MASTER_NP               fasta-refseqs Ebola-np-NC_002549
+  create reference REF_Ebola_MASTER_VP35             fasta-refseqs Ebola-vp35-NC_002549
+  create reference REF_Ebola_MASTER_VP30             fasta-refseqs Ebola-vp30-NC_002549
+
+  # NP
+  create reference REF_EFLN_Filo-1_bathyergidae      fasta-refseqs-eve efln-filo.1-bathyergidae-con
+  create reference REF_EFLN_Filo-3_dipodidae         fasta-refseqs-eve efln-filo.3-dipodidae-con
+  create reference REF_EFLN_Filo-4_cricetidae        fasta-refseqs-eve efln-filo.4-cricetidae-con
+  create reference REF_EFLN_Filo-7_acomys            fasta-refseqs-eve efln-filo.7-acomys-con
+  create reference REF_EFLN_Filo-8_dipodomys         fasta-refseqs-eve efln-filo.8-dipodomys-con
+  create reference REF_EFLN_Filo-9_spalacidae        fasta-refseqs-eve efln-filo.9-spalacidae-con
+  create reference REF_EFLN_Filo-10_neotominae       fasta-refseqs-eve efln-filo.10-neotominae-con
+  create reference REF_EFLN_Filo-21_vespertilionidae fasta-refseqs-eve efln-filo.21-vespertilionidae-con
+  create reference REF_EFLN_Filo-31_soricidae        fasta-refseqs-eve efln-filo.31-soricidae-con
+  #create reference REF_EFLN_Filo-41_myrmecophagidae  fasta-refseqs-eve efln-filo.41-myrmecophagidae-con
+  create reference REF_EFLN_Filo-61_diprotodontia    fasta-refseqs-eve efln-filo.61-diprotodontia-con
+    
+  # VP35
+  #create reference REF_EFLP_Filo-2_cricetidae        fasta-refseqs-eve eflp-filo.2-cricetidae-con
+  create reference REF_EFLP_Filo-6_myotis            fasta-refseqs-eve eflp-filo.6-myotis-con
+  create reference REF_EFLP_Filo-3_muridae           fasta-refseqs-eve eflp-filo.3-muridae-con
+  create reference REF_EFLP_Filo-8_phascolarctos     fasta-refseqs-eve eflp-filo.8-phascolarctos-con
+  
+  # VP30
+  create reference REF_EFLH_Filo-1_cricetidae        fasta-refseqs-eve eflh-filo.1-cricetidae-con
+
+
+  reference REF_Ebola_MASTER_NP
+    exit
+    
+  reference REF_Ebola_MASTER_VP35
+    exit
+
+  reference REF_Ebola_MASTER_VP30
+    exit
+  
+  
+   
+  # Add feature locations ro whole_genome-level master references
+  reference REF_Ebola_MASTER_NP
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 2220
+      exit
+
+    add feature-location NP
+    feature-location NP
+      add segment 1 2220
+      exit
+
+    exit
+
+  reference REF_Ebola_MASTER_VP35
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 1020
+      exit
+
+    add feature-location VP35
+    feature-location VP35
+      add segment 1 1020
+      exit
+
+    exit
+
+  reference REF_Ebola_MASTER_VP30
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 867
+      exit
+
+    add feature-location VP30
+    feature-location VP30
+      add segment 1 867
+      exit
+
+    exit

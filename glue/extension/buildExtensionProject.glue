@@ -1,0 +1,30 @@
+project filoviridae
+
+  # create modules
+  run file glue/extension/filoviridaeExtensionModules.glue
+
+  # create M49 country ISO standard names table
+  run file glue/extension/m49_countries/populateM49All.glue
+
+  # Import sources
+  run file glue/extension/filoviridaeSources.glue
+
+  # Import side data
+  run script glue/extension/loadIsolateData.js
+
+  # Import data 
+  module genbankXmlPopulator populate
+
+  # Import genus and species-level alignments
+  run file glue/extension/filoviridaeExtensionAlignments.glue
+
+  # Define constrained alignment tree
+  run file glue/extension/filoviridaeAlignmentTree.glue
+
+  # Build phylogenies
+  #run file glue/extension/filoviridaeCreatePhylogenies.glue
+
+  # Validate
+  validate
+
+  exit

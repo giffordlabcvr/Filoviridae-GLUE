@@ -1,0 +1,26 @@
+  
+  # Ebolavirus
+  create reference REF_EBOV_MASTER      ncbi-refseqs NC_002549
+  create reference REF_SUDV             ncbi-refseqs NC_006432
+  create reference REF_BDBV             ncbi-refseqs NC_014373
+  create reference REF_TAFV             ncbi-refseqs NC_014372
+  create reference REF_RESTV            ncbi-refseqs NC_004161
+  create reference REF_BOMV             ncbi-refseqs NC_039345
+
+  # Cuevavirus
+  create reference REF_LLOV             ncbi-refseqs NC_016144
+
+  # Marburgvirus
+  create reference REF_MARV             ncbi-refseqs NC_001608
+
+  # Dianlovirus
+  create reference REF_MLAV             ncbi-refseqs KX371887
+
+  # Xilang virus / Wenling frogfish filovirus
+  create reference REF_XILV             ncbi-refseqs MG599980
+
+  # Huangjiao virus / Wenling thamnaconus septentrionalis filovirus
+  create reference REF_HUJV             ncbi-refseqs MG599981
+
+
+

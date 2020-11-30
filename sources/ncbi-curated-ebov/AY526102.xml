@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AY526102</GBSeq_locus>
+    <GBSeq_length>2173</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>mRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>24-FEB-2004</GBSeq_update-date>
+    <GBSeq_create-date>24-FEB-2004</GBSeq_create-date>
+    <GBSeq_definition>Zaire ebolavirus strain Entsiami (Jan 02) spike glycoprotein precursor-like (GP) mRNA, complete sequence</GBSeq_definition>
+    <GBSeq_primary-accession>AY526102</GBSeq_primary-accession>
+    <GBSeq_accession-version>AY526102.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AY526102.1|</GBSeqid>
+      <GBSeqid>gi|42740727</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Zaire ebolavirus</GBSeq_source>
+    <GBSeq_organism>Zaire ebolavirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA negative-strand viruses; Mononegavirales; Filoviridae; Ebolavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2173</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Leroy,E.M.</GBAuthor>
+          <GBAuthor>Rouquet,P.</GBAuthor>
+          <GBAuthor>Formenty,P.</GBAuthor>
+          <GBAuthor>Souquiere,S.</GBAuthor>
+          <GBAuthor>Kilbourne,A.</GBAuthor>
+          <GBAuthor>Froment,J.M.</GBAuthor>
+          <GBAuthor>Bermejo,M.</GBAuthor>
+          <GBAuthor>Smit,S.</GBAuthor>
+          <GBAuthor>Karesh,W.</GBAuthor>
+          <GBAuthor>Swanepoel,R.</GBAuthor>
+          <GBAuthor>Zaki,S.R.</GBAuthor>
+          <GBAuthor>Rollin,P.E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Multiple Ebola virus transmission events and rapid decline of central African wildlife</GBReference_title>
+        <GBReference_journal>Science 303 (5656), 387-390 (2004)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1126/science.1092528</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>14726594</GBReference_pubmed>
+        <GBReference_remark>Erratum:[Science. 2004 Jan 20;303(5658):628]</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2173</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Leroy,E.M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (14-JAN-2004) Maladies Virales Emergentes U034, Institut de Recherche pour le Developpement, CIRMF BP 769, Franceville, Gabon</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2173</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2173</GBInterval_to>
+            <GBInterval_accession>AY526102.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Zaire ebolavirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>mRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>Entsiami (Jan 02)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:186538</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Republic of the Congo</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..2173</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2173</GBInterval_to>
+            <GBInterval_accession>AY526102.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>GP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>36..2065</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>36</GBInterval_from>
+            <GBInterval_to>2065</GBInterval_to>
+            <GBInterval_accession>AY526102.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>GP</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>similar to spike glycoprotein precursor</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>acttcactagaaggatattgtggggcaacaacacaatgggtgttacaggaatattgcagttacctcgtgatcgattcaagaggacatcattctttctttgggtaattatccttttccaaagaacattttccatcccacttggagtcatccacaatagcacattacaggttagtgatgtcgacaaactggtttgccgtgacaaactgtcatccacgaatcaattgagatcagttggactgaatctcggagggaatggagtggcaactgacgtgccatctgcaactaaaagatggggcttcaggtccggtgtcccaccaaaagtggtcaattatgaagctggtgaatgggctgaaaactgctacaatcttgaaatcaaaaaacctgacgggagtgagtgtctaccagcagcgccagacgggattcggggcttcccccggtgccggtatgtgcacaaagtatcaggaacgggaccgtgtgccggagactttgccttccacaaagagggtgctttcttcctgtatgatcgacttgcttccacagttctctaccgaggaacgactttcgctgaaggtgtcgtggcatttctgatactgccccaagctaagaaggacttcttcagctcacaccctttgagagagccggtcaatgcaacggaggacccgtctagtggctactattctaccacaattaaatatcaggctaccggctttggaaccaatgagacagagtatttgttcgaggttgacaatttgacctacgtccaacttgaatcaagattcacaccacagtttctgatccagctgaatgagacaatatatacaagtgggaaaaggagcaataccacgggaaaactaatttggaaggtcaaccccgaaattgatacaacaatcggggagtgggccttctgggaaactaaaaaaacctcactagaaaaattcgcagtgaagagttgtctttcacagctgtatcaaacagagccaaaaacatcagtggtcagagtccggcgcgaacttcttccgacccagggaccaacacaacaactgaagaccacaaaatcatggcttcagaaaattcctctgcaatggttcaagtgcacagtcaaggaagggaagctgcagtgtcgcatctgacaacccctgccacaatatccacgagtcttcaaccccccacaaccaaaccaggtccggacaacagcacccagaatacacccgtgtataaacttgacatctctgaggcaactcaagttgaacaacatcaccgcagaacagactacgccagcacaacctccgacactccccccgccacgaccgcagccggacccctaaaagcagagaacaccaacacgagcaagggcactgacctcctggaccccgccaccacaacaagtccccaaaaccacagcgagaccgctggcaacaacaacactcatcaccaagataccggagaagagagtaccagcagcgggaagctaggctaaattaccaatactattgctggagtcgcaggactgatcacaggcgggagaagaactcgaagagatgcaattgtcaatgctcaacccaaatgcaaccctaatttacattactggactactcaggatgaaggtgctacaatcggactggcctggataccatatttcgggccagcagccgagggaatttacacagaggggctgatgcacaaacaagatggtttaatctgtgggttgagacagctggccaacgagacgactcaagctcttcaactattcctgagagccacaaccgagctacgcaccttttcaatcctcaaccgtaaggcaattgatttcttgctgcagcgatggggcggcacatgccacattttgggaccggactgctgtatcgaaccacatgattggactaagaacataacggacaaaattgatcagattattcatgattttgttgataaaacccttccggaccagggggacaatgacaattggtggacaggatggagacagtggataccggcaggtattggagttacaggcgttataattgcagttatcgctttattctgtatatgcaaatttgtcttttagtttttcttcagattgcttcatggcaaagctcagcctcaaatcaatgaaaccaggatttaattatatggattacttgaatctaagattacttgacaaatgataatgtaa</GBSeq_sequence>
+  </GBSeq>

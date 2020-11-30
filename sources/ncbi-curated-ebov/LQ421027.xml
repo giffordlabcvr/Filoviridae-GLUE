@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>LQ421027</GBSeq_locus>
+    <GBSeq_length>48</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>06-OCT-2016</GBSeq_update-date>
+    <GBSeq_create-date>06-OCT-2016</GBSeq_create-date>
+    <GBSeq_definition>Sequence 9 from Patent WO2016128570</GBSeq_definition>
+    <GBSeq_primary-accession>LQ421027</GBSeq_primary-accession>
+    <GBSeq_accession-version>LQ421027.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|LQ421027.1|</GBSeqid>
+      <GBSeqid>pat|WO|2016128570|9</GBSeqid>
+      <GBSeqid>gi|1074158155</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Ebola virus (EBOV)</GBSeq_source>
+    <GBSeq_organism>Ebola virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA negative-strand viruses; Mononegavirales; Filoviridae; Ebolavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..48</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>MAGRO,L.</GBAuthor>
+          <GBAuthor>LAFAYE,P.</GBAuthor>
+          <GBAuthor>MONTI,F.</GBAuthor>
+          <GBAuthor>TABELING,P.</GBAuthor>
+          <GBAuthor>MANUGUERRA,J.</GBAuthor>
+          <GBAuthor>VANHOMWEGEN,J.</GBAuthor>
+          <GBAuthor>JACQUELIN,B.</GBAuthor>
+          <GBAuthor>SAKUNTHABHAI,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>PAPER DEVICE FOR GENETIC DIAGNOSIS</GBReference_title>
+        <GBReference_journal>WO2016128570-A1 9 18-AUG-2016 ESPCI [FR], CENTRE NAT DE LA RECH SCIENT [FR], PASTEUR INSTITUT [FR]</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..48</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>48</GBInterval_to>
+            <GBInterval_accession>LQ421027.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Ebola virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1570291</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>32</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_point>32</GBInterval_point>
+            <GBInterval_accession>LQ421027.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>tetrahydrofuran (THF)</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aatgactactcctaggatgcttctacctgttntgtcaaaattccataa</GBSeq_sequence>
+  </GBSeq>

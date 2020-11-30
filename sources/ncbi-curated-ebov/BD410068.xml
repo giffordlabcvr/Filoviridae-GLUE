@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>BD410068</GBSeq_locus>
+    <GBSeq_length>7</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>04-NOV-2005</GBSeq_update-date>
+    <GBSeq_create-date>04-NOV-2005</GBSeq_create-date>
+    <GBSeq_definition>GENETIC VACCINE THAT MIMICS NATURAL VIRAL INFECTION AND INDUCES LONG-LASTING IMMUNITY TO PATHOGENS</GBSeq_definition>
+    <GBSeq_primary-accession>BD410068</GBSeq_primary-accession>
+    <GBSeq_accession-version>BD410068.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|BD410068.1|</GBSeqid>
+      <GBSeqid>pat|JP|2003534016|4</GBSeqid>
+      <GBSeqid>gi|106537643</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2003534016-A/4</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Ebola virus (EBOV)</GBSeq_source>
+    <GBSeq_organism>Ebola virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA negative-strand viruses; Mononegavirales; Filoviridae; Ebolavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..7</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Wang,D.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>GENETIC VACCINE THAT MIMICS NATURAL VIRAL INFECTION AND INDUCES LONG-LASTING IMMUNITY TO PATHOGENS</GBReference_title>
+        <GBReference_journal>JP2003534016-A 4 18-NOV-2003 Danher Wang</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Ebola virus~PN JP 2003534016-A/4~PD 18-NOV-2003~PF 04-JUN-2001 JP 2001587560~PR 02-JUN-2000 US 09/585599~PI danher wang~CC~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..7</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>7</GBInterval_to>
+            <GBInterval_accession>BD410068.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Ebola virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1570291</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aaaaaaa</GBSeq_sequence>
+  </GBSeq>

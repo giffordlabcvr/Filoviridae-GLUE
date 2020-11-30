@@ -1,0 +1,5 @@
+# Download NCBI reference sequences 
+create module -f modules/filoviridaeNcbiImporterReferences.xml ncbiImporterReferences
+module ncbiImporterReferences import
+
+export source ncbi-refseqs

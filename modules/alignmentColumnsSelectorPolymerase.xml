@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<alignmentColumnsSelector>
+
+    <relRefName>REF_EBOV_MASTER</relRefName>
+    
+    <aminoAcidRegionSelector>
+        <featureName>L</featureName>
+        <startCodon>1</startCodon>
+        <endCodon>2212</endCodon>
+    </aminoAcidRegionSelector>
+    
+    <nucleotideRegionSelector>
+        <featureName>L</featureName>
+        <startNt>11581</startNt>
+        <endNt>18214</endNt>
+    </nucleotideRegionSelector>
+    
+</alignmentColumnsSelector>
