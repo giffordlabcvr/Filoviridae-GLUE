@@ -1,10 +1,10 @@
-# Filoviridae-EVE
+# Filoviridae-GLUE
 
 ## Description
 
-This is Filoviridae-EVE, a GLUE project designed to support comparative genomic and evolutionary analysis of filoviruses.
+This is Filoviridae-GLUE, a GLUE project designed to support comparative genomic and evolutionary analysis of filoviruses.
 
-Filoviridae-EVE contains aligned, annotated genome sequence data for:
+Filoviridae-GLUE contains aligned, annotated genome sequence data for:
 
 1. Filoviruses (family Filoviridae)
 2. Endogenous viral elements (EVEs) derived from filoviruses
@@ -39,7 +39,7 @@ Several distinct categories of MSA are included in this project, each representi
 ## GLUE project
 
 On computers with
-[GLUE](http://tools.glue.cvr.ac.uk) installed, the Filoviridae-EVE project can be instantiated by
+[GLUE](http://tools.glue.cvr.ac.uk) installed, the Filoviridae-GLUE project can be instantiated by
 navigating to the project folder, initiating GLUE, and issuing the following command in the GLUE shell:
 
 	Mode path: /
