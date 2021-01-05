@@ -1,16 +1,16 @@
-  create module -f modules/filoviridaeGenbankXmlPopulator.xml genbankXmlPopulator
-  create module -f modules/filoviridaeSideDataImporter.xml 
-  create module -f modules/featureLocationTextToGlue.xml
-  create module -f modules/filoviridaeSsgpTranslationModifier.xml
-  create module -f modules/filoviridaeGpTranslationModifier.xml
-  #create module -f modules/filoviridaeKuiken2006CodonLabeler.xml
+  create module -f modules/core/filoviridaeGenbankXmlPopulator.xml genbankXmlPopulator
+  create module -f modules/core/filoviridaeSideDataImporter.xml 
+  create module -f modules/core/featureLocationTextToGlue.xml
+  create module -f modules/core/filoviridaeSsgpTranslationModifier.xml
+  create module -f modules/core/filoviridaeGpTranslationModifier.xml
+  #create module -f modules/core/filoviridaeKuiken2006CodonLabeler.xml
 
-  create module -f modules/rootAlignmentImporter.xml 
-  create module -f modules/unconstrainedAlignmentImporter.xml 
+  create module -f modules/core/rootAlignmentImporter.xml 
+  create module -f modules/core/unconstrainedAlignmentImporter.xml 
 
-  create module -f modules/fastaExporter.xml fastaExporter
-  create module -f modules/tabularUtilityCsv.xml
-  create module -f modules/tabularUtilityTab.xml
+  create module -f modules/core/fastaExporter.xml fastaExporter
+  create module -f modules/core/tabularUtilityCsv.xml
+  create module -f modules/core/tabularUtilityTab.xml
 
-  create module -f modules/blastFastaAlignmentImporter.xml
-  create module -f modules/filoviridaeTabularUtility.xml
+  create module -f modules/core/blastFastaAlignmentImporter.xml
+  create module -f modules/core/filoviridaeTabularUtility.xml
