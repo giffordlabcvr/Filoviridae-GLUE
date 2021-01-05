@@ -3,14 +3,6 @@
 
   <head>
   
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127420264-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-	  gtag('config', 'UA-127420264-1');
-	</script>
 
 
     <meta charset="UTF-8">
@@ -26,9 +18,10 @@
   <body>
     <section class="page-header">
       <h1 class="project-name">Filoviridae-GLUE</h1>
-      <h2 class="project-tagline">A GLUE project for filoviruses.</h2>
-      <a href="https://github.com/giffordlabcvr/Filoviridae-GLUE/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/giffordlabcvr/Filoviridae-GLUE/tarball/master" class="btn">Download .tar.gz</a>
+      <h2 class="project-tagline">A sequence data resource for filoviruses.</h2>
+      <a href="./website/project.html" class="btn">Viruses</a>
+      <a href="./website/paleovirology.html" class="btn">Paleoviruses</a>
+      <a href="https://github.com/giffordlabcvr/Filoviridae-GLUE/zipball/master" class="btn">Download</a>
       <a href="https://github.com/giffordlabcvr/Filoviridae-GLUE/tree/master" class="btn">View on GitHub</a>
     </section>
 
@@ -38,83 +31,195 @@
 		 <a id="description" class="anchor" href="#description" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Description</strong>
 	   </h3>
 
-	   <p>
-		 This is <b>Filoviridae-GLUE</b>, a <a href="http://glue-tools.cvr.gla.ac.uk/"><b>GLUE</b></a> project
-		 designed to support comparative genomic and evolutionary analysis of <a target="_blank" href="https://viralzone.expasy.org/23">filoviruses</a>.
-		 <b>Filoviridae-GLUE</b> contains aligned, annotated genome sequence data for:
-		 <ol>
-		   <li><a target="_blank" href="https://viralzone.expasy.org/23">Filoviruses</a> (family <i>Filoviridae</i>)</li> 
-		   <li>Endogenous viral elements (EVEs) derived from filoviruses</li>
-		 </ol>
-	   </p>
+
+
+
+		 <p>
+		   This is <b>Filoviridae-GLUE</b>, a GLUE
+		   project designed to support comparative genomic and evolutionary analysis of
+		   <a target="_blank" href="https://viralzone.expasy.org/9">filoviruses</a>
+		   (family <i>Filoviridae</i>).
+		 </p>
+
+        <p><img src="./website/images/filovirus-header.png" alt="Species known to be afflicted by filoviruses" /></p>
+
+ 
+<blockquote>
+		<p>
+		  Some of the vertebrate species known to be infected by filoviruses:
+		  left to right: woolly monkeys, shrews, domestic cats, ducks.
+		</p>
+         
+</blockquote>
+		 
+
+
+
+		 <p>
+		   The
+		   <b>Filoviridae-GLUE</b>
+		   project has been designed to facilitate any form of comparative genomic analysis
+		   involving <b>filoviruses</b>. It contains a richly annotated sequence
+		   dataset for these viruses, comprised of both 
+		   <a href="./website/project.html"><b>viral sequences</b></a>
+		   and
+		   <a href="./website/paleovirology.html"><b>endogenous viral elements (EVEs)</b></a>.
+		   
+		 </p>
+
+		 <p>
+		 
+		 
+          <b>There are a wide variety of ways in which this resource can be used</b>:
+           
+		 <ul>
+		   <li> if you're interested in any particular virus within the family <i>Filoviridae</i>,
+		   you can use Filoviridae-GLUE as an efficient means of investigating this species in depth.
+
+		   </li><br>
+		   
+		   <li> for those interested in <b>paleovirology</b> and <b>endogenous viral elements (EVEs)</b>,
+		   Filoviridae-GLUE provides a source of systematically organised information about
+		   <a href="./website/paleovirology.html"><b>EVEs derived from filoviruses</b></a>.
+
+		   For those specifically interested in <b>hepatitis B virus (HBV)</b>, we suggest to investigate
+		   our separate
+		   <a target="_blank" href="http://hbv-glue.cvr.gla.ac.uk/"><strong>HBV-GLUE</strong></a> resource.
+
+
+		   </li><br>
+
+		   <li> if you're interested in exploring <b>filovirus diversity</b> 
+		   in <b>metagenomic</b> datasets, the data included in this project 
+		   may assist you in your analysis, as explained
+		   <a href="./website/paleovirology.html"><b>here</b></a>.
+		   </li><br>
+		   
+		 </ul>
+		  
+		 </p>
+
 
 	   <h3>
-		 <a id="sequenceData" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Sequence data</strong>
+	   <a id="WhatGlueProject" class="anchor" href="#glueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>What is a GLUE project?</strong>
 	   </h3>
-	   
+       <hr>
+
+
 	   <p>
-		 The sequence data in this project have been organised into the following
-		 <b>sources</b>:<br>
+		 <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/"><b>GLUE</b></a> is an open, integrated
+		 software toolkit that provides functionality for storage and interpretation of
+		 sequence data. 
+	   </p>
+
+	   <p>
+		 <b>GLUE</b> supports the development of <b>“projects”</b> containing the data items
+		 required for comparative genomic analysis 
+		 (e.g.  sequences, multiple sequence alignments, genome feature annotations,
+		 and other sequence-associated data). 
+	   </p>
+
+	   <p>
+		 Projects are loaded into the <b>GLUE "engine"</b>, creating a relational database
+		 that represents the semantic relationships between data items.
+		 This provides a robust foundation for the implementation of <b>systematic
+		 comparative analyses</b> and the development of <b>sequence-based resources</b>. 
+	   </p>
+
+	   <p>		 
+		  The core schema of this database can be extended to accommodate
+		  the idiosyncrasies of different projects, and
+		  GLUE provides a scripting layer (based on JavaScript) for developing custom
+		  analysis tools. 
+	   </p>
+
+	   <p>
+		  Hosting of GLUE projects in an online version control system (e.g. GitHub) provides
+		  a mechanism for their stable, collaborative development.
 	   </p>
 	   
-	   	   
-	   <p>	      
-		 <b>ncbi-refseqs</b>: Genome-length reference sequences of <a href="https://github.com/giffordlabcvr/Filoviridae-GLUE/tree/master/sources/ncbi-refseqs">representative filovirus species</a>.		 
-		 These
-		 <a href="https://github.com/giffordlabcvr/Filoviridae-GLUE/tree/master/sources/ncbi-refseqs">XML-formatted files</a>
-		  are downloaded directly from <a href="https://www.ncbi.nlm.nih.gov/genbank/">NCBI</a> using a GLUE module
-		 (see <a href="https://github.com/giffordlabcvr/Filoviridae-GLUE/blob/master/modules/filoviridaeNcbiImporterReferences.xml">here</a>)
-		 and are uniquely identified within this project by their <a target="_blank" href="https://www.ncbi.nlm.nih.gov/Sequin/acc.html">GenBank accession numbers</a>. 
-	   </p>
 	   
-	   <p>
-		 <b>fasta-curated</b>: A non-redundant set of 
-		 <a href="https://github.com/giffordlabcvr/Filoviridae-GLUE/blob/master/tabular/eve/eve-side-data.tsv">filovirus-derived EVE loci</a>.
-		 These
-		 <a href="https://github.com/giffordlabcvr/Filoviridae-GLUE/tree/master/sources/fasta-eve-digs/">FASTA sequences</a>
-		 have been curated via systematic screening of whole genome sequence (WGS) assemblies using the 
-		 <a target="_blank" href="https://giffordlabcvr.github.io/DIGS-tool/">DIGS tool</a>.
-		 Sequences in this source have unique IDs based on arbitrary numbering. 
-	   </p>
-	      	   
-	   <p>
-		 <b>fasta-refseqs</b>: EVE reference sequences - i.e. best-guess estimates of the ancestral filovirus sequences that gave rise to EVEs.
-		 Where possible these are consensus/ancestral sequences derived from alignments
-		 <a href="https://github.com/giffordlabcvr/Filoviridae-GLUE/tree/master/alignments/eve/tip/">included in this project</a>.
-		 Sequence IDs used in this source correspond to the names of the unique EVE loci they represent
-		 (see <a href="https://retrovirology.biomedcentral.com/articles/10.1186/s12977-018-0442-1" target="_blank">here</a> for details).
-	   </p>
+
+		   
+		 <p>
+		   Some examples of '<b>sequence-based resources</b>' built for viruses using GLUE include:
+
+		 </p>
+		   
+		   
+
+		 <p>
+
+		 <ul>
+		 		 
+		   <li> 
+			 <a target="_blank" href="http://cov-glue.cvr.gla.ac.uk/"><b>COV-GLUE</b></a>: 
+			 A GLUE resource for tracking genetic variation in SARS-COV2.
+			 CoV-GLUE contains a database of amino acid replacements, insertions and
+			 deletions which have been observed in GISAID hCoV-19 sequences sampled from the pandemic
+		   </li>
+		   <br>
+		   
+		   <li>
+			 <a target="_blank" href="http://rabv-glue.cvr.gla.ac.uk/"><b>RABV-GLUE</b></a>:
+			 Tailored toward epidemiological tracking of rabies virus (RABV).
+			 Includes a database of RABV sequences and metadata from NCBI, updated daily and arranged into major and minor clades, and
+			 an analysis tool providing genotyping, analysis and visualisation of submitted FASTA sequences.
+ 		   </li>
+ 		   <br>
+		   
+		   <li>
+			 <a target="_blank" href="http://hcv-glue.cvr.gla.ac.uk/"><b>HCV-GLUE</b></a>:
+			 This GLUE resource aims to support analysis of drug resistance and vaccine
+			 escape in hepatitis C virus (HCV).
+			 A database of HCV sequences and metadata from NCBI, updated daily and arranged
+			 into clades (genotypes, subtypes). As well as pre-built multiple-sequence
+			 alignments of NCBI sequences, it includes an analysis tool providing genotyping,
+			 drug resistance analysis and visualisation of submitted FASTA sequences.
+           </li>
+	   
+		 </ul>
+
+		   
+		 </p>
+	   
+
+
+
+	   
+
+
+	   <h3>
+	   <a id="WhyGlueProject" class="anchor" href="#glueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>What does building the Filoviridae-GLUE project offer?</strong>
+	   </h3>
+
+		 
  
-	   <h3>
-	   <a id="sequenceData" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Sequence-associated data</strong>
-	   </h3>
-	   
 	   <p>
-         Sequences included in this project are linked to auxiliary data in tabular format, this includes:
 		 
+		  Filoviridae-GLUE offers a number of advantages for performing comparative sequence
+		  analysis of filoviruses:
+
 		 <ol>
-		   <li><a href="https://github.com/giffordlabcvr/Filoviridae-GLUE/blob/master/tabular/virus/filoviridae-ncbi-refseqs-side-data.tsv">Basic taxonomic data</a> for genome-length virus reference sequence in <b>ncbi-refseqs</b>.</li> 
-		   <li><a href="https://github.com/giffordlabcvr/Filoviridae-GLUE/blob/master/tabular/eve/eve-side-data.tsv">Locus data</a> for the EVE sequences in <b>fasta-curated</b>.</li> 
-		   <li><a href="https://github.com/giffordlabcvr/Filoviridae-GLUE/blob/master/tabular/locus/locus-side-data.tsv">Evolutionary history</a> of the EVE loci represented in <b>fasta-refseqs</b>.</li> 
+		   <li> <strong>Standardisation of the genomic co-ordinate space</strong>. GLUE
+		   projects allow all sequences to utilise the coordinate space of a chosen 
+		   reference sequence. Contingencies associated with insertions and deletions
+		   (indels) are handled in a systematic way.
+		   </li>
+		   <li> <strong>Predefined, fully annotated reference sequences</strong>:
+		   This project includes fully-annotated reference sequences for major lineages
+		   within the <i>Filoviridae</i> family.
+		   </li>
+		   <li> <strong>Alignment trees</strong>:
+		   GLUE allows linking of alignments constructed at distinct taxonomic levels
+		   via an "alignment tree" data structure. In the alignment tree, each alignment
+		   is constrained to a standard reference sequence, thus all multiple sequence
+		   alignments are linked to one another via a standardised coordinate system.
+		   </li>
 		 </ol>
-		 
+
 	   </p>
-		 
-	   <h3>
-		 <a id="alignments" class="anchor" href="#alignments" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Multiple sequence alignments (MSAs)</strong>
-	   </h3>
-	   
-	   <p>
-		 Several distinct categories of MSA are included in this project, each representing a distinct taxonomic level.
-		
-		 <ol>
-		   <li><b>Tip (i)</b>: <a href="https://github.com/giffordlabcvr/Filoviridae-GLUE/tree/master/alignments/virus/tip/">Virus species</a> (genome-length)</li> 
-		   <li><b>Tip (ii)</b>: <a href="https://github.com/giffordlabcvr/Filoviridae-GLUE/tree/master/alignments/eve/tip/">EVE lineages</a> (single gene).
-		   These alignments contain sets of EVE sequences derived from the same ancestral germline colonisation event (i.e. orthologs or duplicates)</li> 
-		   <li><b>Internal</b>: <a href="https://github.com/giffordlabcvr/Filoviridae-GLUE/tree/master/alignments/virus/internal">Virus genera</a> (genome-length)</li> 
-		   <li><b>Root</b>: <a href="https://github.com/giffordlabcvr/Filoviridae-GLUE/tree/master/alignments/eve/root/">Viruses and EVE reference sequences</a> (single gene)</li> 
-		 </ol>
-	   </p>
+
 
 
 	   <h3>
@@ -136,19 +241,65 @@
 
 
 
+
+
 	   <h3>
 		 <a id="contributors" class="anchor" href="#contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Contributors</strong>
 	   </h3>
 	   
 	   <p>
-
-		 Access to this GitHub repository is currently restricted. To request access please contact:
-
-		 <p>Robert J. Gifford (<a href="mailto:robert.gifford@glasgow.ac.uk">robert.gifford@glasgow.ac.uk</a>)</p>
-		 <p>Josh Singer (<a href="mailto:josh.singer@glasgow.ac.uk">josh.singer@glasgow.ac.uk</a>)</p>
-
-		 
+		  <a target="_blank" href="https://giffordlabcvr.github.io/virus-evolution/index.html">Robert J. Gifford</a> (<a href="mailto:robert.gifford@glasgow.ac.uk">robert.gifford@glasgow.ac.uk</a>)	 
 	   </p>
+	   <p>
+	   </p>
+
+
+	   <h3>
+		 <a id="Publications" class="anchor" href="#Publications" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Related Publications</strong>
+	   </h3>
+
+
+		<p>
+		
+		
+
+		Singer JB, Thomson EC, McLauchlan J, Hughes J, and RJ Gifford
+		<b>(2018)</b>
+		<br>
+		GLUE: A flexible software system for virus sequence data.
+		<br>
+		<i>BMC Bioinformatics</i>
+		<a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2459-9" target="_blank">[view]</a> 
+		<br>
+		<br>
+
+		Zhu H, Dennis T, Hughes J, and RJ Gifford
+		<b>(2018)</b>
+		<br>
+		Database-integrated genome screening (DIGS): exploring genomes heuristically using sequence similarity search tools and a relational database.
+		<a href="https://www.biorxiv.org/content/early/2018/04/25/246835" target="_blank">[preprint]</a> 
+		<br>
+		<br>
+
+		Gifford RJ, Blomberg B, Coffin JM, Fan H, Heidmann T, Mayer J, Stoye J, Tristem M, and WE Johnson
+		<b>(2018)</b>
+		<br>
+		Nomenclature for endogenous retrovirus (ERV) loci.
+		<br>
+		<i>Retrovirology</i>
+		<a href="https://retrovirology.biomedcentral.com/articles/10.1186/s12977-018-0442-1" target="_blank">[view]</a> 
+		<br>
+		<br>
+
+		Katzourakis A. and RJ. Gifford
+		<b>(2010)</b>
+		<br>
+		Endogenous viral elements in animal genomes.
+		<br>
+		<i>PLoS Genetics</i>
+		<a href="http://www.plosgenetics.org/article/info:doi/10.1371/journal.pgen.1001191" target="_blank">[view]</a>
+
+ 		</p>
 
 
 
