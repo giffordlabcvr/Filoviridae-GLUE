@@ -1,5 +1,5 @@
   delete module filoviridaeFeaturePresenceRecorder
-  create module -f modules/filoviridaeFeaturePresenceRecorder.xml
+  create module -f modules/core/filoviridaeFeaturePresenceRecorder.xml
 
   module filoviridaeFeaturePresenceRecorder 
 
