@@ -4,9 +4,9 @@ create project filoviridae "A GLUE project for the Flaviviridae" --minVersion 1.
 
 schema-project filoviridae
 
-  run file glue/core/filoviridaeSchemaExtensions.glue
+  run file glue/build/core/filoviridaeSchemaExtensions.glue
   exit
 
 # Build core project (reference sequences only)
-run file glue/core/buildFiloCoreProject.glue
+run file glue/build/core/buildFiloCoreProject.glue
 
