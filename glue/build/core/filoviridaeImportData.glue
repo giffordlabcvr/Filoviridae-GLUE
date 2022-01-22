@@ -1,6 +1,6 @@
 
   # Link reference sequences to isolate table
-  run script glue/core/filoviridaeLoadIsolateData.js
+  run script glue/build/core/filoviridaeLoadIsolateData.js
 
   # Populate files from GenBank
   module genbankXmlPopulator populate
