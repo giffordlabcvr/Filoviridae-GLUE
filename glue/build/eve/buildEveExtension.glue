@@ -24,9 +24,6 @@ project filoviridae
   # Record feature presence
   run file glue/build/eve/eveRecordFeaturePresence.glue
 
-  # Create phylogenies
-  run file glue/build/eve/eveCreateRootPhylogenies.glue
-
   # Import root alignments and define constrained alignment tree
   run file glue/build/eve/eveAlignmentsTips.glue
 

@@ -1,6 +1,6 @@
 # Build endogenous filovirus component
-run file glue/build/eve/buildEveExtension.glue
+#run file glue/build/eve/buildEveExtension.glue
 
 # Build extension project
-#run file glue/build/extension/buildExtensionProject.glue
+run file glue/build/extension/buildExtensionProject.glue
 
