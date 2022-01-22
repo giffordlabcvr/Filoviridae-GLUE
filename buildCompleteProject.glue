@@ -1,0 +1,2 @@
+run file buildCoreProject.glue
+run file buildProjectExtensions.glue

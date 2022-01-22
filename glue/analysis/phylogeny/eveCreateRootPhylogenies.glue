@@ -9,17 +9,17 @@
   delete module alignmentColumnsSelectorVp30
  
   # Create all the modules we need
-  create module -f modules/core/fastaAlignmentExporter.xml
-  create module -f modules/core/filoTreeAlignmentImporterNucs.xml
+  create module -f glue/build/core/fastaAlignmentExporter.xml
+  create module -f glue/build/core/filoTreeAlignmentImporterNucs.xml
   create module -t raxmlPhylogenyGenerator
-  create module -f modules/core/filoPhyloUtility.xml
-  create module -f modules/core/eveFigTreeAnnotationExporter.xml
-  create module -f modules/core/filoviridaeFeaturePresenceRecorder.xml
+  create module -f glue/build/core/filoPhyloUtility.xml
+  create module -f glue/build/core/eveFigTreeAnnotationExporter.xml
+  create module -f glue/build/core/filoviridaeFeaturePresenceRecorder.xml
  
   # Create alignment column selectors
-  create module -f modules/core/alignmentColumnsSelectorNp.xml
-  create module -f modules/core/alignmentColumnsSelectorVp35.xml
-  create module -f modules/core/alignmentColumnsSelectorVp30.xml
+  create module -f glue/build/core/alignmentColumnsSelectorNp.xml
+  create module -f glue/build/core/alignmentColumnsSelectorVp35.xml
+  create module -f glue/build/core/alignmentColumnsSelectorVp30.xml
 
   
   # Create the phylogenies
