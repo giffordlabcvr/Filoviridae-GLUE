@@ -1,10 +1,10 @@
   # Import NCBI sources 
-  import source sources/ncbi-curated-bomv
-  import source sources/ncbi-curated-bdbv
-  import source sources/ncbi-curated-ebov
-  import source sources/ncbi-curated-sudv
-  import source sources/ncbi-curated-tafv
-  import source sources/ncbi-curated-restv
+  import source ../../../../../Sources/filovirus//ncbi-curated-bomv
+  import source ../../../../../Sources/filovirus//ncbi-curated-bdbv
+  import source ../../../../../Sources/filovirus//ncbi-curated-ebov
+  import source ../../../../../Sources/filovirus//ncbi-curated-sudv
+  import source ../../../../../Sources/filovirus//ncbi-curated-tafv
+  import source ../../../../../Sources/filovirus//ncbi-curated-restv
 
   # Import outbreak FASTA sources 
-  import source sources/outbreak-drc2019-ebov-fasta
+  #import source ../../../../../Sources/filovirus//outbreak-drc2019-ebov-fasta
