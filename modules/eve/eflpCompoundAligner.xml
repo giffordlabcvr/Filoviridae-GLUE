@@ -1,8 +1,0 @@
-<compoundAligner>
-	<aligners>
-		<codonAwareBlastAligner>
-			<featureName>VP35</featureName>
-		</codonAwareBlastAligner>
-		<blastAligner/>
-	</aligners>
-</compoundAligner>
