@@ -20,7 +20,7 @@ Please see the **[User Guide](https://github.com/giffordlabcvr/Filovirus-GLUE/wi
 
 ## Usage
 
-For detailed instructions on how to use Filovirus-GLUE for comparative genomic analysis, please see the **[User Guide](https://github.com/giffordlabcvr/Filovirus-GLUE/wiki/Navigating-and-Querying)**.
+For detailed instructions on how to use Filovirus-GLUE for comparative genomic analysis, please see the **[GLUE website](http://glue-tools.cvr.gla.ac.uk/)**.
 
 ## Data Sources
 
