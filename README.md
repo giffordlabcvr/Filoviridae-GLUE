@@ -1,6 +1,6 @@
 # Filovirus-GLUE
 
-<img src="md/filo-glue-logo.png" align="right" alt="" width="280"/>
+<img src="md/glue-logo.png" align="right" alt="" width="280"/>
 
 Welcome to Filovirus-GLUE, a resource for comparative genomic analysis of filoviruses, developed using the [GLUE software framework](https://github.com/giffordlabcvr/gluetools).
 
